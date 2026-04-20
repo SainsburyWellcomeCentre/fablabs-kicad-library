@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TSOT, 6 Pin (https://www.jedec.org/sites/default/files/docs/MO-193D.pdf variant AA), generated with kicad-footprint-generator ipc_gullwing_generator.py")
+	(descr "TSOT, 6 Pin")
 	(tags "TSOT TO_SOT_SMD")
 	(property "Reference" "REF**"
-		(at 0 -3 0)
+		(at 0 -1.6 0)
 		(layer "F.SilkS")
 		(uuid "0e32e6ca-ba54-498f-9037-6550c56003f9")
 		(effects
@@ -14,17 +14,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "TSOT-23-6"
-		(at 0 2.4 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "4a0b5b67-986b-42b1-a098-aebd6c3012e7")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -249,7 +251,7 @@
 			(xy -0.8 -1.05) (xy -0.8 1.45) (xy 0.8 1.45) (xy 0.8 -1.45) (xy -0.4 -1.45)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(fill no)
@@ -257,14 +259,15 @@
 		(uuid "cc03908c-21f1-4dec-a470-e2edd25c1955")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "16f9242c-e971-44d5-884d-85ddd0d76426")
 		(effects
 			(font
-				(size 0.72 0.72)
-				(thickness 0.11)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "1" smd roundrect

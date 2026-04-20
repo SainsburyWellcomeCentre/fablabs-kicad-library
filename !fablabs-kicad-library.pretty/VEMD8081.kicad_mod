@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "photodiode")
+	(descr "Photodiode, 4.8x2.5")
 	(tags "VEMD8081 ")
 	(property "Reference" "REF**"
-		(at 0 -4.1 0)
+		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "02723b15-9860-4e90-9c25-2b8e0b310ba3")
@@ -15,18 +15,20 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "VEMD8081"
-		(at -0.3 6.4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "e428fc73-f210-47c7-a34d-607142500325")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -74,20 +76,21 @@
 		(layer "F.SilkS")
 		(uuid "b717a291-43ba-4f06-8804-f4972f3876f3")
 	)
-	(fp_circle
-		(center -2.5 1.6)
-		(end -2.45 1.6)
-		(stroke
-			(width 0.1)
-			(type default)
+	(fp_poly
+		(pts
+			(xy -2 1.7) (xy -1.9 1.8) (xy -2.1 1.8)
 		)
-		(fill no)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "b014a235-4b47-4684-a62a-1ae60b0660de")
+		(uuid "f7884f6d-ae87-45ed-9d2b-6442c999b678")
 	)
 	(fp_rect
-		(start -2.6 -1.7)
-		(end 2.6 1.7)
+		(start -2.6 -1.6)
+		(end 2.6 1.6)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -100,7 +103,7 @@
 		(start -2.4003 -1.2446)
 		(end -2.4003 1.2446)
 		(stroke
-			(width 0.0254)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -110,17 +113,107 @@
 		(start -2.4003 1.2446)
 		(end 2.4003 1.2446)
 		(stroke
-			(width 0.0254)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "8dc77ba7-5fd1-4560-ac4d-ee35f3330fd5")
 	)
 	(fp_line
+		(start -2 -0.6)
+		(end -2 -0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "cd1feb90-2e93-463a-b7a8-eabfb1fae3d0")
+	)
+	(fp_line
+		(start -2 0.8)
+		(end -2 0.6)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "afcda4e3-ba2a-473b-a9ae-d212524eab4d")
+	)
+	(fp_line
+		(start -0.7 -0.6)
+		(end -0.7 -0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "7bc473d2-6498-4657-ba9e-720bcfe80745")
+	)
+	(fp_line
+		(start -0.7 0.8)
+		(end -0.7 0.6)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "8023cbe6-98d0-4c30-86ab-b3139f847151")
+	)
+	(fp_line
+		(start 0.7 -0.6)
+		(end 0.7 -0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "564ce196-793b-40dd-b96c-279faf0da70b")
+	)
+	(fp_line
+		(start 0.7 0.8)
+		(end 0.7 0.6)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c21b749a-7844-4355-b120-8beb130e475d")
+	)
+	(fp_line
+		(start 1.9 -0.7)
+		(end 2.1 -0.7)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "84cb73bb-8e02-4439-baa8-b5772ac0996b")
+	)
+	(fp_line
+		(start 2 -0.6)
+		(end 2 -0.8)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ad485e85-ec12-4d95-a812-18b853ae4426")
+	)
+	(fp_line
+		(start 2 0.8)
+		(end 2 0.6)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "ec94692f-da97-4ead-a34f-37c2288444d8")
+	)
+	(fp_line
 		(start 2.4003 -1.2446)
 		(end -2.4003 -1.2446)
 		(stroke
-			(width 0.0254)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -130,44 +223,23 @@
 		(start 2.4003 1.2446)
 		(end 2.4003 -1.2446)
 		(stroke
-			(width 0.0254)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "c2e2ed95-63a9-4d88-9071-ef0dbfb258e5")
 	)
-	(fp_arc
-		(start -2.4003 -0.3048)
-		(mid -2.0955 0)
-		(end -2.4003 0.3048)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "77924fba-952a-4401-8725-24b93d2c91f2")
-	)
-	(fp_circle
-		(center -2.07 0.9106)
-		(end -2.07 0.8344)
-		(stroke
-			(width 0.0254)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Fab")
-		(uuid "e166f962-894c-4820-8602-f528429fdff9")
-	)
 	(fp_text user "${REFERENCE}"
-		(at -0.3 6.4 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5213024b-7e06-4708-8878-beee92d2d309")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "A" smd roundrect

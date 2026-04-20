@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Ferrite Bead, SMD, 0603 (1608 Metric)")
 	(property "Reference" "REF**"
-		(at 0 -1.6 0)
+		(at 0 -0.6 0)
 		(layer "F.SilkS")
 		(uuid "371b1c08-81c4-47fe-9e2a-d29b1b572c27")
 		(effects
@@ -12,6 +13,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "Val**"
@@ -66,7 +68,7 @@
 		(start -0.88 0.48)
 		(end -0.88 -0.48)
 		(stroke
-			(width 0.127)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -76,7 +78,7 @@
 		(start 0.88 -0.48)
 		(end -0.88 -0.48)
 		(stroke
-			(width 0.127)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -86,7 +88,7 @@
 		(start 0.88 0.48)
 		(end -0.88 0.48)
 		(stroke
-			(width 0.127)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -96,11 +98,23 @@
 		(start 0.88 0.48)
 		(end 0.88 -0.48)
 		(stroke
-			(width 0.127)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "01fb842e-ed57-435d-85a6-1e91ec58fffb")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "1cded8bb-0f02-4b09-8dc1-ef7d35228b7d")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
 	)
 	(pad "1" smd roundrect
 		(at -0.7175 0.000001)

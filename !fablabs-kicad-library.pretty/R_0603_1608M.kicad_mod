@@ -6,7 +6,7 @@
 	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 	(tags "resistor")
 	(property "Reference" "REF**"
-		(at 0 -1.43 0)
+		(at 0 -0.6 0)
 		(layer "F.SilkS")
 		(uuid "6df974b4-b819-4abf-a570-cfac24b90f22")
 		(effects
@@ -14,17 +14,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "R_0603_1608M"
-		(at 0 1.43 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "43a2d3f9-8880-4891-bb65-e1f1adf1c2a5")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -89,7 +91,7 @@
 		(start -0.8 -0.4125)
 		(end 0.8 -0.4125)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -99,7 +101,7 @@
 		(start -0.8 0.4125)
 		(end -0.8 -0.4125)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -109,7 +111,7 @@
 		(start 0.8 -0.4125)
 		(end 0.8 0.4125)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -119,7 +121,7 @@
 		(start 0.8 0.4125)
 		(end -0.8 0.4125)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -131,9 +133,10 @@
 		(uuid "2dfd6efa-e1ab-4e55-ab2b-7f9e70f33afa")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "1" smd roundrect

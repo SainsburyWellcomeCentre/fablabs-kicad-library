@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "WSON 12 Pin, 3x2mm")
 	(property "Reference" "REF**"
-		(at 0 -3.3 0)
+		(at 0 -1.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b4871e23-8268-4f41-b190-cd839ebdfdf2")
@@ -13,18 +14,20 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "WSON-12-EP"
-		(at 0 1 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "fe94cd2a-d24e-4d45-a7b7-753c3683780f")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -55,16 +58,6 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -1 -1.6)
-		(end 1 -1.6)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "0ef24135-7e72-4462-9e43-1e0f0385bae3")
-	)
-	(fp_line
 		(start -1 1.6)
 		(end 1 1.6)
 		(stroke
@@ -74,9 +67,19 @@
 		(layer "F.SilkS")
 		(uuid "3676d8ab-648f-4c11-aa63-7cb3f53ee3a8")
 	)
+	(fp_line
+		(start -0.55 -1.6)
+		(end 1 -1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0ef24135-7e72-4462-9e43-1e0f0385bae3")
+	)
 	(fp_poly
 		(pts
-			(xy -1.3 -1.6) (xy -1.5 -1.6) (xy -1.3 -1.8) (xy -1.3 -1.6)
+			(xy -0.95 -1.6) (xy -1.05 -1.7) (xy -0.85 -1.7)
 		)
 		(stroke
 			(width 0.12)
@@ -84,7 +87,7 @@
 		)
 		(fill yes)
 		(layer "F.SilkS")
-		(uuid "ae46d867-4bb1-4479-97ff-2f0e03564c82")
+		(uuid "059ac04c-55a7-451c-aa12-ee6eade9491d")
 	)
 	(fp_rect
 		(start -1.3 -1.7)
@@ -101,7 +104,7 @@
 		(start -1 -1)
 		(end -0.5 -1.5)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -111,7 +114,7 @@
 		(start -1 1.5)
 		(end -1 -1)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -121,7 +124,7 @@
 		(start -0.5 -1.5)
 		(end 1 -1.5)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -131,7 +134,7 @@
 		(start 1 -1.5)
 		(end 1 1.5)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -141,22 +144,23 @@
 		(start 1 1.5)
 		(end -1 1.5)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "985ad460-64e2-49e7-a429-f32fa6c909ef")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "4b6146b2-7b0e-4a24-b005-ce3a6c6c792a")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "" smd rect

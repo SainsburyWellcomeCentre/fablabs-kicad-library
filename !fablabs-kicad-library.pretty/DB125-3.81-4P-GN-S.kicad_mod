@@ -1,0 +1,186 @@
+(footprint "DB125-3.81-4P-GN-S"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Connector, Screw Terminal Block, 4 Position (1x4), M2, THT")
+	(property "Reference" "REF**"
+		(at 0 -3.6 0)
+		(layer "F.SilkS")
+		(uuid "52524926-c06d-418b-8bbf-a8f188b58d0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "DB125-3.81-4P-GN-S"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "e182a0ea-2944-4000-9b28-3192d71b8b05")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0d63033e-a73d-466d-83c1-0f516b393cdb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdeaf660-a497-45fb-97bb-86a66e928ca2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -7.7 -3.5)
+		(end 8.3 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "371b59f2-4339-4028-8493-6721d9404ae6")
+	)
+	(fp_line
+		(start -7.7 4.1)
+		(end -7.7 -3.5)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c8e3bee4-411e-4247-a241-2b922c22a0f2")
+	)
+	(fp_line
+		(start 8.3 -3.5)
+		(end 8.3 4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2ac3a9a0-8e70-4716-92a5-b6c7d51ee876")
+	)
+	(fp_line
+		(start 8.3 4.1)
+		(end -7.7 4.1)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "aeec2899-c01c-45de-b8ed-1078fbad476b")
+	)
+	(fp_poly
+		(pts
+			(xy -5.7 -3.8) (xy -5.8 -3.9) (xy -5.6 -3.9) (xy -5.7 -3.8)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "db1f6424-6eaf-49a6-ab33-9d16f0d277f3")
+	)
+	(fp_rect
+		(start -7.8 -3.6)
+		(end 8.4 4.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "31bfaaa5-b56e-41ac-ac0c-f7c4af95fafe")
+	)
+	(fp_circle
+		(center -7.58 3.79)
+		(end -7.55 3.79)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "005e4693-3575-4a42-a007-b101bb962f4a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "41fbae99-66d2-4312-b94b-137fd4295693")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -5.71 0)
+		(size 2.5 2.5)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5130f588-78ed-4c6e-b0ea-27e6fbd8906d")
+	)
+	(pad "2" thru_hole circle
+		(at -1.9 0)
+		(size 2.5 2.5)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "7702a585-435b-42c9-b503-b5cf1dc88ecc")
+	)
+	(pad "3" thru_hole circle
+		(at 1.91 0)
+		(size 2.5 2.5)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "51ce1abb-8880-4cef-915e-92e09cfa1c86")
+	)
+	(pad "4" thru_hole circle
+		(at 5.72 0)
+		(size 2.5 2.5)
+		(drill 1.300023)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50e92192-1be3-4902-b8f5-37191b0a2376")
+	)
+	(embedded_fonts no)
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/DB125-3.81-4P-GN-S.step"
+		(offset
+			(xyz -5.7 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -0 180)
+		)
+	)
+)

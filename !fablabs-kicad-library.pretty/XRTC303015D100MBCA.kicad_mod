@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Inductor, 3x3, SMD, Moulded")
 	(property "Reference" "REF**"
-		(at 0 -2.6 0)
+		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "4c534adf-dc90-4940-99c5-c7bd3272ce63")
@@ -13,18 +14,20 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "XRTC303015D100MBCA"
-		(at 0 1 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "c77738a5-faea-43ed-84c5-1a09a51fc056")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -54,6 +57,26 @@
 		)
 	)
 	(attr smd)
+	(fp_line
+		(start -0.3 -1.6)
+		(end 0.3 -1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "80eee6d9-a188-42e7-aedd-a3d2d491b337")
+	)
+	(fp_line
+		(start -0.3 1.6)
+		(end 0.3 1.6)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "481a324a-e5bf-4cbc-ba5e-d2977ee82fa9")
+	)
 	(fp_rect
 		(start -1.6 -1.6)
 		(end 1.6 1.6)
@@ -65,16 +88,28 @@
 		(layer "F.CrtYd")
 		(uuid "2beb43ba-ebcd-4f21-9459-5ec20ee9276c")
 	)
+	(fp_rect
+		(start -1.5 -1.5)
+		(end 1.5 1.5)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "66dd9045-7a88-4862-832d-42334cda75b8")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "95184bcc-f45b-4b9a-86f2-48864341aee0")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "1" smd roundrect

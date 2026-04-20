@@ -1,0 +1,146 @@
+(footprint "XTAL-SMD_4P-L3.2-W2.5"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Crystal, SMD, L3.2 W2.5, 4P")
+	(property "Reference" "REF**"
+		(at 0 -1.6 0)
+		(layer "F.SilkS")
+		(uuid "f5676698-e817-41da-99a2-6f492d254cb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "XTAL-SMD_4P-L3.2-W2.5"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "ec5d69ec-0900-4ef5-bdaf-f5c59449146b")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4df65cf8-e4c1-4897-90a4-3ee80361dc65")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "759ba662-fe90-4a75-97b7-3b723324ee11")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -2 1.1)
+		(end -2 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b60db575-e017-48fa-a38b-e12cba7ced13")
+	)
+	(fp_line
+		(start -2 1.6)
+		(end -1.5 1.6)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "84e1ae1f-b48c-4f63-b2e0-c92e52f35d8e")
+	)
+	(fp_rect
+		(start -1.9 -1.6)
+		(end 1.9 1.6)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "7d20ffe5-9205-47e1-90aa-9af3a73f9adb")
+	)
+	(fp_rect
+		(start -1.7 -1.35)
+		(end 1.7 1.35)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "267a0f59-d73a-4147-a267-d447c8fc7e21")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "2384b808-0444-45b7-8cfc-d5b48dcef978")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8b4881f1-478b-4e11-b126-de58837c0b18")
+	)
+	(pad "2" smd rect
+		(at 1.1 0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "512017e7-a8dd-40b1-b145-f2af3e92690f")
+	)
+	(pad "3" smd rect
+		(at 1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6f924a84-b4b0-4083-91d7-9636d9f41546")
+	)
+	(pad "4" smd rect
+		(at -1.1 -0.85)
+		(size 1.4 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "c721fd1f-af27-40a9-8ce2-a3b660d91f26")
+	)
+	(embedded_fonts no)
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.step"
+		(offset
+			(xyz 0 -0 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

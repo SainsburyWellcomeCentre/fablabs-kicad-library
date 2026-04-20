@@ -3,9 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Inductor shielded")
+	(descr "Inductor, 4x4, SMD, Shielded")
 	(property "Reference" "REF**"
-		(at 0.95 -4.135 0)
+		(at 0 -2.4 0)
 		(layer "F.SilkS")
 		(uuid "67ef4c0f-9a3c-4b20-92c6-31492a8b8837")
 		(effects
@@ -13,6 +13,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "VLCF4020T-101MR26"
@@ -21,9 +22,10 @@
 		(uuid "861f1464-7263-4f91-baab-9dc1f0f29ee3")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -71,16 +73,17 @@
 		(layer "F.SilkS")
 		(uuid "0ecdf490-91cb-4db2-af65-edfe4d2de12d")
 	)
-	(fp_circle
-		(center -1.85 -2.35)
-		(end -1.75 -2.35)
+	(fp_poly
+		(pts
+			(xy -1.8 -2.1) (xy -1.941421 -2.1) (xy -1.8 -2.241421)
+		)
 		(stroke
-			(width 0.2)
+			(width 0.12)
 			(type solid)
 		)
-		(fill no)
+		(fill yes)
 		(layer "F.SilkS")
-		(uuid "fdefabad-8ccf-4b54-a4bb-1f3f58e4fdff")
+		(uuid "d2cd2c7b-2ef9-4d55-b1b4-fc1dcea10b87")
 	)
 	(fp_rect
 		(start -2.2 -2.4)
@@ -94,55 +97,97 @@
 		(uuid "20213f74-ea42-4d5b-8f59-85357f32bb57")
 	)
 	(fp_line
-		(start -2 -2)
-		(end -2 2)
+		(start -2 -1.5)
+		(end -2 1.5)
 		(stroke
-			(width 0.127)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "cf198dc5-62ca-4b05-9f2e-11a01acbbc50")
 	)
 	(fp_line
-		(start -2 2)
-		(end 2 2)
+		(start -2 -1.5)
+		(end -1.5 -2)
 		(stroke
-			(width 0.127)
-			(type solid)
+			(width 0.01)
+			(type default)
 		)
 		(layer "F.Fab")
-		(uuid "ec2803ad-2017-4453-b132-e5c3199a68c5")
+		(uuid "2f6d0091-7a87-4577-9447-739e2291a972")
 	)
 	(fp_line
-		(start 2 -2)
-		(end -2 -2)
+		(start -2 1.5)
+		(end -1.5 2)
 		(stroke
-			(width 0.127)
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c9a0324d-2532-4ee5-9767-fd63071a739d")
+	)
+	(fp_line
+		(start -1.5 -2)
+		(end 1.5 -2)
+		(stroke
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "51f27d06-ce72-47c2-b91d-95385b803d5e")
 	)
 	(fp_line
-		(start 2 2)
-		(end 2 -2)
+		(start -1.5 2)
+		(end 1.5 2)
 		(stroke
-			(width 0.127)
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ec2803ad-2017-4453-b132-e5c3199a68c5")
+	)
+	(fp_line
+		(start 1.5 -2)
+		(end 2 -1.5)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "c5332710-4a24-4bf5-8366-66cf64db61dc")
+	)
+	(fp_line
+		(start 1.5 2)
+		(end 2 1.5)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "b0ef9417-221d-4bad-8a29-7909667db95b")
+	)
+	(fp_line
+		(start 2 -1.5)
+		(end 2 1.5)
+		(stroke
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
 		(uuid "7ff5fb05-facd-4220-ab20-682247e888b6")
 	)
-	(fp_circle
-		(center -1.85 -2.35)
-		(end -1.75 -2.35)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "5ebcc35b-3936-4190-9d07-1d0db61d8cc7")
+		(uuid "b6b4ead3-656e-4e8d-b677-a18739e7cb96")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
 	)
 	(pad "1" smd custom
 		(at 0 -1.5)

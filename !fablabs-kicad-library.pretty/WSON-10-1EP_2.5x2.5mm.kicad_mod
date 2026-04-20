@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "WSON, 10 Pin (http://www.ti.com/lit/gpn/tps63030#page=24), generated with kicad-footprint-generator ipc_noLead_generator.py")
+	(descr "WSON 10 Pin, 2.5x2.5mm")
 	(tags "WSON NoLead")
 	(property "Reference" "REF**"
-		(at 0 -2.8 0)
+		(at 0 -1.4 0)
 		(layer "F.SilkS")
 		(uuid "397a63ac-59f4-4720-abf7-7b694793e322")
 		(effects
@@ -14,17 +14,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "WSON-10-1EP_2.5x2.5mm"
-		(at 0 2.2 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "84413953-4828-4e40-bbda-d896c23893ea")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -209,7 +211,7 @@
 			(xy -1.25 -0.625) (xy -1.25 1.25) (xy 1.25 1.25) (xy 1.25 -1.25) (xy -0.625 -1.25)
 		)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(fill no)
@@ -222,9 +224,10 @@
 		(uuid "7be24619-fd7f-409b-a5ae-8f3514b18521")
 		(effects
 			(font
-				(size 0.62 0.62)
-				(thickness 0.09)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "" smd roundrect

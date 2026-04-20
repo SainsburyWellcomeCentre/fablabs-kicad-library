@@ -1,0 +1,236 @@
+(footprint "TRIM_TC33X-2-102E"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "TC33X-2")
+	(property "Reference" "REF**"
+		(at 0 -2 0)
+		(layer "F.SilkS")
+		(uuid "7da42a3f-3d50-450c-90a6-b2a384e372f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "TRIM_TC33X-2-102E"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "58b96372-5469-4e60-968a-290e1e8d1c13")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ae279fe-df64-43ef-87bd-de6c1c421d44")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44797c71-fddf-47dc-8b3b-6b8b6989abe4")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.85 -1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e1df8fae-f699-4eb5-b7c1-3ce93253a09e")
+	)
+	(fp_line
+		(start -0.85 1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c9f4c4fe-86f5-49ac-bf7d-83acba43d932")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 -1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3494ed6a-66c9-4666-b4f5-e524689db8a3")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end 1.8 1.2)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d51b60bb-b54a-41d2-84f4-120926f37a3b")
+	)
+	(fp_poly
+		(pts
+			(xy -1.8 -1.8) (xy -1.9 -1.9) (xy -1.7 -1.9)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "e22c9cd3-1b23-4716-a439-6684d21897de")
+	)
+	(fp_line
+		(start -2.5 -1.9)
+		(end 2.3 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "ebd9ab47-ffdb-4812-90fb-ab25e5f1bb51")
+	)
+	(fp_line
+		(start -2.5 1.9)
+		(end -2.5 -1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "771ae99c-5edc-438f-a89e-baf6b656e532")
+	)
+	(fp_line
+		(start 2.3 -1.9)
+		(end 2.3 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63b0272a-53c3-4f68-80f6-6bea7a297478")
+	)
+	(fp_line
+		(start 2.3 1.9)
+		(end -2.5 1.9)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a057f69-a022-48f1-9f7c-480b71e8b4bd")
+	)
+	(fp_line
+		(start -2 -1.8)
+		(end 1.8 -1.8)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2365312d-289a-4871-a43e-6b3a10468e6a")
+	)
+	(fp_line
+		(start -2 1.8)
+		(end -2 -1.8)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6d8facb7-6799-41bf-9fc5-3f7c6843bdc9")
+	)
+	(fp_line
+		(start 1.8 -1.8)
+		(end 1.8 1.8)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56bfd753-dbec-4fa1-9d04-45991ae3c9e6")
+	)
+	(fp_line
+		(start 1.8 1.8)
+		(end -2 1.8)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "78ab0135-674f-4f34-94b1-7b734c92c214")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "db63d060-984c-4041-8e99-a410c3f26291")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd roundrect
+		(at -1.8 -1)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(solder_mask_margin 0)
+		(uuid "89c48f17-69cf-4141-99e9-e39dd0a94b41")
+	)
+	(pad "2" smd roundrect
+		(at 1.45 0)
+		(size 1.5 1.6)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.1666666667)
+		(solder_mask_margin 0)
+		(uuid "65062cc1-6e99-4b4c-b630-aa6a1eb0f8a3")
+	)
+	(pad "3" smd roundrect
+		(at -1.8 1)
+		(size 1.2 1.2)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(roundrect_rratio 0.2083333333)
+		(solder_mask_margin 0)
+		(uuid "da0001ed-e0be-47bc-906c-d3e95a52acdd")
+	)
+	(embedded_fonts no)
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/TC33X-2-102E.step"
+		(offset
+			(xyz 0 0 0.1)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -0)
+		)
+	)
+)

@@ -1,0 +1,187 @@
+(footprint "X1SON2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "X1SON 2, Texas Instruments, DPY")
+	(tags "ESD761DPYR ")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "eeb3bd33-1398-4983-b7b4-36e51fe3520e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify bottom)
+		)
+	)
+	(property "Value" "X1SON2"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "442def66-deea-4d6a-95d5-990379be2403")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify top)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9596c21-64bd-4b37-897f-11d46e4ca545")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b9ed5fc5-68fb-4e46-b1ac-4986d3683901")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -0.7 -0.5)
+		(end 0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4b85fb7e-d92e-4d19-a0e3-190d947624cf")
+	)
+	(fp_line
+		(start -0.7 0.5)
+		(end -0.7 -0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "bae89dd9-7ad8-49ba-86ac-eea0e5cbf29c")
+	)
+	(fp_line
+		(start 0.7 -0.5)
+		(end 0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3db9a93b-625b-4d6a-98cb-ab8471b6a1bb")
+	)
+	(fp_line
+		(start 0.7 0.5)
+		(end -0.7 0.5)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "41754e22-a756-4596-b4a6-11a225488369")
+	)
+	(fp_line
+		(start -0.5207 -0.3556)
+		(end -0.5207 0.3556)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7d1b65c9-8f68-49c4-9574-d745212013d1")
+	)
+	(fp_line
+		(start -0.5207 0.3556)
+		(end 0.5207 0.3556)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "246be155-5362-4dbb-bc8a-86396f607324")
+	)
+	(fp_line
+		(start 0.5207 -0.3556)
+		(end -0.5207 -0.3556)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "1894a7eb-f625-473c-8852-25f4887d776d")
+	)
+	(fp_line
+		(start 0.5207 0.3556)
+		(end 0.5207 -0.3556)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "eae459fd-72c2-4787-a87d-363e4e4936b4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0 0)
+		(stroke
+			(width 0.0254)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "5fba76c0-fd67-4fae-9718-36cef7072a04")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "0cd0c920-cfab-480c-b9ba-b1b633859fca")
+		(effects
+			(font
+				(size 0.1 0.1)
+				(thickness 0.015)
+			)
+			(justify bottom)
+		)
+	)
+	(pad "1" smd rect
+		(at -0.3175 0)
+		(size 0.3048 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8611e831-6e7f-4844-b76d-8bda27a27e62")
+	)
+	(pad "2" smd rect
+		(at 0.3175 0)
+		(size 0.3048 0.5588)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "2e9c08ca-e0cc-4e04-b634-30b33fb0fc00")
+	)
+	(embedded_fonts no)
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/X1SON2.stp"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

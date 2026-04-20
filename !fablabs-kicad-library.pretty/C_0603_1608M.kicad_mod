@@ -3,10 +3,10 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
+	(descr "Capacitor SMD 0603 (1608 Metric), IPC-7351")
 	(tags "capacitor")
 	(property "Reference" "REF**"
-		(at 0 -1.43 0)
+		(at 0 -0.6 0)
 		(layer "F.SilkS")
 		(uuid "d8b50c90-0233-4120-8eb7-fd37553c1dae")
 		(effects
@@ -14,17 +14,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "C_0603_1608M"
-		(at 0 1.43 0)
+		(at 0 0 0)
 		(layer "F.Fab")
 		(uuid "4e5feb93-e33a-49c0-b9c5-ae5884f54838")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -89,7 +91,7 @@
 		(start -0.8 -0.4)
 		(end 0.8 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -99,7 +101,7 @@
 		(start -0.8 0.4)
 		(end -0.8 -0.4)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -109,7 +111,7 @@
 		(start 0.8 -0.4)
 		(end 0.8 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -119,7 +121,7 @@
 		(start 0.8 0.4)
 		(end -0.8 0.4)
 		(stroke
-			(width 0.1)
+			(width 0.01)
 			(type solid)
 		)
 		(layer "F.Fab")
@@ -131,9 +133,11 @@
 		(uuid "579d7eba-875c-4a83-94cf-9a0ffb7d4ec6")
 		(effects
 			(font
-				(size 0.4 0.4)
-				(thickness 0.06)
+				(size 0.1 0.1)
+				(thickness 0.015)
+				(bold yes)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "1" smd roundrect

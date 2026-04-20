@@ -3,8 +3,9 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
+	(descr "Inductor, 2.5x2, SMD, Shielded")
 	(property "Reference" "REF**"
-		(at 0 -1.9322 0)
+		(at 0 -1.1 0)
 		(layer "F.SilkS")
 		(uuid "c1b5ee04-ccf3-4130-9407-22cf6e5ff0c3")
 		(effects
@@ -12,18 +13,19 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "YNR2512-100M"
-		(at 0 1.9322 0)
-		(layer "F.SilkS")
-		(hide yes)
+		(at 0 0 0)
+		(layer "F.Fab")
 		(uuid "1342fc39-8974-431c-89ec-491b0ea2c473")
 		(effects
 			(font
-				(size 0.9144 0.9144)
-				(thickness 0.1524)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify top)
 		)
 	)
 	(property "Datasheet" ""
@@ -43,30 +45,6 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "d3f19f8b-7f8b-4d2f-b452-fa8783738f9d")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "JLC_3DModel" "6efb4423338a49108735c832322de525"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "ee194ff5-f35b-495b-b577-79052c9ccd64")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "JLC_3D_Size" "2.502 2.002"
-		(at 0 0 0)
-		(layer "Cmts.User")
-		(hide yes)
-		(uuid "ed33547d-838f-44b1-afb8-ba24945028bc")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -105,15 +83,27 @@
 		(layer "F.CrtYd")
 		(uuid "943731c9-5739-4970-a59f-d73426f048b3")
 	)
+	(fp_rect
+		(start -1.25 -1)
+		(end 1.35 1)
+		(stroke
+			(width 0.01)
+			(type default)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "8637166b-f3c5-4351-b6ed-2495158ecf00")
+	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 90)
+		(at 0 0 180)
 		(layer "F.Fab")
 		(uuid "62a39481-f326-4ef1-9588-b84c821f798b")
 		(effects
 			(font
-				(size 0.5 0.5)
-				(thickness 0.1)
+				(size 0.1 0.1)
+				(thickness 0.015)
 			)
+			(justify bottom)
 		)
 	)
 	(pad "1" smd roundrect
@@ -133,15 +123,15 @@
 		(uuid "657c294e-29b2-407e-8d02-92dfc486a85a")
 	)
 	(embedded_fonts no)
-	(model "${KIPRJMOD}/EASYEDA_MODELS/IND-SMD_L2.5-W2.0-VLS252012CX-150M.step"
+	(model "${FABLABS_KICAD_LIBRARY}/!fablabs-kicad-library.3dshapes/IND-SMD_L2.5-W2.0-VLS252012CX-150M.step"
 		(offset
-			(xyz 0.0001 -0.0001 0)
+			(xyz 0.0001 -0.0001 0.95)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz -0 -0 0)
+			(xyz -0 -0 -0)
 		)
 	)
 )
