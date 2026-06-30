@@ -1,0 +1,10 @@
+{
+  "name": "PROTOCOL_GROVE_I2C_PORT",
+  "description": "Grove-compatible 4-pin I2C port with pullups and rail labels.",
+  "keywords": "",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

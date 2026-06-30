@@ -1,0 +1,784 @@
+(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+  (uuid "caa4e63a-eda2-4cbb-ae65-4c8af0289137")
+  (paper "A4")
+  (title_block
+    (title "IO_TERMINAL_BANK_8_CHANNEL_PROTECTED")
+    (comment 1 "Eight-channel screw-terminal IO bank with series resistors and TVS clamp placeholders.")
+  )
+  (lib_symbols
+    (symbol
+          Conn_01x08_Pin
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            J
+            (at 0 10.16 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            Conn_01x08_Pin
+            (at 0 -12.7 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "Generic connector, single row, 01x08, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_locked
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            connector
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            Connector*:*_1x??_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            Conn_01x08_Pin_1_1
+            (rectangle
+              (start 0.8636 7.747)
+              (end 0 7.493)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -7.493)
+              (end 0 -7.747)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -10.033)
+              (end 0 -10.287)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 7.62)
+                (xy 0.8636 7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 5.08)
+                (xy 0.8636 5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -5.08)
+                (xy 0.8636 -5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -7.62)
+                (xy 0.8636 -7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -10.16)
+                (xy 0.8636 -10.16))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 7.62 180)
+              (length 3.81)
+              (name
+                Pin_1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 5.08 180)
+              (length 3.81)
+              (name
+                Pin_2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                Pin_3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                3
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                Pin_4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                4
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                Pin_5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                5
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -5.08 180)
+              (length 3.81)
+              (name
+                Pin_6
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                6
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -7.62 180)
+              (length 3.81)
+              (name
+                Pin_7
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                7
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -10.16 180)
+              (length 3.81)
+              (name
+                Pin_8
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                8
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          R
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            R
+            (at 2.032 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            R
+            (at 0 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at -1.778 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            Resistor
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            "R res resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            R_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            R_0_1
+            (rectangle
+              (start -1.016 -2.54)
+              (end 1.016 2.54)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            R_1_1
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          D_TVS
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            D
+            (at 0 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            D_TVS
+            (at 0 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "Bidirectional transient-voltage-suppression diode"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            "diode TVS thyrector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            "TO-???* *_Diode_* *SingleDiode* D_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            D_TVS_0_1
+            (polyline
+              (pts
+                (xy -2.54 1.27)
+                (xy -2.54 -1.27)
+                (xy 2.54 1.27)
+                (xy 2.54 -1.27)
+                (xy -2.54 1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 0.508 1.27)
+                (xy 0 1.27)
+                (xy 0 -1.27)
+                (xy -0.508 -1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy -1.27 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            D_TVS_1_1
+            (pin
+              passive
+              line
+              (at -3.81 0 0)
+              (length 2.54)
+              (name
+                A1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 3.81 0 180)
+              (length 2.54)
+              (name
+                A2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x08_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "301f1e21-5597-4f23-9da4-6ec88f8a3740")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "IO_TERMINAL_8" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-8-5.08_1x08_P5.08mm_Horizontal" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_1" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "20083117-88e0-41e5-9faa-12d1bc541841"))
+  (label "FIELD_IO_2" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7d884f0b-bc1e-4c73-b176-6c010a05c45b"))
+  (label "FIELD_IO_3" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ffe349f-9366-4422-84c4-13d3d73f6875"))
+  (label "FIELD_IO_4" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cf835a4b-b30c-4f06-a61b-5b1d7c069ac3"))
+  (label "FIELD_IO_5" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "09c3c34c-db35-45b6-be4b-0689f3f6609f"))
+  (label "FIELD_IO_6" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a36ca847-78aa-4d6f-8e53-9b4d945e040e"))
+  (label "FIELD_IO_7" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "41eb4546-a2b7-4b21-9396-2b292aa7a450"))
+  (label "FIELD_IO_8" (at 35.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a3796fa4-bb48-4ee4-b3c4-8f05a7f7c074"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "4252c0f4-c3e7-4769-ab2d-37f9cde9c0fd")
+    (property "Reference" "R1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_1" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a3117dc1-7b7a-49fc-a3c3-ce7241a31cf0"))
+  (label "MCU_IO_1" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ac30f86d-5740-4dd4-98a1-8c374a621ab7"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "719084d8-3d90-48d6-b519-f6508897fecf")
+    (property "Reference" "R2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_2" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "879e76b5-66a3-46f5-a36c-b75018eba0c9"))
+  (label "MCU_IO_2" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "faaab274-b794-4da2-b58e-3a2f862cb8e1"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "5137fb9a-a597-426e-a093-d057be72ab7d")
+    (property "Reference" "R3" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_3" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5858456e-1d18-4a1f-a703-936b4492995b"))
+  (label "MCU_IO_3" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3a617df4-d806-4356-815a-f732ce5c90d7"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "a30e2f5c-1439-473d-aace-06c5b96169ce")
+    (property "Reference" "R4" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_4" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1638d4dd-7fa8-43c6-ae0d-8cda94a27412"))
+  (label "MCU_IO_4" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9a282a5d-c9fc-42e7-9846-5e74a72446ed"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "12d9b5ed-6c76-4aff-b4b5-40554556a7df")
+    (property "Reference" "R5" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_5" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "21600d7c-69a1-4aea-a28a-82e8564ef69b"))
+  (label "MCU_IO_5" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ee9cfbb9-b7d0-47b9-94ad-5cd7cc7febea"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 30 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "7c4478fe-c61a-47ef-8a9e-07f17cef3c1d")
+    (property "Reference" "R6" (at 30 91.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 30 106.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 30 109.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 111.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_6" (at 30 102.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9a00cc96-8506-475a-a27f-c3fca230fec0"))
+  (label "MCU_IO_6" (at 30 95.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "599192ee-8444-4dfa-8042-3714afc2f97d"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "500a45c1-fa75-4d94-b639-28b3cbce52f4")
+    (property "Reference" "R7" (at 72 91.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 72 106.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 109.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 111.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_7" (at 72 102.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b897ef8f-b20e-4bc1-afee-7a6e41c940bf"))
+  (label "MCU_IO_7" (at 72 95.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "76119ef9-4963-4a3b-8bc7-20c0ad323cfa"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 114 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "fe8d432b-2468-4856-b2f4-d02ecaeaae7d")
+    (property "Reference" "R8" (at 114 91.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 114 106.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 109.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 111.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "FIELD_IO_8" (at 114 102.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9b14cc58-d34e-4f36-8a7b-4043b3ba6577"))
+  (label "MCU_IO_8" (at 114 95.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "80e8fa9b-cf54-4dcc-8674-d0d339d31599"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 30 131 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "b3905a5c-f04e-46f1-b150-1c8dba01d501")
+    (property "Reference" "D1" (at 30 123.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 30 138.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 30 141.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 143.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_1" (at 26.19 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6a75ee7d-d51c-4dfb-9040-191f571120b5"))
+  (label "GND" (at 33.81 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b2a6603e-2acb-4f01-bcdb-e96f3fd983db"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 72 131 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "3f09bc6f-5b1b-42e2-b934-a282c0f33287")
+    (property "Reference" "D2" (at 72 123.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 72 138.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 72 141.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 143.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_2" (at 68.19 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c7be67c4-99f1-4efd-983a-f86386ae2086"))
+  (label "GND" (at 75.81 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2d42b2ae-6fea-487c-9b5b-3225e1c2d722"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 114 131 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "0388b47f-bd42-481f-b915-53ab4cec3d78")
+    (property "Reference" "D3" (at 114 123.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 114 138.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 114 141.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 143.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_3" (at 110.19 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "aa3f39fc-d81c-4c54-bb80-e9dd4c5344b6"))
+  (label "GND" (at 117.81 131 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8e68b831-91c1-49b9-831d-4c09705e6799"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 30 163 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "64a6fc9d-dad7-405d-bc95-399eaa986847")
+    (property "Reference" "D4" (at 30 155.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 30 170.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 30 173.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 175.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_4" (at 26.19 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b7ffa5b6-d2be-4a43-924f-1772241c0ddc"))
+  (label "GND" (at 33.81 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7a0db55f-d791-4a1d-8dcf-9a105a568b24"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 72 163 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "64d2e604-869a-4cc1-a9ef-a86e0482a7db")
+    (property "Reference" "D5" (at 72 155.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 72 170.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 72 173.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 175.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_5" (at 68.19 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2cdd5979-046b-422a-a02c-36a09ea93e75"))
+  (label "GND" (at 75.81 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "de793e87-4011-40a1-8435-f51ba0c63baa"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 114 163 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "793e31cc-bef1-4f9b-a18b-3045c030e358")
+    (property "Reference" "D6" (at 114 155.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 114 170.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 114 173.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 175.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_6" (at 110.19 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a80fc8bf-509c-4e87-8f21-cce83c2ae8f5"))
+  (label "GND" (at 117.81 163 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f3651272-0dde-4516-b08c-9340d966e669"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 30 195 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "d2c2db79-2b5d-49fd-8fd5-8879eb3c95be")
+    (property "Reference" "D7" (at 30 187.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 30 202.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 30 205.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 207.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_7" (at 26.19 195 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e3734c43-b82f-4fca-91d9-7bbaf0145478"))
+  (label "GND" (at 33.81 195 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3b49e0e5-66c9-40bf-852f-3cd0682dc327"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 72 195 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "fd107c3e-ccc5-4b52-b8ff-0d2647357318")
+    (property "Reference" "D8" (at 72 187.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ESD" (at 72 202.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 72 205.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 207.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MCU_IO_8" (at 68.19 195 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3d267a43-01aa-401d-a790-09bb69ad3d0d"))
+  (label "GND" (at 75.81 195 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3755438b-f417-49f5-a5a6-1c3e4eb05dbd"))
+)

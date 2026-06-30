@@ -1,0 +1,10 @@
+{
+  "name": "IO_LED_STATUS_TRIPLE",
+  "description": "Three status LEDs with series resistors for power, activity and fault indication.",
+  "keywords": "",
+  "fields": {
+    "Category": "IO",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

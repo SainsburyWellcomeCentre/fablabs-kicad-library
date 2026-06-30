@@ -1,0 +1,10 @@
+{
+  "name": "RF_UFL_ANTENNA_PI_MATCH",
+  "description": "u.FL/IPEX antenna connector with pi matching network and ESD placeholder.",
+  "keywords": "",
+  "fields": {
+    "Category": "RF",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "SENSOR_VL53L0X_I2C_TOF",
+  "description": "VL53L0X time-of-flight sensor block with I2C pullups, shutdown/interrupt pins and decoupling.",
+  "keywords": "",
+  "fields": {
+    "Category": "Sensors",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

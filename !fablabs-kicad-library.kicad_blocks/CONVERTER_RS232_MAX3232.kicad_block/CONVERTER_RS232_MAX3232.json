@@ -1,0 +1,10 @@
+{
+  "name": "CONVERTER_RS232_MAX3232",
+  "description": "3.3 V/5 V RS-232 transceiver block using MAX3232 and charge pump capacitors.",
+  "keywords": "",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

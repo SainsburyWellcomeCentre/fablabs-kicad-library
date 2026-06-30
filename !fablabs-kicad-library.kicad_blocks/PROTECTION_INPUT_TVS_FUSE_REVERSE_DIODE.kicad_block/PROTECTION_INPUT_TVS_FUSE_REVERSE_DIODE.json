@@ -1,0 +1,10 @@
+{
+  "name": "PROTECTION_INPUT_TVS_FUSE_REVERSE_DIODE",
+  "description": "General-purpose protected input cell with fuse, reverse diode and TVS clamp.",
+  "keywords": "",
+  "fields": {
+    "Category": "Protection",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

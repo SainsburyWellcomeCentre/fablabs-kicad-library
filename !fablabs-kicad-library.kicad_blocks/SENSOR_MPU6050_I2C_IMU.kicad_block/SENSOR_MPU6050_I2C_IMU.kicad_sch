@@ -1,0 +1,1065 @@
+(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+  (uuid "a2372af9-ec5d-4592-9964-a8ee3ca7af04")
+  (paper "A4")
+  (title_block
+    (title "SENSOR_MPU6050_I2C_IMU")
+    (comment 1 "MPU-6050 6-axis IMU block with I2C pullups, interrupt pin and decoupling.")
+  )
+  (lib_symbols
+    (symbol
+          MPU-6050
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            U
+            (at -11.43 13.97 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            MPU-6050
+            (at 7.62 -15.24 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm
+            (at 0 -20.32 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
+            (at 0 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            mems
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            *QFN*4x4mm*P0.5mm*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            MPU-6050_0_1
+            (rectangle
+              (start -12.7 13.97)
+              (end 12.7 -13.97)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background))))
+          (symbol
+            MPU-6050_1_1
+            (pin
+              input
+              clock
+              (at -17.78 -7.62 0)
+              (length 5.08)
+              (name
+                CLKIN
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 12.7 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 10.16 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                3
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 0 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                4
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 -2.54 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                5
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              bidirectional
+              line
+              (at 17.78 2.54 180)
+              (length 5.08)
+              (name
+                AUX_DA
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                6
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              clock
+              (at 17.78 0 180)
+              (length 5.08)
+              (name
+                AUX_CL
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                7
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at -2.54 17.78 270)
+              (length 3.81)
+              (name
+                VLOGIC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                8
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -17.78 2.54 0)
+              (length 5.08)
+              (name
+                AD0
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                9
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 17.78 -7.62 180)
+              (length 5.08)
+              (name
+                REGOUT
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                10
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -17.78 -5.08 0)
+              (length 5.08)
+              (name
+                FSYNC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                11
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at 17.78 7.62 180)
+              (length 5.08)
+              (name
+                INT
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                12
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 2.54 17.78 270)
+              (length 3.81)
+              (name
+                VDD
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                13
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 -10.16 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                14
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 12.7 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                15
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 10.16 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                16
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 5.08 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                NC
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                17
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 0 -17.78 90)
+              (length 3.81)
+              (name
+                GND
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                18
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 -10.16 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                RESV
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                19
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 17.78 -5.08 180)
+              (length 5.08)
+              (name
+                CPOUT
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                20
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 -2.54 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                RESV
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                21
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at 12.7 -12.7 180)
+              (length 2.54)
+              (hide yes)
+              (name
+                RESV
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                22
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -17.78 5.08 0)
+              (length 5.08)
+              (name
+                SCL
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                23
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              bidirectional
+              line
+              (at -17.78 7.62 0)
+              (length 5.08)
+              (name
+                SDA
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                24
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          C
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            C
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            Value
+            C
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            Footprint
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            C_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            C_0_1
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            C_1_1
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          R
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            R
+            (at 2.032 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            R
+            (at 0 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at -1.778 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            Resistor
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            "R res resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            R_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            R_0_1
+            (rectangle
+              (start -1.016 -2.54)
+              (end 1.016 2.54)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            R_1_1
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          Conn_01x06_Pin
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            J
+            (at 0 7.62 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            Conn_01x06_Pin
+            (at 0 -10.16 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "Generic connector, single row, 01x06, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_locked
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            connector
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            Connector*:*_1x??_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            Conn_01x06_Pin_1_1
+            (rectangle
+              (start 0.8636 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -7.493)
+              (end 0 -7.747)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 5.08)
+                (xy 0.8636 5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -5.08)
+                (xy 0.8636 -5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -7.62)
+                (xy 0.8636 -7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 5.08 180)
+              (length 3.81)
+              (name
+                Pin_1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                Pin_2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                Pin_3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                3
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                Pin_4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                4
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -5.08 180)
+              (length 3.81)
+              (name
+                Pin_5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                5
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -7.62 180)
+              (length 3.81)
+              (name
+                Pin_6
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                6
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:MPU-6050") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "9c0db54b-b330-4a9d-b4f4-f037227ca926")
+    (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MPU-6050" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:QFN-24-1EP_4x4mm_P0.5mm_EP2.7x2.7mm" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "MPU-6050" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "TDK InvenSense" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "51265993-c57e-4a00-a30a-0a23eb14b5e6")
+    (property "Reference" "C1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "VDD" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a160114b-e18a-4f7e-a5bb-14e1237b82ed"))
+  (label "GND" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a8aa3c96-5f5b-44c7-9b9b-58c55f024970"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "719a8a17-72e5-4cdc-bb88-57b632ff2e9c")
+    (property "Reference" "C2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "2.2nF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "REGOUT" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "18add579-3df9-4ecd-a888-ac4c99460eab"))
+  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9cf65e1c-03ce-4d95-a8a1-17c7e59de860"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "69182d3b-5232-4eb6-b558-23fb33e07228")
+    (property "Reference" "R1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "4.7k" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "SDA" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a96a6383-b5d0-4647-adc9-0122a21d581b"))
+  (label "VDD" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a4e1c56e-58c4-43f1-9e33-d6887c1ff28c"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "55feaa89-da76-4a5e-8bc5-d016028b2db6")
+    (property "Reference" "R2" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "4.7k" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "SCL" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "34ee571b-3d72-498d-908f-ebeb308d5bfa"))
+  (label "VDD" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a644f2ab-150f-43b2-b480-ee67f4012ff5"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x06_Pin") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "7dd6d9a0-423e-4fe5-ab35-953c8c010c98")
+    (property "Reference" "J1" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MPU6050_IO" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "MPU6050_1" (at 119.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9071b85c-3398-4c79-a955-5f7f10c527e8"))
+  (label "MPU6050_2" (at 119.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "61d1a183-0b38-483d-8b4b-ccaf5636da03"))
+  (label "MPU6050_3" (at 119.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6903d671-fc67-4a6b-9ec8-2bc8f79ae371"))
+  (label "MPU6050_4" (at 119.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8f5d0168-3146-465d-9e1e-7dee90d1ddba"))
+  (label "MPU6050_5" (at 119.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4771eecf-971f-4610-a9d0-cc60e90c6744"))
+  (label "MPU6050_6" (at 119.08 59.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9c576369-e86b-4eb5-8703-4dd33a98beff"))
+)

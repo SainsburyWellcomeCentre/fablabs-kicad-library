@@ -1,0 +1,10 @@
+{
+  "name": "RF_ESP32_WROOM_32_MODULE_MINIMUM",
+  "description": "ESP32-WROOM-32 module support block with boot/reset pins, EN pullup, BOOT pulldown button header and decoupling.",
+  "keywords": "",
+  "fields": {
+    "Category": "RF",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

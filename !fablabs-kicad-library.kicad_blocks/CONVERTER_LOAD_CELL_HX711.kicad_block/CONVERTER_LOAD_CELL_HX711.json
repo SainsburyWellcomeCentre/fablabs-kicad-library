@@ -1,0 +1,10 @@
+{
+  "name": "CONVERTER_LOAD_CELL_HX711",
+  "description": "24-bit load-cell ADC block using HX711 with four-wire bridge connector and MCU interface header.",
+  "keywords": "",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

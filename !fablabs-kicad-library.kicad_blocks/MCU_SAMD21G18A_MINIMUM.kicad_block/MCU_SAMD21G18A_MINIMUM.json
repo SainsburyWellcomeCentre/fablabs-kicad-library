@@ -1,0 +1,10 @@
+{
+  "name": "MCU_SAMD21G18A_MINIMUM",
+  "description": "SAMD21G18A minimum system with crystal option, USB data resistors, SWD and IO headers.",
+  "keywords": "",
+  "fields": {
+    "Category": "MCU",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

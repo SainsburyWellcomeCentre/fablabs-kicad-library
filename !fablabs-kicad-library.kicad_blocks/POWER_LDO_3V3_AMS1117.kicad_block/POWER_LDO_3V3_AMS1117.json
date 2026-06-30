@@ -1,0 +1,10 @@
+{
+  "name": "POWER_LDO_3V3_AMS1117",
+  "description": "3.3 V linear regulator using AMS1117 SOT-223 with input and output capacitors.",
+  "keywords": "",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

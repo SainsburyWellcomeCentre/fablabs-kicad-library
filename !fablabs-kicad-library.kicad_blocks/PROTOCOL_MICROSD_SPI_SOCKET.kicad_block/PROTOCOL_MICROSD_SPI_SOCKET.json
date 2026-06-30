@@ -1,0 +1,10 @@
+{
+  "name": "PROTOCOL_MICROSD_SPI_SOCKET",
+  "description": "MicroSD card socket wired for SPI use with pullups and decoupling.",
+  "keywords": "",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

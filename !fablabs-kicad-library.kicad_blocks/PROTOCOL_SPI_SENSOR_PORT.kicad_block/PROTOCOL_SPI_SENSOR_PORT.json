@@ -1,0 +1,10 @@
+{
+  "name": "PROTOCOL_SPI_SENSOR_PORT",
+  "description": "Six-pin SPI sensor/debug expansion header with chip-select, interrupt and power.",
+  "keywords": "",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

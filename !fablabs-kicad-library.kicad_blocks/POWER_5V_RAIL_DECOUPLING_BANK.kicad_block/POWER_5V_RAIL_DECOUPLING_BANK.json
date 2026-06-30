@@ -1,0 +1,10 @@
+{
+  "name": "POWER_5V_RAIL_DECOUPLING_BANK",
+  "description": "Reusable 5 V bulk and high-frequency decoupling cluster.",
+  "keywords": "",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

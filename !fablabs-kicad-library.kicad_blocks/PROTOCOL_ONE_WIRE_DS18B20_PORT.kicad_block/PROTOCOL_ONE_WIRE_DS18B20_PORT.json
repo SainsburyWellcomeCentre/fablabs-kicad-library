@@ -1,0 +1,10 @@
+{
+  "name": "PROTOCOL_ONE_WIRE_DS18B20_PORT",
+  "description": "1-Wire sensor connector with 4.7 k pullup for DS18B20-class sensors.",
+  "keywords": "",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

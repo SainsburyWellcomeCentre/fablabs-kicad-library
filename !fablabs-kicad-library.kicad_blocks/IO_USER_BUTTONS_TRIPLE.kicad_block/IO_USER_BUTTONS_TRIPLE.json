@@ -1,0 +1,10 @@
+{
+  "name": "IO_USER_BUTTONS_TRIPLE",
+  "description": "Three debounced user/reset buttons with pullups and RC debounce footprints.",
+  "keywords": "",
+  "fields": {
+    "Category": "IO",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

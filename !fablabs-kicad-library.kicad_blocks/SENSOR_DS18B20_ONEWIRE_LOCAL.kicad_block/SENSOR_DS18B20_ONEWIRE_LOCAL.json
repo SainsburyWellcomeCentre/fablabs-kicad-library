@@ -1,0 +1,10 @@
+{
+  "name": "SENSOR_DS18B20_ONEWIRE_LOCAL",
+  "description": "Local DS18B20 TO-92 temperature sensor with 1-Wire pullup and connector option.",
+  "keywords": "",
+  "fields": {
+    "Category": "Sensors",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

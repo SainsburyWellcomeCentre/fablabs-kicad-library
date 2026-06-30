@@ -1,0 +1,346 @@
+(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+  (uuid "f5420f3d-8466-4804-bc09-4084cd290d8d")
+  (paper "A4")
+  (title_block
+    (title "PROTOCOL_SWD_10PIN_ARM_HEADER")
+    (comment 1 "Standard 10-pin 1.27 mm ARM Cortex SWD/JTAG style programming header.")
+  )
+  (lib_symbols
+    (symbol
+          Conn_02x05_Odd_Even
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            Reference
+            J
+            (at 1.27 7.62 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Value
+            Conn_02x05_Odd_Even
+            (at 1.27 -7.62 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Footprint
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Datasheet
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            Description
+            "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_keywords
+            connector
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            ki_fp_filters
+            Connector*:*_2x??_*
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            Conn_02x05_Odd_Even_1_1
+            (rectangle
+              (start -1.27 6.35)
+              (end 3.81 -6.35)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background)))
+            (rectangle
+              (start -1.27 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 5.207)
+              (end 2.54 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 2.667)
+              (end 2.54 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 0.127)
+              (end 2.54 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 -2.413)
+              (end 2.54 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 -4.953)
+              (end 2.54 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at -5.08 5.08 0)
+              (length 3.81)
+              (name
+                Pin_1
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                1
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 5.08 180)
+              (length 3.81)
+              (name
+                Pin_2
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                2
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 2.54 0)
+              (length 3.81)
+              (name
+                Pin_3
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                3
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 2.54 180)
+              (length 3.81)
+              (name
+                Pin_4
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                4
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 0 0)
+              (length 3.81)
+              (name
+                Pin_5
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                5
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 0 180)
+              (length 3.81)
+              (name
+                Pin_6
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                6
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 -2.54 0)
+              (length 3.81)
+              (name
+                Pin_7
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                7
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 -2.54 180)
+              (length 3.81)
+              (name
+                Pin_8
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                8
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 -5.08 0)
+              (length 3.81)
+              (name
+                Pin_9
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                9
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 -5.08 180)
+              (length 3.81)
+              (name
+                Pin_10
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                10
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_02x05_Odd_Even") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "392d8663-978a-4875-9b53-ab0f52f07321")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ARM_SWD_10" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_2x05_P1.27mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+  )
+  (label "VTREF" (at 24.92 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0f492ed2-d6d7-4cb4-9746-1dc18fb2a7e8"))
+  (label "SWDIO" (at 37.62 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2e45d7b9-1ce5-4d6f-820e-8a706f3540ac"))
+  (label "GND" (at 24.92 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1ddef8f4-116a-4a91-bb01-1ccd54577115"))
+  (label "SWCLK" (at 37.62 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2a04e3e9-777d-4584-91ca-553828f4df99"))
+  (label "GND" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b95de972-6bba-49b7-ba53-73d2ef0285a5"))
+  (label "SWO" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1bac01fd-7211-46a6-94a1-78cc59dceeb6"))
+  (label "NC" (at 24.92 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d3b21748-839e-482b-99d7-60051845c4c2"))
+  (label "NC" (at 37.62 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b2981394-78fc-4077-bf63-90f8fc92ef40"))
+  (label "GND" (at 24.92 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e56eb5df-58a1-4a0e-b4cb-cb6de882504e"))
+  (label "NRST" (at 37.62 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4cb849d3-db3b-489b-8bee-abf10d5d9410"))
+)

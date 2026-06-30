@@ -1,0 +1,10 @@
+{
+  "name": "MCU_STM32F103C8T6_MINIMUM",
+  "description": "STM32F103C8Tx minimum block with HSE crystal, boot pins, reset, decoupling and SWD header.",
+  "keywords": "",
+  "fields": {
+    "Category": "MCU",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

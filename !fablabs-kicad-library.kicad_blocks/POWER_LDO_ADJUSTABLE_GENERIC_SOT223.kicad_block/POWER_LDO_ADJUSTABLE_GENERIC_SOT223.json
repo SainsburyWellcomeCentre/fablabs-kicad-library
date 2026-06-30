@@ -1,0 +1,10 @@
+{
+  "name": "POWER_LDO_ADJUSTABLE_GENERIC_SOT223",
+  "description": "Adjustable SOT-223 LDO/resistor divider block for common LM1117/AMS1117 adjustable variants.",
+  "keywords": "",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

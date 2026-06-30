@@ -1,0 +1,10 @@
+{
+  "name": "MCU_HEADER_ONLY_GENERIC_40PIN",
+  "description": "Generic 40-pin MCU/module breakout block for modules whose vendor CAD is supplied through cad_zip_urls.",
+  "keywords": "",
+  "fields": {
+    "Category": "MCU",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

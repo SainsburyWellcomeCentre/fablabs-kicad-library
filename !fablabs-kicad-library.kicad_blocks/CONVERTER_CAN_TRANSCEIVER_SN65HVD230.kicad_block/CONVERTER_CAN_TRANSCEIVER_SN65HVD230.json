@@ -1,0 +1,10 @@
+{
+  "name": "CONVERTER_CAN_TRANSCEIVER_SN65HVD230",
+  "description": "3.3 V CAN transceiver block with termination and bus connector.",
+  "keywords": "",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

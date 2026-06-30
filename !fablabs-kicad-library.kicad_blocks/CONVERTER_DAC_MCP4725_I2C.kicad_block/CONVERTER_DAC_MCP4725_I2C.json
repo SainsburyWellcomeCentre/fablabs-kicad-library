@@ -1,0 +1,10 @@
+{
+  "name": "CONVERTER_DAC_MCP4725_I2C",
+  "description": "12-bit I2C DAC block with output filter placeholder and I2C connector.",
+  "keywords": "",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

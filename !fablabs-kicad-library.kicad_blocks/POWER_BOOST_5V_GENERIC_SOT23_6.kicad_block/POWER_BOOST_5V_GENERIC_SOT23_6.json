@@ -1,0 +1,10 @@
+{
+  "name": "POWER_BOOST_5V_GENERIC_SOT23_6",
+  "description": "Generic boost converter support passives for common SOT-23-6 boost controllers.",
+  "keywords": "",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

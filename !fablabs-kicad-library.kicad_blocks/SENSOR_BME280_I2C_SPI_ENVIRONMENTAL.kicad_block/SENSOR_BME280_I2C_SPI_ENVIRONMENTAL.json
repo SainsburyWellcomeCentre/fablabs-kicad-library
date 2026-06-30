@@ -1,0 +1,10 @@
+{
+  "name": "SENSOR_BME280_I2C_SPI_ENVIRONMENTAL",
+  "description": "BME280 environmental sensor block with I2C pullups, SPI/I2C header and decoupling.",
+  "keywords": "",
+  "fields": {
+    "Category": "Sensors",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

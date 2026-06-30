@@ -1,0 +1,10 @@
+{
+  "name": "POWER_LOAD_SWITCH_GENERIC",
+  "description": "P-channel MOSFET high-side switch/inrush-limited power gate with pullups and enable input.",
+  "keywords": "",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

@@ -1,0 +1,10 @@
+{
+  "name": "RF_GNSS_NEO_M8N_MODULE",
+  "description": "u-blox NEO-M8N GNSS module support block with UART/DDC header, backup battery pin and antenna connector.",
+  "keywords": "",
+  "fields": {
+    "Category": "RF",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}

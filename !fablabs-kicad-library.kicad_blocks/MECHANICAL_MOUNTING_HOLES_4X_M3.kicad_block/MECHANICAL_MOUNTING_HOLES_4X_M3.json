@@ -1,0 +1,10 @@
+{
+  "name": "MECHANICAL_MOUNTING_HOLES_4X_M3",
+  "description": "Four M3 mounting holes with courtyard/mechanical footprints for standard small boards.",
+  "keywords": "",
+  "fields": {
+    "Category": "Mechanical",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  },
+  "source_manifest": "../../manifest.json"
+}
