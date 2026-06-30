@@ -1,10 +1,9 @@
 {
   "name": "RF_BLE_NRF52840_MODULE_HEADER",
   "description": "Generic BLE module breakout/header support block for nRF52840-class modules with SWD and IO rows.",
-  "keywords": "",
+  "keywords": "rf,ble,nrf52840,module",
   "fields": {
     "Category": "RF",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

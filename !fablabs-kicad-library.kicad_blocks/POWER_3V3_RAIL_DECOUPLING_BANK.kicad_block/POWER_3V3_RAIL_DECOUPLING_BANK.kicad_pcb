@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "a1611dc8-459c-4b73-95a8-1a0479a945b4")
+    (uuid "bec67570-6061-42ad-9522-2c970a238f48")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 50 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -134,14 +135,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "ec7577dd-ea9d-48ff-bac0-d221f7256584")
+    (uuid "2277dfda-bf23-44cd-87d8-eb6b8e2df520")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -247,14 +249,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "cca38002-b442-4762-944e-33b6d0f257c1")
+    (uuid "dec7e048-51d9-41dc-bab6-f1fa72b59dca")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C3"
-    (at 110 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -360,14 +363,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "bd232972-c097-4dab-8bbc-b1abd2366d74")
+    (uuid "8ca3ad8b-3dc5-48cd-b85b-697bad29044b")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C4"
-    (at 140 50 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -473,14 +477,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "28c1a0f2-1343-4b58-bd9d-eaa0aaac1515")
+    (uuid "de23748f-d460-495a-a4c2-512d4f99a2af")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C5"
-    (at 170 50 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -586,14 +591,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x02_P2.54mm_Vertical"
-    (uuid "14a3d8e5-c4e1-4b50-9e7f-e2c0f815f634")
+    (uuid "e1c3b9d5-dce2-4a19-a27d-fa8347c360c8")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x02 2.54mm single row")
   	(property "Reference" "J1"
-    (at 50 80 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

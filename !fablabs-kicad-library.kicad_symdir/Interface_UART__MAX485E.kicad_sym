@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    LTC2850xS8
+    "LTC2850xS8"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -6.985 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      LTC2850xS8
+      "Value"
+      "LTC2850xS8"
       (at 7.62 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+      "Footprint"
+      "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (at 0 -22.86 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+      "Datasheet"
+      "https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf"
       (at -12.7 2.54 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "RS-485, RS-422 Half-duplex 20Mbps transceiver, SOIC-8"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "RS485 RS422 transceiver half duplex"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      SOIC*3.9x4.9mm*P1.27mm*
+      "ki_fp_filters"
+      "SOIC*3.9x4.9mm*P1.27mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      LTC2850xS8_0_1
+      "LTC2850xS8_0_1"
       (rectangle
         (start -7.62 12.7)
         (end 7.62 -12.7)
@@ -207,7 +207,7 @@
         (fill
           (type none))))
     (symbol
-      LTC2850xS8_1_1
+      "LTC2850xS8_1_1"
       (circle
         (center -0.762 2.54)
         (radius 0.508)
@@ -250,12 +250,12 @@
         (at -10.16 5.08 0)
         (length 2.54)
         (name
-          RO
+          "RO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -265,12 +265,12 @@
         (at -10.16 2.54 0)
         (length 2.54)
         (name
-          ~{RE}
+          "~{RE}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -280,12 +280,12 @@
         (at -10.16 0 0)
         (length 2.54)
         (name
-          DE
+          "DE"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -295,12 +295,12 @@
         (at -10.16 -5.08 0)
         (length 2.54)
         (name
-          DI
+          "DI"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -310,12 +310,12 @@
         (at 0 -15.24 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -325,12 +325,12 @@
         (at 10.16 7.62 180)
         (length 2.54)
         (name
-          A
+          "A"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -340,12 +340,12 @@
         (at 10.16 2.54 180)
         (length 2.54)
         (name
-          B
+          "B"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -355,22 +355,22 @@
         (at 0 15.24 270)
         (length 2.54)
         (name
-          VCC
+          "VCC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    MAX481E
-    (extends LTC2850xS8)
+    "MAX481E"
+    (extends "LTC2850xS8")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -6.985 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -378,8 +378,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      MAX481E
+      "Value"
+      "MAX481E"
       (at 1.905 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -388,7 +388,7 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 0 -17.78 0)
       (show_name no)
@@ -398,8 +398,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+      "Datasheet"
+      "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
       (at 0 1.27 0)
       (show_name no)
       (do_not_autoplace no)
@@ -408,7 +408,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "Half duplex RS-485/RS-422, 2.5 Mbps, Â±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
       (at 0 0 0)
       (show_name no)
@@ -418,8 +418,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
-      transceiver
+      "ki_keywords"
+      "transceiver"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -428,7 +428,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
       (at 0 0 0)
       (show_name no)
@@ -439,11 +439,11 @@
           (size 1.27 1.27))))
     (embedded_fonts no))
   (symbol
-    MAX485E
-    (extends MAX481E)
+    "MAX485E"
+    (extends "MAX481E")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -6.985 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -451,8 +451,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      MAX485E
+      "Value"
+      "MAX485E"
       (at 1.905 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -461,7 +461,7 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 0 -17.78 0)
       (show_name no)
@@ -471,8 +471,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+      "Datasheet"
+      "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
       (at 0 1.27 0)
       (show_name no)
       (do_not_autoplace no)
@@ -481,7 +481,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "Half duplex RS-485/RS-422, 2.5 Mbps, Â±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
       (at 0 0 0)
       (show_name no)
@@ -491,8 +491,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
-      transceiver
+      "ki_keywords"
+      "transceiver"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -501,7 +501,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
       (at 0 0 0)
       (show_name no)

@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "c67e3148-eb74-4565-a0fb-5112cc022320")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "7837f9c8-c0fe-4809-98f9-263340c5dfbe")
   (paper "A4")
   (title_block
     (title "POWER_USB_C_5V_POWER_ONLY_CC_PULLDOWNS")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          USB_C_Receptacle_USB2.0_14P
+          "!fablabs-kicad-library:USB_C_Receptacle_USB2.0_14P"
           (pin_names
             (offset 1.016))
           (exclude_from_sim no)
@@ -16,8 +16,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 22.225 0)
             (show_name no)
             (do_not_autoplace no)
@@ -25,8 +25,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            USB_C_Receptacle_USB2.0_14P
+            "Value"
+            "USB_C_Receptacle_USB2.0_14P"
             (at 0 19.685 0)
             (show_name no)
             (do_not_autoplace no)
@@ -34,7 +34,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 3.81 0 0)
             (show_name no)
@@ -44,8 +44,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            https://www.usb.org/sites/default/files/documents/usb_type-c.zip
+            "Datasheet"
+            "https://www.usb.org/sites/default/files/documents/usb_type-c.zip"
             (at 3.81 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -54,7 +54,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "USB 2.0-only 14P Type-C Receptacle connector"
             (at 0 0 0)
             (show_name no)
@@ -64,7 +64,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "usb universal serial bus type-C USB2.0"
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            USB*C*Receptacle*
+            "ki_fp_filters"
+            "USB*C*Receptacle*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,7 +84,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            USB_C_Receptacle_USB2.0_14P_0_0
+            "USB_C_Receptacle_USB2.0_14P_0_0"
             (rectangle
               (start -0.254 -17.78)
               (end 0.254 -16.764)
@@ -150,7 +150,7 @@
               (fill
                 (type none))))
           (symbol
-            USB_C_Receptacle_USB2.0_14P_0_1
+            "USB_C_Receptacle_USB2.0_14P_0_1"
             (rectangle
               (start -10.16 17.78)
               (end 10.16 -17.78)
@@ -304,19 +304,19 @@
               (fill
                 (type outline))))
           (symbol
-            USB_C_Receptacle_USB2.0_14P_1_1
+            "USB_C_Receptacle_USB2.0_14P_1_1"
             (pin
               passive
               line
               (at 0 -22.86 90)
               (length 5.08)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A1
+                "A1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -326,12 +326,12 @@
               (at 15.24 15.24 180)
               (length 5.08)
               (name
-                VBUS
+                "VBUS"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A4
+                "A4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -341,12 +341,12 @@
               (at 15.24 10.16 180)
               (length 5.08)
               (name
-                CC1
+                "CC1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A5
+                "A5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -356,12 +356,12 @@
               (at 15.24 -2.54 180)
               (length 5.08)
               (name
-                D+
+                "D+"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A6
+                "A6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -371,12 +371,12 @@
               (at 15.24 2.54 180)
               (length 5.08)
               (name
-                D-
+                "D-"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A7
+                "A7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -387,12 +387,12 @@
               (length 5.08)
               (hide yes)
               (name
-                VBUS
+                "VBUS"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A9
+                "A9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -403,12 +403,12 @@
               (length 5.08)
               (hide yes)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                A12
+                "A12"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -419,12 +419,12 @@
               (length 5.08)
               (hide yes)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B1
+                "B1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -435,12 +435,12 @@
               (length 5.08)
               (hide yes)
               (name
-                VBUS
+                "VBUS"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B4
+                "B4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -450,12 +450,12 @@
               (at 15.24 7.62 180)
               (length 5.08)
               (name
-                CC2
+                "CC2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B5
+                "B5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -465,12 +465,12 @@
               (at 15.24 -5.08 180)
               (length 5.08)
               (name
-                D+
+                "D+"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B6
+                "B6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -480,12 +480,12 @@
               (at 15.24 0 180)
               (length 5.08)
               (name
-                D-
+                "D-"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B7
+                "B7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -496,12 +496,12 @@
               (length 5.08)
               (hide yes)
               (name
-                VBUS
+                "VBUS"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B9
+                "B9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -512,12 +512,12 @@
               (length 5.08)
               (hide yes)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                B12
+                "B12"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -527,18 +527,18 @@
               (at -7.62 -22.86 90)
               (length 5.08)
               (name
-                SHIELD
+                "SHIELD"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                SH
+                "SH"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          R
+          "!fablabs-kicad-library:R"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -549,8 +549,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            R
+            "Reference"
+            "R"
             (at 2.032 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -558,8 +558,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            R
+            "Value"
+            "R"
             (at 0 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -567,7 +567,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at -1.778 0 90)
             (show_name no)
@@ -577,7 +577,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -587,8 +587,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
-            Resistor
+            "Description"
+            "Resistor"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -597,7 +597,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "R res resistor"
             (at 0 0 0)
             (show_name no)
@@ -607,8 +607,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            R_*
+            "ki_fp_filters"
+            "R_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -617,7 +617,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            R_0_1
+            "R_0_1"
             (rectangle
               (start -1.016 -2.54)
               (end 1.016 2.54)
@@ -627,7 +627,7 @@
               (fill
                 (type none))))
           (symbol
-            R_1_1
+            "R_1_1"
             (pin
               passive
               line
@@ -639,7 +639,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -654,13 +654,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -671,8 +671,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -681,8 +681,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -691,7 +691,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -701,7 +701,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -711,7 +711,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -721,7 +721,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -731,8 +731,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -741,7 +741,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -761,7 +761,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -773,7 +773,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -788,63 +788,101 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:USB_C_Receptacle_USB2.0_14P") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "3445dd01-4d6c-4240-a3c0-51d7cf52eea2")
+    (uuid "d82b8067-98fb-4f2b-b5c7-3f350cac22bb")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "USB_C_Receptacle_USB2.0" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:USB_C_Receptacle_HRO_TYPE-C-31-M-12" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "TYPE-C-31-M-12" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Korean Hroparts Elec" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/d82b8067-98fb-4f2b-b5c7-3f350cac22bb"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VBUS" (at 45.24 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5f5fcf39-abd7-440a-a852-3f9b6c6f71ef"))
-  (label "VBUS" (at 45.24 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e26b8ee4-816b-4eca-bc16-bf36881c27da"))
-  (label "VBUS" (at 45.24 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9de3984f-f287-430b-9b33-b80c3fdd8830"))
-  (label "VBUS" (at 45.24 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3a403083-9ee6-4ed2-b3ee-6c5a4a63ceaf"))
-  (label "GND" (at 30 12.14 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ccfb5a16-ab6a-4176-8327-dfecd4d55071"))
-  (label "GND" (at 30 12.14 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "86e25942-4c91-4030-b64e-72812a60024b"))
-  (label "CC1" (at 45.24 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "29975a72-8477-4a3b-8eb3-565eb86dc6dc"))
-  (label "CC2" (at 45.24 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "724c057e-039b-4577-966a-8e5873c208fc"))
+  (label "VBUS" (at 45.24 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2306ce18-b0c7-4880-ae4e-29e996109920"))
+  (label "VBUS" (at 45.24 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4181b9f8-a039-4050-8201-81208cd925bc"))
+  (label "VBUS" (at 45.24 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bba287b1-0abc-4d43-ae3d-23bfe8cfb81c"))
+  (label "VBUS" (at 45.24 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "49bc17f1-af98-4097-b667-7b6210870bcb"))
+  (label "GND" (at 30 57.86 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "840c8e6e-b5df-4246-a4c5-4b71681cc394"))
+  (label "GND" (at 30 57.86 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5910a9f9-96fc-40bf-a4cb-9efa826586f9"))
+  (label "CC1" (at 45.24 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "26d89b31-e562-4002-84d7-3bc0c9d812ee"))
+  (label "CC2" (at 45.24 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "90ec0a85-a819-4cc9-ab69-bf30c805a8f9"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "f6718dfe-818e-434f-82d1-3b302aa545ad")
+    (uuid "abdfc2d5-2906-4ffd-8092-2fe3f3dd4f85")
     (property "Reference" "R1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "5.1k" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/abdfc2d5-2906-4ffd-8092-2fe3f3dd4f85"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
   )
-  (label "CC1" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3bf58c77-6154-47fb-a416-75098e70558e"))
-  (label "GND" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4f9963b8-60c7-422a-8a8a-9f2483af7764"))
+  (label "CC1" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "071d5101-bff5-4126-a095-aea05f2e5d4c"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "26c70e16-ef9a-4f15-a927-f9c8c7dc7226"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "b0f18648-c46f-4301-908e-0892375ad829")
+    (uuid "e2765c1e-d402-4eb5-87a5-61fc42737c19")
     (property "Reference" "R2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "5.1k" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/e2765c1e-d402-4eb5-87a5-61fc42737c19"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
   )
-  (label "CC2" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f84a8ec8-0436-4bea-8125-6666cdf63d30"))
-  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "59a91801-af69-4300-b83a-795cc4934276"))
+  (label "CC2" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1393f5d6-5aa3-49d2-b3ac-22c02b4a3903"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6b0edf52-db84-426f-a3bd-d0e7637862e1"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "fc2b0c39-170b-4bb8-8e67-0af27ef06ba9")
+    (uuid "977c81ff-b080-4f9e-a5db-19958bf99b16")
     (property "Reference" "C1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/977c81ff-b080-4f9e-a5db-19958bf99b16"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VBUS" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6d25c888-1d80-4560-ac8b-67210ee0afba"))
-  (label "GND" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c340e54c-2ab8-43c3-a57b-19a3a6a8d3aa"))
+  (label "VBUS" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eceeacb8-70ea-494d-89c1-e1c380c138b2"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "805c4c48-f109-43b7-a265-107fc20c44d6"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "37af120c-0404-4f7c-aef8-7a10e962b1d1")
+    (uuid "2033ef1d-bacd-4218-81b4-629fad776616")
     (property "Reference" "C2" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/2033ef1d-bacd-4218-81b4-629fad776616"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
   )
-  (label "VBUS" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "64acd07f-694c-463f-bc56-6cea7d278495"))
-  (label "GND" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "373578a8-8767-4f37-8309-b46a985c7a42"))
+  (label "VBUS" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "96c9195d-4e67-4418-8bc2-9b272120b0d7"))
+  (label "GND" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "37b60f42-1ed7-47f9-94bd-9d7f79d2e513"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

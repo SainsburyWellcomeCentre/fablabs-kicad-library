@@ -344,7 +344,7 @@
 		(roundrect_rratio 0.227273)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
+	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TO-263-5_TabPin3.step"
 		(offset
 			(xyz 0 0 0)
 		)

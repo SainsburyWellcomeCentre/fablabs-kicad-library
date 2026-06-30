@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "09491670-f54f-4df5-9fec-ce1bbef66db0")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "2416cd07-c838-4098-8d5e-a4d6b721db96")
   (paper "A4")
   (title_block
     (title "PROTOCOL_GROVE_UART_PORT")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_01x04_Pin
+          "!fablabs-kicad-library:Conn_01x04_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x04_Pin
+            "Value"
+            "Conn_01x04_Pin"
             (at 0 -7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x04, script generated"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,8 +84,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -94,7 +94,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x04_Pin_1_1
+            "Conn_01x04_Pin_1_1"
             (rectangle
               (start 0.8636 2.667)
               (end 0 2.413)
@@ -169,12 +169,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -214,26 +214,36 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x04_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "045aead5-c245-4685-9ff0-38b3fc09a5b1")
+    (uuid "7307c811-0a62-499c-86c7-9bc017f61905")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "Grove_UART" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:JST_PH_B4B-PH-K_1x04_P2.00mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/7307c811-0a62-499c-86c7-9bc017f61905"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "UART_RX" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dc570c1b-d8a5-4496-86fe-397536f5dcb7"))
-  (label "UART_TX" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c6442995-1301-42e4-a30f-f653323cc6ae"))
-  (label "VCC" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4ce7fc49-8f00-4124-872a-5b934c7775e9"))
-  (label "GND" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c63a0552-19d9-4a55-9712-d1a39c51d9e7"))
+  (label "UART_RX" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "90ba4e34-702c-408d-9888-6b7c43d100fc"))
+  (label "UART_TX" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f6737367-1b5a-411b-86d6-ed2d895e7cf0"))
+  (label "VCC" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bea8a11c-87a5-4c7d-8af6-20f386d2e719"))
+  (label "GND" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6879469f-f019-4781-9021-efb3a5199149"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

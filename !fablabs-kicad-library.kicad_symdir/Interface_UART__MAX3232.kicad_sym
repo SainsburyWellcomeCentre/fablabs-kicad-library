@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    MAX232
+    "MAX232"
     (pin_names
       (offset 1.016))
     (exclude_from_sim no)
@@ -11,8 +11,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -2.54 28.575 0)
       (show_name no)
       (do_not_autoplace no)
@@ -21,8 +21,8 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Value
-      MAX232
+      "Value"
+      "MAX232"
       (at -2.54 26.67 0)
       (show_name no)
       (do_not_autoplace no)
@@ -31,7 +31,7 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 1.27 -26.67 0)
       (show_name no)
@@ -42,8 +42,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/max232.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/max232.pdf"
       (at 0 2.54 0)
       (show_name no)
       (do_not_autoplace no)
@@ -52,7 +52,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "Dual RS232 driver/receiver, 5V supply, 120kb/s, 0C-70C"
       (at 0 0 0)
       (show_name no)
@@ -62,7 +62,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "rs232 uart transceiver line-driver"
       (at 0 0 0)
       (show_name no)
@@ -72,7 +72,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
       (at 0 0 0)
       (show_name no)
@@ -82,21 +82,21 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      MAX232_0_0
+      "MAX232_0_0"
       (text
-        LOGIC
+        "LOGIC"
         (at -11.43 -22.86 0)
         (effects
           (font
             (size 1.27 1.27))))
       (text
-        RS232
+        "RS232"
         (at 11.43 -22.86 0)
         (effects
           (font
             (size 1.27 1.27)))))
     (symbol
-      MAX232_0_1
+      "MAX232_0_1"
       (rectangle
         (start -15.24 -25.4)
         (end 15.24 25.4)
@@ -254,19 +254,19 @@
         (fill
           (type none))))
     (symbol
-      MAX232_1_1
+      "MAX232_1_1"
       (pin
         passive
         line
         (at -20.32 22.86 0)
         (length 5.08)
         (name
-          C1+
+          "C1+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -276,12 +276,12 @@
         (at 20.32 10.16 180)
         (length 5.08)
         (name
-          VS+
+          "VS+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -291,12 +291,12 @@
         (at -20.32 15.24 0)
         (length 5.08)
         (name
-          C1-
+          "C1-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -306,12 +306,12 @@
         (at 20.32 22.86 180)
         (length 5.08)
         (name
-          C2+
+          "C2+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -321,12 +321,12 @@
         (at 20.32 15.24 180)
         (length 5.08)
         (name
-          C2-
+          "C2-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -336,12 +336,12 @@
         (at 20.32 2.54 180)
         (length 5.08)
         (name
-          VS-
+          "VS-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -351,12 +351,12 @@
         (at 20.32 -7.62 180)
         (length 5.08)
         (name
-          T2OUT
+          "T2OUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -366,12 +366,12 @@
         (at 20.32 -17.78 180)
         (length 5.08)
         (name
-          R2IN
+          "R2IN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -381,12 +381,12 @@
         (at -20.32 -17.78 0)
         (length 5.08)
         (name
-          R2OUT
+          "R2OUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -396,12 +396,12 @@
         (at -20.32 -7.62 0)
         (length 5.08)
         (name
-          T2IN
+          "T2IN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -411,12 +411,12 @@
         (at -20.32 -2.54 0)
         (length 5.08)
         (name
-          T1IN
+          "T1IN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -426,12 +426,12 @@
         (at -20.32 -12.7 0)
         (length 5.08)
         (name
-          R1OUT
+          "R1OUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -441,12 +441,12 @@
         (at 20.32 -12.7 180)
         (length 5.08)
         (name
-          R1IN
+          "R1IN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -456,12 +456,12 @@
         (at 20.32 -2.54 180)
         (length 5.08)
         (name
-          T1OUT
+          "T1OUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -471,12 +471,12 @@
         (at 0 -30.48 90)
         (length 5.08)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -486,22 +486,22 @@
         (at 0 30.48 270)
         (length 5.08)
         (name
-          VCC
+          "VCC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    MAX3232
-    (extends MAX232)
+    "MAX3232"
+    (extends "MAX232")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -2.54 28.575 0)
       (show_name no)
       (do_not_autoplace no)
@@ -510,8 +510,8 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Value
-      MAX3232
+      "Value"
+      "MAX3232"
       (at -2.54 26.67 0)
       (show_name no)
       (do_not_autoplace no)
@@ -520,7 +520,7 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 1.27 -26.67 0)
       (show_name no)
@@ -531,8 +531,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Datasheet
-      https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf
+      "Datasheet"
+      "https://datasheets.maximintegrated.com/en/ds/MAX3222-MAX3241.pdf"
       (at 0 2.54 0)
       (show_name no)
       (do_not_autoplace no)
@@ -541,7 +541,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "3.0V to 5.5V, Low-Power, up to 1Mbps, True RS-232 Transceivers Using Four 0.1Î¼F External Capacitors"
       (at 0 0 0)
       (show_name no)
@@ -551,7 +551,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "rs232 uart transceiver line-driver"
       (at 0 0 0)
       (show_name no)
@@ -561,7 +561,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "SOIC*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*"
       (at 0 0 0)
       (show_name no)

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-    (uuid "b80e8388-08cc-428f-80f4-b9c357bd9227")
+    (uuid "dd67e46a-3ca3-4f4b-bda2-b1adbfe19173")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
   	(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
   	(property "Reference" "J1"
-    (at 50 50 0)
+  		(at 2.54 -6.32 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -309,7 +310,7 @@
   		(remove_unused_layers no)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -322,14 +323,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:Fuse_1206_3216Metric"
-    (uuid "eaeb3801-31ed-4f52-b5e6-8b6f57fb86d5")
+    (uuid "abdd23ad-abf0-4c76-913d-9cebc1914b3c")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
   	(tags "fuse")
   	(property "Reference" "F1"
-    (at 80 50 0)
+  		(at 0 -1.83 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -439,10 +441,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D1"
-    (at 110 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -714,10 +717,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D2"
-    (at 140 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -985,14 +989,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm"
-    (uuid "eefc0f1f-97c4-4e91-b251-68f5a34e1f41")
+    (uuid "b3c8866c-2599-45c7-9009-4afaaf7f4d33")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
   	(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
   	(property "Reference" "C1"
-    (at 170 50 0)
+  		(at 1.25 -4.4 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -2335,14 +2340,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "a47cb100-d996-4c83-ba31-2c31cc537b28")
+    (uuid "77f1733d-16a8-49a9-a58e-bbe1d52c7078")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 50 80 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font

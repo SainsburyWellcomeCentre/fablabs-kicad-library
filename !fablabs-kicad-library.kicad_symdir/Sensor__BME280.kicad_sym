@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    BME280
+    "BME280"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -8.89 11.43 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      BME280
+      "Value"
+      "BME280"
       (at 7.62 11.43 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering
+      "Footprint"
+      "Package_LGA:Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering"
       (at 38.1 -11.43 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf
+      "Datasheet"
+      "https://www.bosch-sensortec.com/media/boschsensortec/downloads/datasheets/bst-bme280-ds002.pdf"
       (at 0 -5.08 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "3-in-1 sensor, humidity, pressure, temperature, I2C and SPI interface, 1.71-3.6V, LGA-8"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "Bosch pressure humidity temperature environment environmental measurement digital"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      *LGA*2.5x2.5mm*P0.65mm*Clockwise*
+      "ki_fp_filters"
+      "*LGA*2.5x2.5mm*P0.65mm*Clockwise*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      BME280_0_1
+      "BME280_0_1"
       (rectangle
         (start -10.16 10.16)
         (end 10.16 -10.16)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      BME280_1_1
+      "BME280_1_1"
       (pin
         power_in
         line
         (at -2.54 -15.24 90)
         (length 5.08)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at 15.24 -7.62 180)
         (length 5.08)
         (name
-          CSB
+          "CSB"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at 15.24 -2.54 180)
         (length 5.08)
         (name
-          SDI
+          "SDI"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -139,12 +139,12 @@
         (at 15.24 2.54 180)
         (length 5.08)
         (name
-          SCK
+          "SCK"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -154,12 +154,12 @@
         (at 15.24 7.62 180)
         (length 5.08)
         (name
-          SDO
+          "SDO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -169,12 +169,12 @@
         (at -2.54 15.24 270)
         (length 5.08)
         (name
-          VDDIO
+          "VDDIO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
         (at 2.54 -15.24 90)
         (length 5.08)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
         (at 2.54 15.24 270)
         (length 5.08)
         (name
-          VDD
+          "VDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27))))))

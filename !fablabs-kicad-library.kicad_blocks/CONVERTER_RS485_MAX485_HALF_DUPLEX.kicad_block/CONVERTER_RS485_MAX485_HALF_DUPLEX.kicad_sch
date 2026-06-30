@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "7a7772d5-61a6-46fe-8884-b6c0138613e8")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "0e76ab75-6274-4c52-a9cc-02a0eb6b1c24")
   (paper "A4")
   (title_block
     (title "CONVERTER_RS485_MAX485_HALF_DUPLEX")
@@ -7,15 +7,15 @@
   )
   (lib_symbols
     (symbol
-          LTC2850xS8
+          "!fablabs-kicad-library:LTC2850xS8"
           (exclude_from_sim no)
           (in_bom yes)
           (on_board yes)
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -6.985 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -23,8 +23,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            LTC2850xS8
+            "Value"
+            "LTC2850xS8"
             (at 7.62 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -32,8 +32,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
-            Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+            "Footprint"
+            "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
             (at 0 -22.86 0)
             (show_name no)
             (do_not_autoplace no)
@@ -42,8 +42,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf
+            "Datasheet"
+            "https://www.analog.com/media/en/technical-documentation/data-sheets/285012fe.pdf"
             (at -12.7 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -52,7 +52,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "RS-485, RS-422 Half-duplex 20Mbps transceiver, SOIC-8"
             (at 0 0 0)
             (show_name no)
@@ -62,7 +62,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "RS485 RS422 transceiver half duplex"
             (at 0 0 0)
             (show_name no)
@@ -72,8 +72,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            SOIC*3.9x4.9mm*P1.27mm*
+            "ki_fp_filters"
+            "SOIC*3.9x4.9mm*P1.27mm*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -82,7 +82,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            LTC2850xS8_0_1
+            "LTC2850xS8_0_1"
             (rectangle
               (start -7.62 12.7)
               (end 7.62 -12.7)
@@ -212,7 +212,7 @@
               (fill
                 (type none))))
           (symbol
-            LTC2850xS8_1_1
+            "LTC2850xS8_1_1"
             (circle
               (center -0.762 2.54)
               (radius 0.508)
@@ -255,12 +255,12 @@
               (at -10.16 5.08 0)
               (length 2.54)
               (name
-                RO
+                "RO"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -270,12 +270,12 @@
               (at -10.16 2.54 0)
               (length 2.54)
               (name
-                ~{RE}
+                "~{RE}"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -285,12 +285,12 @@
               (at -10.16 0 0)
               (length 2.54)
               (name
-                DE
+                "DE"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -300,12 +300,12 @@
               (at -10.16 -5.08 0)
               (length 2.54)
               (name
-                DI
+                "DI"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -315,12 +315,12 @@
               (at 0 -15.24 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -330,12 +330,12 @@
               (at 10.16 7.62 180)
               (length 2.54)
               (name
-                A
+                "A"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -345,12 +345,12 @@
               (at 10.16 2.54 180)
               (length 2.54)
               (name
-                B
+                "B"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -360,22 +360,22 @@
               (at 0 15.24 270)
               (length 2.54)
               (name
-                VCC
+                "VCC"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          MAX481E
-          (extends LTC2850xS8)
+          "!fablabs-kicad-library:MAX481E"
+          (extends "!fablabs-kicad-library:LTC2850xS8")
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -6.985 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -383,8 +383,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            MAX481E
+            "Value"
+            "MAX481E"
             (at 1.905 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -393,7 +393,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 -17.78 0)
             (show_name no)
@@ -403,8 +403,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+            "Datasheet"
+            "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
             (at 0 1.27 0)
             (show_name no)
             (do_not_autoplace no)
@@ -413,7 +413,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Half duplex RS-485/RS-422, 2.5 Mbps, Â±15kV electro-static discharge (ESD) protection, no slew-rate, with low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
             (at 0 0 0)
             (show_name no)
@@ -423,8 +423,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            transceiver
+            "ki_keywords"
+            "transceiver"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -433,7 +433,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
             (at 0 0 0)
             (show_name no)
@@ -444,11 +444,11 @@
                 (size 1.27 1.27))))
           (embedded_fonts no))
     (symbol
-          MAX485E
-          (extends MAX481E)
+          "!fablabs-kicad-library:MAX485E"
+          (extends "!fablabs-kicad-library:MAX481E")
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -6.985 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -456,8 +456,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            MAX485E
+            "Value"
+            "MAX485E"
             (at 1.905 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -466,7 +466,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 -17.78 0)
             (show_name no)
@@ -476,8 +476,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf
+            "Datasheet"
+            "https://datasheets.maximintegrated.com/en/ds/MAX1487E-MAX491E.pdf"
             (at 0 1.27 0)
             (show_name no)
             (do_not_autoplace no)
@@ -486,7 +486,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Half duplex RS-485/RS-422, 2.5 Mbps, Â±15kV electro-static discharge (ESD) protection, no slew-rate, no low-power shutdown, with receiver/driver enable, 32 receiver drive capability, DIP-8 and SOIC-8"
             (at 0 0 0)
             (show_name no)
@@ -496,8 +496,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            transceiver
+            "ki_keywords"
+            "transceiver"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -506,7 +506,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "DIP*W7.62mm* SOIC*3.9x4.9mm*P1.27mm*"
             (at 0 0 0)
             (show_name no)
@@ -517,7 +517,7 @@
                 (size 1.27 1.27))))
           (embedded_fonts no))
     (symbol
-          R
+          "!fablabs-kicad-library:R"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -528,8 +528,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            R
+            "Reference"
+            "R"
             (at 2.032 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -537,8 +537,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            R
+            "Value"
+            "R"
             (at 0 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -546,7 +546,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at -1.778 0 90)
             (show_name no)
@@ -556,7 +556,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -566,8 +566,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
-            Resistor
+            "Description"
+            "Resistor"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -576,7 +576,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "R res resistor"
             (at 0 0 0)
             (show_name no)
@@ -586,8 +586,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            R_*
+            "ki_fp_filters"
+            "R_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -596,7 +596,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            R_0_1
+            "R_0_1"
             (rectangle
               (start -1.016 -2.54)
               (end 1.016 2.54)
@@ -606,7 +606,7 @@
               (fill
                 (type none))))
           (symbol
-            R_1_1
+            "R_1_1"
             (pin
               passive
               line
@@ -618,7 +618,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -633,13 +633,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -650,8 +650,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -660,8 +660,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -670,7 +670,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -680,7 +680,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -690,7 +690,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -700,7 +700,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -710,8 +710,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -720,7 +720,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -740,7 +740,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -752,7 +752,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -767,13 +767,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x03_Pin
+          "!fablabs-kicad-library:Conn_01x03_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -783,8 +783,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -792,8 +792,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x03_Pin
+            "Value"
+            "Conn_01x03_Pin"
             (at 0 -5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -801,7 +801,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -811,7 +811,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -821,7 +821,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x03, script generated"
             (at 0 0 0)
             (show_name no)
@@ -831,7 +831,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -840,8 +840,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -850,8 +850,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -860,7 +860,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x03_Pin_1_1
+            "Conn_01x03_Pin_1_1"
             (rectangle
               (start 0.8636 2.667)
               (end 0 2.413)
@@ -918,12 +918,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -933,12 +933,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -948,18 +948,18 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x05_Pin
+          "!fablabs-kicad-library:Conn_01x05_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -969,8 +969,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -978,8 +978,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x05_Pin
+            "Value"
+            "Conn_01x05_Pin"
             (at 0 -7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -987,7 +987,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -997,7 +997,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -1007,7 +1007,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x05, script generated"
             (at 0 0 0)
             (show_name no)
@@ -1017,7 +1017,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -1026,8 +1026,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -1036,8 +1036,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -1046,7 +1046,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x05_Pin_1_1
+            "Conn_01x05_Pin_1_1"
             (rectangle
               (start 0.8636 5.207)
               (end 0 4.953)
@@ -1138,12 +1138,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1153,12 +1153,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1168,12 +1168,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1183,12 +1183,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1198,72 +1198,110 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:MAX485E") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "ef404984-880e-4a5e-9238-f0736be3daba")
+    (uuid "79d9bc90-8065-461f-a680-6aeebd97a858")
     (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "MAX485" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SOIC-8_3.9x4.9mm_P1.27mm" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "http://www.analog.com/media/en/technical-documentation/data-sheets/MAX1487-MAX491.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "MAX485CSA+" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Analog Devices" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/79d9bc90-8065-461f-a680-6aeebd97a858"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
   )
-  (label "RO" (at 19.84 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9c8c6e9f-ee1e-49dd-81e9-bc0b030e4c09"))
-  (label "RE_N" (at 19.84 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b422f9b4-93fd-46cc-9fe2-184d6334e4f3"))
-  (label "DE" (at 19.84 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ab89eb56-feee-4efc-bfce-1fb7a42f2e87"))
-  (label "DI" (at 19.84 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "07af8ee4-d8ff-45b0-a3fe-7e6d58a7b605"))
-  (label "RS485_A" (at 40.16 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bf71842b-668d-4e0a-a107-6ad4884c18a3"))
-  (label "RS485_B" (at 40.16 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "01cdb0c7-c29f-431f-b6b5-553931019ce9"))
-  (label "+5V" (at 30 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "42405fa5-aeee-49e5-b8ac-3f8bfaf8713c"))
-  (label "GND" (at 30 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4872b5b5-285b-4fa5-9b8b-5627da48e2f3"))
+  (label "RO" (at 19.84 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cda89911-a71c-4e6e-9962-7d86c50d3339"))
+  (label "RE_N" (at 19.84 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fc771282-9339-49ab-bfad-f11f8df9f587"))
+  (label "DE" (at 19.84 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "26b615a9-968d-4cb5-9e78-b246886dfbe2"))
+  (label "DI" (at 19.84 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c6c907bb-ad32-4232-b69f-ca6dc47da683"))
+  (label "RS485_A" (at 40.16 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a5bc5b55-1653-460c-a3e1-8a8d6b19e0fe"))
+  (label "RS485_B" (at 40.16 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7e16c3e3-bf28-4bd2-9ed5-e4945b4eab24"))
+  (label "+5V" (at 30 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c5d3555a-4d8d-44be-acb1-2c49dbb2a5a8"))
+  (label "GND" (at 30 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2123c24f-6a54-468b-872c-919490434d16"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "4c1d15f4-b88b-450c-b2c6-1c3ba8a67d4f")
+    (uuid "56ba3a22-91d7-4f42-8d3a-90f1a9916544")
     (property "Reference" "R1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "120R" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0805_2012Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/56ba3a22-91d7-4f42-8d3a-90f1a9916544"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
   )
-  (label "RS485_A" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "efb03952-6664-433c-95f3-34b9becd9a0e"))
-  (label "RS485_B" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7f20ec40-ff4f-4efd-b93e-6a96dd361b68"))
+  (label "RS485_A" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e250510f-ddf7-480e-82d9-5c0fa7060ee0"))
+  (label "RS485_B" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ff3a77fe-4f80-474b-92f9-054628302b3f"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "9a541bf3-c9e1-4c45-bdde-e9eaa7755bd5")
+    (uuid "05c50cd1-b90e-497a-bc94-1fb94dad6a56")
     (property "Reference" "C1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/05c50cd1-b90e-497a-bc94-1fb94dad6a56"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "+5V" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f87c0db6-3379-48c7-a95f-63b19c15ca11"))
-  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "816a6b2a-76c3-4f09-98cb-b5288fcfb892"))
+  (label "+5V" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "65638ad9-fefc-4387-b898-64f5bf8db711"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a0439911-86b8-415b-81bb-c02132b1696c"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x03_Pin") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "bf5f84c2-324f-4f95-af4e-3017af47f712")
+    (uuid "2e7c2a20-ed55-47db-981e-d8b05676de4d")
     (property "Reference" "J1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "RS485_BUS" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/2e7c2a20-ed55-47db-981e-d8b05676de4d"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "RS485_1" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d64ca291-10a2-46e6-8331-f9ea2884e255"))
-  (label "RS485_2" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "97279d4a-f765-45f8-a8c8-62b5ea3905f8"))
-  (label "RS485_3" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5578f133-1ae9-439f-9204-262a4ceb42ba"))
+  (label "RS485_1" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "47483e87-deae-4256-b945-f7221a6b75e1"))
+  (label "RS485_2" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1baaa6fc-9ed8-4b53-adb3-0889fc346d43"))
+  (label "RS485_3" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8f572654-b94e-42bf-91a1-ca679d10d4b6"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x05_Pin") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "f358472e-3afb-4597-a111-ceed98c12826")
+    (uuid "b5bb4dc4-58ed-4e19-b028-dd4ee1fee4bd")
     (property "Reference" "J2" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "UART_CTRL" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x05_P2.54mm_Vertical" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/b5bb4dc4-58ed-4e19-b028-dd4ee1fee4bd"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "UART_CTRL_1" (at 77.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b2319569-ca9b-4f16-a15e-50b860dd4a06"))
-  (label "UART_CTRL_2" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "af71c8ac-ccdc-41d8-800a-fbc728f3a88a"))
-  (label "UART_CTRL_3" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0eba6334-65b0-44ac-a852-389fbffabb80"))
-  (label "UART_CTRL_4" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e9091e70-76c8-455c-8b04-4d9f628bba31"))
-  (label "UART_CTRL_5" (at 77.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "13f16f3d-8271-4794-b601-f1dee720e9b5"))
+  (label "UART_CTRL_1" (at 77.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a51522e9-c44b-4f9b-9760-2fc1785f8754"))
+  (label "UART_CTRL_2" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a0c2c2ff-ec6a-41e2-a53e-1ad3493e3bd5"))
+  (label "UART_CTRL_3" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f92f04d5-71b5-4e43-b9a3-d5f1a6677b1a"))
+  (label "UART_CTRL_4" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5252cb72-2988-4fa4-a881-794254efaf65"))
+  (label "UART_CTRL_5" (at 77.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "329aaa71-d332-4f73-bfc7-9d56308e0d82"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

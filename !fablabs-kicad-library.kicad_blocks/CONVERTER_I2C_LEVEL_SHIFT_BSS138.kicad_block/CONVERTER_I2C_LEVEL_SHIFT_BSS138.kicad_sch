@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "59d659eb-0f26-4bbe-8ca9-c5668187c89f")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "bb0605ab-1d73-4419-87fb-2aaf7316abb2")
   (paper "A4")
   (title_block
     (title "CONVERTER_I2C_LEVEL_SHIFT_BSS138")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Q_NMOS_GSD
+          "!fablabs-kicad-library:Q_NMOS_GSD"
           (pin_names
             (offset 0)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            Q
+            "Reference"
+            "Q"
             (at 5.08 1.905 0)
             (show_name no)
             (do_not_autoplace no)
@@ -27,8 +27,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            Q_NMOS_GSD
+            "Value"
+            "Q_NMOS_GSD"
             (at 5.08 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -37,7 +37,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 5.08 2.54 0)
             (show_name no)
@@ -47,7 +47,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -57,7 +57,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "N-MOSFET transistor, gate/source/drain"
             (at 0 0 0)
             (show_name no)
@@ -67,7 +67,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "transistor NMOS N-MOS N-MOSFET"
             (at 0 0 0)
             (show_name no)
@@ -77,7 +77,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Q_NMOS_GSD_0_1
+            "Q_NMOS_GSD_0_1"
             (polyline
               (pts
                 (xy 0.254 1.905)
@@ -209,19 +209,19 @@
               (fill
                 (type none))))
           (symbol
-            Q_NMOS_GSD_1_1
+            "Q_NMOS_GSD_1_1"
             (pin
               input
               line
               (at -5.08 0 0)
               (length 2.54)
               (name
-                G
+                "G"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -231,12 +231,12 @@
               (at 2.54 -5.08 90)
               (length 2.54)
               (name
-                S
+                "S"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -246,18 +246,18 @@
               (at 2.54 5.08 270)
               (length 2.54)
               (name
-                D
+                "D"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          R
+          "!fablabs-kicad-library:R"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -268,8 +268,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            R
+            "Reference"
+            "R"
             (at 2.032 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -277,8 +277,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            R
+            "Value"
+            "R"
             (at 0 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -286,7 +286,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at -1.778 0 90)
             (show_name no)
@@ -296,7 +296,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -306,8 +306,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
-            Resistor
+            "Description"
+            "Resistor"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -316,7 +316,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "R res resistor"
             (at 0 0 0)
             (show_name no)
@@ -326,8 +326,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            R_*
+            "ki_fp_filters"
+            "R_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -336,7 +336,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            R_0_1
+            "R_0_1"
             (rectangle
               (start -1.016 -2.54)
               (end 1.016 2.54)
@@ -346,7 +346,7 @@
               (fill
                 (type none))))
           (symbol
-            R_1_1
+            "R_1_1"
             (pin
               passive
               line
@@ -358,7 +358,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -373,13 +373,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x04_Pin
+          "!fablabs-kicad-library:Conn_01x04_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -389,8 +389,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -398,8 +398,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x04_Pin
+            "Value"
+            "Conn_01x04_Pin"
             (at 0 -7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -407,7 +407,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -417,7 +417,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -427,7 +427,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x04, script generated"
             (at 0 0 0)
             (show_name no)
@@ -437,7 +437,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -446,8 +446,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -456,8 +456,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -466,7 +466,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x04_Pin_1_1
+            "Conn_01x04_Pin_1_1"
             (rectangle
               (start 0.8636 2.667)
               (end 0 2.413)
@@ -541,12 +541,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -556,12 +556,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -571,12 +571,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -586,93 +586,152 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Q_NMOS_GSD") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "d3d16820-cbb4-4396-a20d-6c551e7f6f65")
+    (uuid "82d038be-d782-4072-96b2-f4841cf2bc48")
     (property "Reference" "Q1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "BSS138" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SOT-23" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/82d038be-d782-4072-96b2-f4841cf2bc48"
+          (reference "Q1") (unit 1)
+        )
+      )
+    )
   )
-  (label "LV" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "64f9254b-3068-42e7-a275-307d3d47b618"))
-  (label "SCL_LV" (at 32.54 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c3eefb54-9702-4c6a-9ed5-5fa3a509a67b"))
-  (label "SCL_HV" (at 32.54 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1e9b3f8e-e4b1-42ba-812b-7c46bb80f857"))
+  (label "LV" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ac9c7340-4442-44c0-8b42-5b33a5dc2cf2"))
+  (label "SCL_LV" (at 32.54 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1d10b8d4-ed5e-4dd2-b207-dbe90989c51c"))
+  (label "SCL_HV" (at 32.54 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e2f326bf-b2dd-4890-9b86-d3341da3945d"))
   (symbol (lib_id "!fablabs-kicad-library:Q_NMOS_GSD") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "228e021b-dd6a-49be-b8f1-b9496d74a4f5")
+    (uuid "4bc42c63-8332-4a6a-91f4-68f95aeff2f4")
     (property "Reference" "Q2" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "BSS138" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SOT-23" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/4bc42c63-8332-4a6a-91f4-68f95aeff2f4"
+          (reference "Q2") (unit 1)
+        )
+      )
+    )
   )
-  (label "LV" (at 66.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eb056066-f16d-4e74-9999-d47b36462a66"))
-  (label "SDA_LV" (at 74.54 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3671adff-94a4-430f-a909-b4226535730f"))
-  (label "SDA_HV" (at 74.54 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2cfca151-7001-4efe-bb78-58a7d447172e"))
+  (label "LV" (at 66.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b289f972-b4aa-4a9c-baef-85d03d1be729"))
+  (label "SDA_LV" (at 74.54 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f559e1f5-e766-4156-9e93-98a48e515548"))
+  (label "SDA_HV" (at 74.54 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7d398a50-e139-43db-8ae3-429e70a64818"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "a0f6d799-ccbb-46fc-a473-492cc7f13e67")
+    (uuid "10a996af-cf5e-4778-94d9-1d3f22779ad4")
     (property "Reference" "R1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10k" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/10a996af-cf5e-4778-94d9-1d3f22779ad4"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
   )
-  (label "SCL_LV" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3f64e17b-0550-4c9f-943d-dc204ba92ee7"))
-  (label "LV" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c85afce0-3942-4453-a51d-ba74657c3d7c"))
+  (label "SCL_LV" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3dea928e-9f22-40eb-a9b4-f5e477e84dd4"))
+  (label "LV" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b3a03907-9a72-4273-9ff6-cac4307d78db"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "2e2f0c3b-c7cc-4d82-952d-396bf8f23c63")
+    (uuid "16804cf1-ffe5-40ff-b2bc-601b73e5d8d5")
     (property "Reference" "R2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10k" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/16804cf1-ffe5-40ff-b2bc-601b73e5d8d5"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
   )
-  (label "SDA_LV" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d80b0a8c-3a0d-47d3-9ad3-8fc2eca43f47"))
-  (label "LV" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d65956a3-dad2-4d35-9a58-a5a2fa3d712c"))
+  (label "SDA_LV" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "49f11701-8ad7-4dfa-8030-5c9795a6af45"))
+  (label "LV" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "29ab19d2-e08b-483a-b713-e08de82d9af4"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "dc2ae8e5-e5f0-4d4c-9222-a193e3747d3d")
+    (uuid "5b50619d-c9c6-4121-b967-1960435c8d58")
     (property "Reference" "R3" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10k" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/5b50619d-c9c6-4121-b967-1960435c8d58"
+          (reference "R3") (unit 1)
+        )
+      )
+    )
   )
-  (label "SCL_HV" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7224ba31-5bc9-4c8b-84e5-608f5963fa04"))
-  (label "HV" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eec5406f-c811-408f-a933-e1154afdf200"))
+  (label "SCL_HV" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "27400117-67da-48fa-b8d4-928ee552a279"))
+  (label "HV" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "65ffefbb-61d0-48f7-a085-57dc09004b47"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "b9594aa2-6a38-4766-9ac6-1c79b056a0dd")
+    (uuid "b5c279fe-cfb2-4a72-a39a-e84b2e15dcda")
     (property "Reference" "R4" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10k" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/b5c279fe-cfb2-4a72-a39a-e84b2e15dcda"
+          (reference "R4") (unit 1)
+        )
+      )
+    )
   )
-  (label "SDA_HV" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8773ae4e-bc05-45ab-9fe9-3869697cc46a"))
-  (label "HV" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7cf984e0-4a9e-4fdd-899d-2a16118d1bd4"))
+  (label "SDA_HV" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1708350f-3a0b-4a19-9d3c-694eebe39f1d"))
+  (label "HV" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eedc8c68-f1ad-4b9d-ae7e-fc9671d59b39"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x04_Pin") (at 30 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "ed42b84b-28b3-470d-b678-fb3367b2f378")
+    (uuid "df368a4c-b497-42c9-851a-34cc02098524")
     (property "Reference" "J1" (at 30 91.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "I2C_LV" (at 30 106.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x04_P2.54mm_Vertical" (at 30 109.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/df368a4c-b497-42c9-851a-34cc02098524"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "I2C_LV_1" (at 35.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "019bee59-0b85-4915-b8a7-49dfca3b65b5"))
-  (label "I2C_LV_2" (at 35.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6b0db2ee-e93c-4e03-be95-25e2dead0f86"))
-  (label "I2C_LV_3" (at 35.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "29caef56-d06c-4c42-9caf-cd7ef9f6b2f1"))
-  (label "I2C_LV_4" (at 35.08 93.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "03580394-fc1b-4c46-81d2-bdf9b9ccb873"))
+  (label "I2C_LV_1" (at 35.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "247d7575-483e-4c5e-8915-a3638c5e39f1"))
+  (label "I2C_LV_2" (at 35.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2859a01f-0f9d-459f-a6f8-f3d17de2ca8c"))
+  (label "I2C_LV_3" (at 35.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "18bdffff-7e30-4d16-948c-2d22bd496f1a"))
+  (label "I2C_LV_4" (at 35.08 104.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1ff42e1d-bc08-48be-9e1d-86f1079db96c"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x04_Pin") (at 72 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "f5f723b8-1c31-4f1e-a29c-f9e2ee709692")
+    (uuid "601db67f-988a-4d50-86fa-9e52e5e5c97f")
     (property "Reference" "J2" (at 72 91.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "I2C_HV" (at 72 106.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x04_P2.54mm_Vertical" (at 72 109.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/601db67f-988a-4d50-86fa-9e52e5e5c97f"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "I2C_HV_1" (at 77.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d5b96499-e07e-4944-8d93-00420089060d"))
-  (label "I2C_HV_2" (at 77.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3b3afe3a-d847-4034-9698-a5a58690ede7"))
-  (label "I2C_HV_3" (at 77.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "52130d28-598d-43de-89e5-a508e9008bbe"))
-  (label "I2C_HV_4" (at 77.08 93.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e182b6be-806d-4d4f-80e8-fc4ef9940690"))
+  (label "I2C_HV_1" (at 77.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2337108a-9acf-461a-9752-6ca69f94729c"))
+  (label "I2C_HV_2" (at 77.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d1ba1766-33eb-4b49-b31c-9cba6eab22ab"))
+  (label "I2C_HV_3" (at 77.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8a9dfe33-26d0-44f8-91d8-4369372b6c3d"))
+  (label "I2C_HV_4" (at 77.08 104.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5e22f447-666d-438e-ba74-c5cb9b6d9bb1"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

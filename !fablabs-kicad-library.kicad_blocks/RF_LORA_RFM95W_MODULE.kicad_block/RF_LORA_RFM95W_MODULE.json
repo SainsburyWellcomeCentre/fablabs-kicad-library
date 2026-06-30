@@ -1,10 +1,9 @@
 {
   "name": "RF_LORA_RFM95W_MODULE",
   "description": "Semtech SX1276/RFM95W LoRa module style header block with SPI, reset, DIO pins and antenna launch placeholder.",
-  "keywords": "",
+  "keywords": "rf,lora,sx1276,rfm95,spi",
   "fields": {
     "Category": "RF",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

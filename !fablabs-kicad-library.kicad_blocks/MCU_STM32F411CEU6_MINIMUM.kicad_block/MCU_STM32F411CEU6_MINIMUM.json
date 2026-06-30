@@ -1,10 +1,9 @@
 {
   "name": "MCU_STM32F411CEU6_MINIMUM",
   "description": "STM32F411CEUx QFN minimum system with crystal, boot/reset, decoupling and SWD header.",
-  "keywords": "",
+  "keywords": "mcu,stm32,stm32f411,swd",
   "fields": {
     "Category": "MCU",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

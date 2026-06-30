@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    HX711
+    "HX711"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at 5.08 21.59 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      HX711
+      "Value"
+      "HX711"
       (at 7.62 19.05 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_SO:SOIC-16_3.9x9.9mm_P1.27mm
+      "Footprint"
+      "Package_SO:SOIC-16_3.9x9.9mm_P1.27mm"
       (at 3.81 1.27 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf
+      "Datasheet"
+      "https://web.archive.org/web/20220615044707/https://akizukidenshi.com/download/ds/avia/hx711.pdf"
       (at 3.81 -1.27 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "24-bit Analog-to-Digital Converter (ADC) for Weight Scales, SOIC-16 (SOP-16)"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "load-cell 24-bits"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      *SO*3.9x9.9mm*P1.27mm*
+      "ki_fp_filters"
+      "*SO*3.9x9.9mm*P1.27mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      HX711_0_1
+      "HX711_0_1"
       (rectangle
         (start -10.16 17.78)
         (end 10.16 -17.78)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      HX711_1_1
+      "HX711_1_1"
       (pin
         power_in
         line
         (at -2.54 20.32 270)
         (length 2.54)
         (name
-          VSUP
+          "VSUP"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at -12.7 12.7 0)
         (length 2.54)
         (name
-          BASE
+          "BASE"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at -12.7 10.16 0)
         (length 2.54)
         (name
-          AVDD
+          "AVDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -139,12 +139,12 @@
         (at -12.7 7.62 0)
         (length 2.54)
         (name
-          VFB
+          "VFB"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -154,12 +154,12 @@
         (at 0 -20.32 90)
         (length 2.54)
         (name
-          AGND
+          "AGND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -169,12 +169,12 @@
         (at -12.7 -15.24 0)
         (length 2.54)
         (name
-          VBG
+          "VBG"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
         (at -12.7 -2.54 0)
         (length 2.54)
         (name
-          INA-
+          "INA-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
         (at -12.7 0 0)
         (length 2.54)
         (name
-          INA+
+          "INA+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -214,12 +214,12 @@
         (at -12.7 -10.16 0)
         (length 2.54)
         (name
-          INB-
+          "INB-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -229,12 +229,12 @@
         (at -12.7 -7.62 0)
         (length 2.54)
         (name
-          INB+
+          "INB+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -244,12 +244,12 @@
         (at 12.7 5.08 180)
         (length 2.54)
         (name
-          PD_SCK
+          "PD_SCK"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -259,12 +259,12 @@
         (at 12.7 7.62 180)
         (length 2.54)
         (name
-          DOUT
+          "DOUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -274,12 +274,12 @@
         (at 12.7 0 180)
         (length 2.54)
         (name
-          XO
+          "XO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -289,12 +289,12 @@
         (at 12.7 -2.54 180)
         (length 2.54)
         (name
-          XI
+          "XI"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -304,12 +304,12 @@
         (at 12.7 -10.16 180)
         (length 2.54)
         (name
-          RATE
+          "RATE"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -319,12 +319,12 @@
         (at 2.54 20.32 270)
         (length 2.54)
         (name
-          DVDD
+          "DVDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27))))))

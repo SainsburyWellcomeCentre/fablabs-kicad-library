@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:SOIC-16_3.9x9.9mm_P1.27mm"
-    (uuid "490030eb-559b-46a5-838a-b79e5f45db16")
+    (uuid "fa2acd4c-c899-4797-88ca-0a52bee75f6c")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "SOIC, 16 Pin (JEDEC MS-012, variation AC, https://www.jedec.org/document_search?search_api_views_fulltext=MS-012, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_16.pdf)")
   	(tags "SOIC SO 16-pin-NSOP R-16 R-16-S D0016A M2B SO16 SOT109-1 751B SOIC_N narrow")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -5.9 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -357,7 +358,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/SOIC-16_3.9x9.9mm_P1.27mm.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -374,10 +375,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "http://www.molex.com/pdm_docs/sd/1050170001_sd.pdf")
   	(tags "Micro-USB SMD Typ-B")
   	(property "Reference" "J1"
-    (at 80 50 0)
+  		(at 0 -3.1125 0)
   		(layer "F.SilkS")
   		(uuid "f03a979d-a65d-4cd4-b98a-501038f3dbc6")
   		(effects
@@ -779,13 +781,14 @@
   	)
   )
   (footprint "!fablabs-kicad-library:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-    (uuid "740eff5a-fb16-44a0-bc20-d52626e0207c")
+    (uuid "6e5d9049-bc0f-483f-aaaa-9184fc9d06fb")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
   	(property "Reference" "Y1"
-    (at 110 50 0)
+  		(at 0 -2.45 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -908,14 +911,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "3d2f57cd-e896-40eb-9e40-e16870381eae")
+    (uuid "6e7a0c93-6f38-46b9-9120-3ea6bc2e64b1")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 140 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1021,14 +1025,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "0bf97cc8-803c-4bcc-89eb-f859426b0b18")
+    (uuid "ffa3f598-d67b-410f-b1e2-51ef9c656f9c")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 170 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1134,14 +1139,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "168dc812-ed7a-4433-90ce-5bc2666172b0")
+    (uuid "e4b0863a-4cbb-49b6-8251-13f5288b7861")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C3"
-    (at 50 80 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1247,14 +1253,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical"
-    (uuid "757a4455-4d02-4bbf-bc75-2aa7d3373b92")
+    (uuid "82a9c189-0ec7-4e90-9a8b-d9fd8f78b215")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 80 0)
   	(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x06 2.54mm single row")
   	(property "Reference" "J2"
-    (at 80 80 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

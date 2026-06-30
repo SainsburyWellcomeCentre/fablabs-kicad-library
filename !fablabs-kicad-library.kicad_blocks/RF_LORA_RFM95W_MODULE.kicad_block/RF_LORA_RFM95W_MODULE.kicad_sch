@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "156f1d93-3945-4a98-ba81-9426d6356e18")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "f1197186-eaae-47ab-b582-efe07d0d69ec")
   (paper "A4")
   (title_block
     (title "RF_LORA_RFM95W_MODULE")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          RFM95W-868S2
+          "!fablabs-kicad-library:RFM95W-868S2"
           (pin_names
             (offset 1.016))
           (exclude_from_sim no)
@@ -16,8 +16,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -10.414 11.684 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            RFM95W-868S2
+            "Value"
+            "RFM95W-868S2"
             (at 1.524 11.43 0)
             (show_name no)
             (do_not_autoplace no)
@@ -36,7 +36,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at -83.82 41.91 0)
             (show_name no)
@@ -46,8 +46,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf
+            "Datasheet"
+            "https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf"
             (at -83.82 41.91 0)
             (show_name no)
             (do_not_autoplace no)
@@ -56,7 +56,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Low power long range transceiver module, SPI and parallel interface, 868 MHz, spreading factor 6 to12, bandwidth 7.8 to 500kHz, -111 to -148 dBm, SMD-16, DIP-16"
             (at 0 0 0)
             (show_name no)
@@ -66,7 +66,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "Low power long range transceiver module"
             (at 0 0 0)
             (show_name no)
@@ -76,8 +76,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            HOPERF*RFM9XW*
+            "ki_fp_filters"
+            "HOPERF*RFM9XW*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -86,7 +86,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            RFM95W-868S2_0_1
+            "RFM95W-868S2_0_1"
             (rectangle
               (start -10.16 10.16)
               (end 10.16 -12.7)
@@ -96,19 +96,19 @@
               (fill
                 (type background))))
           (symbol
-            RFM95W-868S2_1_1
+            "RFM95W-868S2_1_1"
             (pin
               power_in
               line
               (at -2.54 -15.24 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -118,12 +118,12 @@
               (at -12.7 2.54 0)
               (length 2.54)
               (name
-                MISO
+                "MISO"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -133,12 +133,12 @@
               (at -12.7 5.08 0)
               (length 2.54)
               (name
-                MOSI
+                "MOSI"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -148,12 +148,12 @@
               (at -12.7 7.62 0)
               (length 2.54)
               (name
-                SCK
+                "SCK"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -163,12 +163,12 @@
               (at -12.7 0 0)
               (length 2.54)
               (name
-                NSS
+                "NSS"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -178,12 +178,12 @@
               (at -12.7 -5.08 0)
               (length 2.54)
               (name
-                RESET
+                "RESET"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -193,12 +193,12 @@
               (at 12.7 2.54 180)
               (length 2.54)
               (name
-                DIO5
+                "DIO5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -208,12 +208,12 @@
               (at 0 -15.24 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -223,12 +223,12 @@
               (at 12.7 7.62 180)
               (length 2.54)
               (name
-                ANT
+                "ANT"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                9
+                "9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -238,12 +238,12 @@
               (at 2.54 -15.24 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                10
+                "10"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -253,12 +253,12 @@
               (at 12.7 -2.54 180)
               (length 2.54)
               (name
-                DIO3
+                "DIO3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                11
+                "11"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -268,12 +268,12 @@
               (at 12.7 0 180)
               (length 2.54)
               (name
-                DIO4
+                "DIO4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                12
+                "12"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -283,12 +283,12 @@
               (at 0 12.7 270)
               (length 2.54)
               (name
-                3.3V
+                "3.3V"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                13
+                "13"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -298,12 +298,12 @@
               (at 12.7 -10.16 180)
               (length 2.54)
               (name
-                DIO0
+                "DIO0"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                14
+                "14"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -313,12 +313,12 @@
               (at 12.7 -7.62 180)
               (length 2.54)
               (name
-                DIO1
+                "DIO1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                15
+                "15"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -328,18 +328,18 @@
               (at 12.7 -5.08 180)
               (length 2.54)
               (name
-                DIO2
+                "DIO2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                16
+                "16"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -350,8 +350,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -360,8 +360,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -370,7 +370,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -380,7 +380,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -390,7 +390,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -400,7 +400,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -410,8 +410,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -420,7 +420,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -440,7 +440,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -452,7 +452,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -467,13 +467,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_Coaxial
+          "!fablabs-kicad-library:Conn_Coaxial"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -483,8 +483,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0.254 3.048 0)
             (show_name no)
             (do_not_autoplace no)
@@ -492,8 +492,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_Coaxial
+            "Value"
+            "Conn_Coaxial"
             (at 2.921 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -501,7 +501,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -511,7 +511,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -521,7 +521,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
             (at 0 0 0)
             (show_name no)
@@ -531,7 +531,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
             (at 0 0 0)
             (show_name no)
@@ -541,7 +541,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
             (at 0 0 0)
             (show_name no)
@@ -551,7 +551,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_Coaxial_0_1
+            "Conn_Coaxial_0_1"
             (polyline
               (pts
                 (xy -2.54 0)
@@ -597,19 +597,19 @@
               (fill
                 (type none))))
           (symbol
-            Conn_Coaxial_1_1
+            "Conn_Coaxial_1_1"
             (pin
               passive
               line
               (at -5.08 0 0)
               (length 2.54)
               (name
-                In
+                "In"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -619,18 +619,18 @@
               (at 0 -5.08 90)
               (length 2.54)
               (name
-                Ext
+                "Ext"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x08_Pin
+          "!fablabs-kicad-library:Conn_01x08_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -640,8 +640,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 10.16 0)
             (show_name no)
             (do_not_autoplace no)
@@ -649,8 +649,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x08_Pin
+            "Value"
+            "Conn_01x08_Pin"
             (at 0 -12.7 0)
             (show_name no)
             (do_not_autoplace no)
@@ -658,7 +658,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -668,7 +668,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -678,7 +678,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x08, script generated"
             (at 0 0 0)
             (show_name no)
@@ -688,7 +688,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -697,8 +697,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -707,8 +707,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -717,7 +717,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x08_Pin_1_1
+            "Conn_01x08_Pin_1_1"
             (rectangle
               (start 0.8636 7.747)
               (end 0 7.493)
@@ -860,12 +860,12 @@
               (at 5.08 7.62 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -875,12 +875,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -890,12 +890,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -905,12 +905,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -920,12 +920,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -935,12 +935,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -950,12 +950,12 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_7
+                "Pin_7"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -965,64 +965,102 @@
               (at 5.08 -10.16 180)
               (length 3.81)
               (name
-                Pin_8
+                "Pin_8"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:RFM95W-868S2") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "358b5862-2da4-4232-84c3-c3a258f654db")
+    (uuid "fe922768-b676-47ed-90c3-d849d629d278")
     (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "RFM95W-868S2" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:HopeRF_RFM9XW_SMD" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "RFM95W-868S2" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "HopeRF" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/fe922768-b676-47ed-90c3-d849d629d278"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
   )
   (symbol (lib_id "!fablabs-kicad-library:C") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "9776e22f-1453-401e-b453-cd5c3e280173")
+    (uuid "aca5acb7-63b4-45ef-992b-3f77fb1e17e6")
     (property "Reference" "C1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/aca5acb7-63b4-45ef-992b-3f77fb1e17e6"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "+3V3" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5c7263de-cd4e-40f3-8ce6-c74d3fadf8db"))
-  (label "GND" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "97e57203-ecb7-414b-b684-94e9bcbeca08"))
+  (label "+3V3" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6e444ed5-4689-4092-b3c5-99df75f42722"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8109c2ea-1ad4-4284-8e33-17577062235c"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "0864bd0f-e46f-4521-9597-d07be81bfd45")
+    (uuid "6ae96c77-0d68-4267-948a-c42b5330f8dc")
     (property "Reference" "C2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/6ae96c77-0d68-4267-948a-c42b5330f8dc"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
   )
-  (label "+3V3" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "08cfa06d-84d4-461c-9c3f-d9dbf5e6da0d"))
-  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6d81662f-f45b-4697-8b7c-935df0c8ad9e"))
+  (label "+3V3" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2051e52e-dcd2-424c-81a7-11ea8a32c1ec"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f18990b9-b751-444a-8bd1-3f260ab5b82e"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_Coaxial") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "56e70de9-d37b-4a6a-b0c4-a328474deb66")
+    (uuid "3672d588-c78d-4e94-abd7-cf8621386d28")
     (property "Reference" "J1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SMA" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SMA_Amphenol_132134_Vertical" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/3672d588-c78d-4e94-abd7-cf8621386d28"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x08_Pin") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "fa674073-b4e1-4d35-9742-d02da71959e5")
+    (uuid "14e3ce4c-8cd4-4d4a-9077-18235ecf482b")
     (property "Reference" "J2" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "LORA_IO" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x08_P2.54mm_Vertical" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/14e3ce4c-8cd4-4d4a-9077-18235ecf482b"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "LORA_IO_1" (at 77.08 74.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "015ca2d6-6807-46ae-9f0d-b13c2e38e64e"))
-  (label "LORA_IO_2" (at 77.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c2d85264-d5b9-4ef0-bee9-d95a7952d3d6"))
-  (label "LORA_IO_3" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b026e62b-46a1-4e56-be2c-2a00460e406f"))
-  (label "LORA_IO_4" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dc2c857b-b75b-4b38-a282-bc40cc878bdc"))
-  (label "LORA_IO_5" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f17c36b2-ced7-471c-a8a5-370ab6818e60"))
-  (label "LORA_IO_6" (at 77.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ad861716-95ae-4f2c-bbde-e0d6a15a0d09"))
-  (label "LORA_IO_7" (at 77.08 59.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d7a7d3d6-80d9-49ff-8f86-7d6d813b655e"))
-  (label "LORA_IO_8" (at 77.08 56.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8129b8f7-509b-4f12-ac2b-ec7b49659a6a"))
+  (label "LORA_IO_1" (at 77.08 59.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "92637f32-d1d5-4b44-b1d2-7a00c05c7e7f"))
+  (label "LORA_IO_2" (at 77.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e2158608-03c9-444d-bc2d-6825886946ab"))
+  (label "LORA_IO_3" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e4df91e9-9830-444b-bf72-4d052f899536"))
+  (label "LORA_IO_4" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "53b3b75c-60f2-4e4e-86b7-6f04d3d80022"))
+  (label "LORA_IO_5" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "241ac749-3961-4adc-aa05-6cba69fc9ef0"))
+  (label "LORA_IO_6" (at 77.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "efd3e2b6-218f-46a3-a0f2-46af7b57403e"))
+  (label "LORA_IO_7" (at 77.08 74.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9e844882-8f48-4634-b18e-19cfb13d55a4"))
+  (label "LORA_IO_8" (at 77.08 77.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b59a3d6d-787e-4c16-ba38-540b53c6619f"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

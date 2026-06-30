@@ -1,10 +1,9 @@
 {
   "name": "CONVERTER_CAN_CONTROLLER_MCP2515_SPI",
   "description": "SPI CAN controller block with crystal and controller-side SPI header.",
-  "keywords": "",
+  "keywords": "can,spi,mcp2515,controller",
   "fields": {
     "Category": "Converters",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

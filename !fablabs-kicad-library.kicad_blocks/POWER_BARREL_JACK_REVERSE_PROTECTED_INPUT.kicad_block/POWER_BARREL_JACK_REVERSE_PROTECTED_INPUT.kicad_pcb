@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -25,10 +25,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "DC Barrel Jack")
   	(tags "Power Jack")
   	(property "Reference" "J1"
-    (at 50 50 0)
+  		(at -8.45 5.75 0)
   		(layer "F.SilkS")
   		(uuid "9bf4c2b1-46be-40db-91e7-9fc26926aecf")
   		(effects
@@ -398,14 +399,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:Fuse_1206_3216Metric"
-    (uuid "1f3301cb-cc66-4cba-90f7-82657d6f19ae")
+    (uuid "6573527b-d352-4ae4-8f69-ad3da6948d9a")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
   	(tags "fuse")
   	(property "Reference" "F1"
-    (at 80 50 0)
+  		(at 0 -1.83 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -515,10 +517,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D1"
-    (at 110 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -790,10 +793,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D2"
-    (at 140 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -1061,14 +1065,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "521d5765-bb65-4c5a-808f-c19a7207ff16")
+    (uuid "c616ee87-b512-43b1-b2b4-db19cb387ea6")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 170 50 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1174,14 +1179,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm"
-    (uuid "a5fee97e-4a4e-4b1d-b79b-807a40d8f397")
+    (uuid "02872166-8ea0-4a74-9a5b-fee186189f31")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
   	(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
   	(property "Reference" "C2"
-    (at 50 80 0)
+  		(at 1.25 -4.4 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -2524,14 +2530,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-    (uuid "a351e216-d726-4b37-959d-35d3d4f57f51")
+    (uuid "f5ed3eaa-5091-4a5a-b103-539c1996a13d")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 80 0)
   	(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
   	(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
   	(property "Reference" "J2"
-    (at 80 80 0)
+  		(at 2.54 -6.32 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -2812,7 +2819,7 @@
   		(remove_unused_layers no)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
   		(offset
   			(xyz 0 0 0)
   		)

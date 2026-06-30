@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    SN65HVD230
+    "SN65HVD230"
     (pin_names
       (offset 1.016))
     (exclude_from_sim no)
@@ -11,8 +11,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -2.54 10.16 0)
       (show_name no)
       (do_not_autoplace no)
@@ -21,8 +21,8 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Value
-      SN65HVD230
+      "Value"
+      "SN65HVD230"
       (at -2.54 7.62 0)
       (show_name no)
       (do_not_autoplace no)
@@ -31,8 +31,8 @@
           (size 1.27 1.27))
         (justify right)))
     (property
-      Footprint
-      Package_SO:SOIC-8_3.9x4.9mm_P1.27mm
+      "Footprint"
+      "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
       (at 0 -12.7 0)
       (show_name no)
       (do_not_autoplace no)
@@ -41,8 +41,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
       (at -2.54 10.16 0)
       (show_name no)
       (do_not_autoplace no)
@@ -51,7 +51,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
       (at 0 0 0)
       (show_name no)
@@ -61,7 +61,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "can transeiver ti low-power"
       (at 0 0 0)
       (show_name no)
@@ -71,8 +71,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      SOIC*3.9x4.9mm*P1.27mm*
+      "ki_fp_filters"
+      "SOIC*3.9x4.9mm*P1.27mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -81,7 +81,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      SN65HVD230_0_1
+      "SN65HVD230_0_1"
       (rectangle
         (start -7.62 5.08)
         (end 7.62 -7.62)
@@ -91,19 +91,19 @@
         (fill
           (type background))))
     (symbol
-      SN65HVD230_1_1
+      "SN65HVD230_1_1"
       (pin
         input
         line
         (at -10.16 2.54 0)
         (length 2.54)
         (name
-          D
+          "D"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -113,12 +113,12 @@
         (at 0 -10.16 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -128,12 +128,12 @@
         (at 0 7.62 270)
         (length 2.54)
         (name
-          VCC
+          "VCC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -143,12 +143,12 @@
         (at -10.16 0 0)
         (length 2.54)
         (name
-          R
+          "R"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -158,12 +158,12 @@
         (at -10.16 -2.54 0)
         (length 2.54)
         (name
-          Vref
+          "Vref"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -173,12 +173,12 @@
         (at 10.16 -2.54 180)
         (length 2.54)
         (name
-          CANL
+          "CANL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -188,12 +188,12 @@
         (at 10.16 0 180)
         (length 2.54)
         (name
-          CANH
+          "CANH"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -203,12 +203,12 @@
         (at -10.16 -5.08 0)
         (length 2.54)
         (name
-          Rs
+          "Rs"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27))))))

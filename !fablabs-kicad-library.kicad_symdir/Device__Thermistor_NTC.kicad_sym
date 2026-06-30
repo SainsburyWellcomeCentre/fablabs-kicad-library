@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    Thermistor_NTC
+    "Thermistor_NTC"
     (pin_numbers
       (hide yes))
     (pin_names
@@ -13,8 +13,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      TH
+      "Reference"
+      "TH"
       (at -4.445 0 90)
       (show_name no)
       (do_not_autoplace no)
@@ -22,8 +22,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      Thermistor_NTC
+      "Value"
+      "Thermistor_NTC"
       (at 3.175 0 90)
       (show_name no)
       (do_not_autoplace no)
@@ -31,7 +31,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 0 1.27 0)
       (show_name no)
@@ -41,7 +41,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
+      "Datasheet"
       ""
       (at 0 1.27 0)
       (show_name no)
@@ -51,7 +51,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "Temperature dependent resistor, negative temperature coefficient"
       (at 0 0 0)
       (show_name no)
@@ -61,7 +61,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "thermistor NTC resistor sensor RTD"
       (at 0 0 0)
       (show_name no)
@@ -71,7 +71,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "R_* RV_*"
       (at 0 0 0)
       (show_name no)
@@ -81,7 +81,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      Thermistor_NTC_0_1
+      "Thermistor_NTC_0_1"
       (arc
         (start -3.175 2.413)
         (mid -3.0506 2.3165)
@@ -200,7 +200,7 @@
         (fill
           (type none))))
     (symbol
-      Thermistor_NTC_1_1
+      "Thermistor_NTC_1_1"
       (pin
         passive
         line
@@ -212,7 +212,7 @@
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -227,7 +227,7 @@
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27))))))

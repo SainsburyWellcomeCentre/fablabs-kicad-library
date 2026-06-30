@@ -277,7 +277,7 @@
 		(uuid "1babf453-3a82-491c-a2dc-b1ad71de665b")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_LGA.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.step"
+	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/Bosch_LGA-8_2.5x2.5mm_P0.65mm_ClockwisePinNumbering.step"
 		(offset
 			(xyz 0.01500000025 -0.03500000059 0)
 		)

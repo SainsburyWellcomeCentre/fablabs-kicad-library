@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:TSSOP-10_3x3mm_P0.5mm"
-    (uuid "3d4a8852-e8cd-45e5-bb49-67d8f2751e6d")
+    (uuid "a8899b45-f017-4141-8fbe-7c571e8b29b0")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "TSSOP, 10 Pin (https://www.ti.com/lit/ml/mpds035c/mpds035c.pdf, https://www.ti.com/lit/ds/symlink/ads1115.pdf#page=50, https://www.nxp.com/docs/en/package-information/SOT552-1.pdf)")
   	(tags "TSSOP SO Texas_DGS0010A Texas_VSSOP-10 NXP_SOT552-1 MSOP-10_3x3mm_P0.5mm VSSOP-10_3x3mm_P0.5mm")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -2.45 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -321,7 +322,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-10_3x3mm_P0.5mm.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TSSOP-10_3x3mm_P0.5mm.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -334,14 +335,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "040bf1ad-166d-4a19-99d9-0709958fff78")
+    (uuid "969d895f-0fa5-4d20-80bf-8a276b45aaa5")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -447,14 +449,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x04_P2.54mm_Vertical"
-    (uuid "35add231-b8b3-4d32-8647-fa4bd188feb0")
+    (uuid "82111a95-46a6-461f-a101-fc695477f361")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x04 2.54mm single row")
   	(property "Reference" "J1"
-    (at 110 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -647,14 +650,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical"
-    (uuid "f3163902-e282-4de6-83a1-42cf340a251f")
+    (uuid "9e4fa34f-38eb-4549-a21a-3f8b686db7be")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x06 2.54mm single row")
   	(property "Reference" "J2"
-    (at 140 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

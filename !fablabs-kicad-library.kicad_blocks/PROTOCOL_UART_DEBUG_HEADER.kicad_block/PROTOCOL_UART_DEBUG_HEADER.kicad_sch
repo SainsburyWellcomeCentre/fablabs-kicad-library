@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "45354224-e3f3-4452-94d4-9949204b070f")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "70e09d7e-5913-47de-a56c-a0e8aca5b5da")
   (paper "A4")
   (title_block
     (title "PROTOCOL_UART_DEBUG_HEADER")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_01x06_Pin
+          "!fablabs-kicad-library:Conn_01x06_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x06_Pin
+            "Value"
+            "Conn_01x06_Pin"
             (at 0 -10.16 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x06, script generated"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,8 +84,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -94,7 +94,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x06_Pin_1_1
+            "Conn_01x06_Pin_1_1"
             (rectangle
               (start 0.8636 5.207)
               (end 0 4.953)
@@ -203,12 +203,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -218,12 +218,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -233,12 +233,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -248,12 +248,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -263,12 +263,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -278,28 +278,38 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x06_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "8bfad09a-9c8f-4d6b-8e51-a4bbbcc35539")
+    (uuid "b667b394-a0e1-4477-8b9d-d710d9d630d6")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "UART_DEBUG" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/b667b394-a0e1-4477-8b9d-d710d9d630d6"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "GND" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7ce1047a-78e6-491b-a57c-feb91900b8f7"))
-  (label "VCC" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "43f41c91-0f0b-4442-a4cf-39df9d4a65e2"))
-  (label "TXD" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8587ab1d-cd58-4a57-a0eb-ac37a2437d5e"))
-  (label "RXD" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e3bef814-c5ec-4d1a-92fd-eaf8115835c0"))
-  (label "RST" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2a34e207-db6c-4d6f-bae0-cf825290c0c2"))
-  (label "BOOT" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "af2c7297-2ed2-47a0-8a42-7fcb3f0ef9bd"))
+  (label "GND" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8449de36-0267-431c-ae2f-5e728b44db96"))
+  (label "VCC" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "270490ef-7864-4ccb-a438-b462aa1e29b5"))
+  (label "TXD" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ceff8928-22bf-4c40-8df5-a5dad41ba106"))
+  (label "RXD" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "410bb71e-5800-48b7-a49d-747323a32abd"))
+  (label "RST" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7b0e246b-5fb9-46dc-9dac-97694991e6c2"))
+  (label "BOOT" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c1cb9d51-8db6-425a-a9b3-e8fc29b1f029"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

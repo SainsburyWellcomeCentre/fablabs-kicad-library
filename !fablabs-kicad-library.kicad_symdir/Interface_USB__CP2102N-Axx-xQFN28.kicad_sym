@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    CP2102N-Axx-xQFN28
+    "CP2102N-Axx-xQFN28"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -8.89 31.75 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      CP2102N-Axx-xQFN28
+      "Value"
+      "CP2102N-Axx-xQFN28"
       (at 12.7 31.75 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm
+      "Footprint"
+      "Package_DFN_QFN:QFN-28-1EP_5x5mm_P0.5mm_EP3.35x3.35mm"
       (at 33.02 -31.75 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf
+      "Datasheet"
+      "https://www.silabs.com/documents/public/data-sheets/cp2102n-datasheet.pdf"
       (at 1.27 -19.05 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "USB to UART master bridge, QFN-28"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "USB UART bridge"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      QFN*1EP*5x5mm*P0.5mm*
+      "ki_fp_filters"
+      "QFN*1EP*5x5mm*P0.5mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      CP2102N-Axx-xQFN28_0_1
+      "CP2102N-Axx-xQFN28_0_1"
       (rectangle
         (start -10.16 30.48)
         (end 10.16 -30.48)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      CP2102N-Axx-xQFN28_1_1
+      "CP2102N-Axx-xQFN28_1_1"
       (pin
         input
         line
         (at 12.7 12.7 180)
         (length 2.54)
         (name
-          ~{DCD}
+          "~{DCD}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at 12.7 10.16 180)
         (length 2.54)
         (name
-          ~{RI}/CLK
+          "~{RI}/CLK"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at 0 -33.02 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -139,12 +139,12 @@
         (at -12.7 10.16 0)
         (length 2.54)
         (name
-          D+
+          "D+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -154,12 +154,12 @@
         (at -12.7 12.7 0)
         (length 2.54)
         (name
-          D-
+          "D-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -169,12 +169,12 @@
         (at 0 33.02 270)
         (length 2.54)
         (name
-          VDD
+          "VDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
         (at -2.54 33.02 270)
         (length 2.54)
         (name
-          VREGIN
+          "VREGIN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
         (at -12.7 15.24 0)
         (length 2.54)
         (name
-          VBUS
+          "VBUS"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -214,12 +214,12 @@
         (at -12.7 27.94 0)
         (length 2.54)
         (name
-          ~{RST}
+          "~{RST}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -230,12 +230,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -245,12 +245,12 @@
         (at 12.7 2.54 180)
         (length 2.54)
         (name
-          ~{SUSPEND}
+          "~{SUSPEND}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -260,12 +260,12 @@
         (at 12.7 5.08 180)
         (length 2.54)
         (name
-          SUSPEND
+          "SUSPEND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -275,12 +275,12 @@
         (at 12.7 -22.86 180)
         (length 2.54)
         (name
-          CHREN
+          "CHREN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -290,12 +290,12 @@
         (at 12.7 -27.94 180)
         (length 2.54)
         (name
-          CHR1
+          "CHR1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -305,12 +305,12 @@
         (at 12.7 -25.4 180)
         (length 2.54)
         (name
-          CHR0
+          "CHR0"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -320,12 +320,12 @@
         (at 12.7 -10.16 180)
         (length 2.54)
         (name
-          ~{WAKEUP}/GPIO.3
+          "~{WAKEUP}/GPIO.3"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -335,12 +335,12 @@
         (at 12.7 -7.62 180)
         (length 2.54)
         (name
-          RS485/GPIO.2
+          "RS485/GPIO.2"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          17
+          "17"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -350,12 +350,12 @@
         (at 12.7 -5.08 180)
         (length 2.54)
         (name
-          ~{RXT}/GPIO.1
+          "~{RXT}/GPIO.1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          18
+          "18"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -365,12 +365,12 @@
         (at 12.7 -2.54 180)
         (length 2.54)
         (name
-          ~{TXT}/GPIO.0
+          "~{TXT}/GPIO.0"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          19
+          "19"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -380,12 +380,12 @@
         (at 12.7 -17.78 180)
         (length 2.54)
         (name
-          GPIO.6
+          "GPIO.6"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          20
+          "20"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -395,12 +395,12 @@
         (at 12.7 -15.24 180)
         (length 2.54)
         (name
-          GPIO.5
+          "GPIO.5"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          21
+          "21"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -410,12 +410,12 @@
         (at 12.7 -12.7 180)
         (length 2.54)
         (name
-          GPIO.4
+          "GPIO.4"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          22
+          "22"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -425,12 +425,12 @@
         (at 12.7 20.32 180)
         (length 2.54)
         (name
-          ~{CTS}
+          "~{CTS}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          23
+          "23"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -440,12 +440,12 @@
         (at 12.7 22.86 180)
         (length 2.54)
         (name
-          ~{RTS}
+          "~{RTS}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          24
+          "24"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -455,12 +455,12 @@
         (at 12.7 25.4 180)
         (length 2.54)
         (name
-          RXD
+          "RXD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          25
+          "25"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -470,12 +470,12 @@
         (at 12.7 27.94 180)
         (length 2.54)
         (name
-          TXD
+          "TXD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          26
+          "26"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -485,12 +485,12 @@
         (at 12.7 17.78 180)
         (length 2.54)
         (name
-          ~{DSR}
+          "~{DSR}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          27
+          "27"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -500,12 +500,12 @@
         (at 12.7 15.24 180)
         (length 2.54)
         (name
-          ~{DTR}
+          "~{DTR}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          28
+          "28"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -516,12 +516,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          29
+          "29"
           (effects
             (font
               (size 1.27 1.27))))))

@@ -1,10 +1,9 @@
 {
   "name": "POWER_BUCK_5V_LM2596S",
   "description": "LM2596S buck regulator block with diode, inductor, bulk capacitors, and screw terminals.",
-  "keywords": "",
+  "keywords": "power,buck,lm2596,5v",
   "fields": {
     "Category": "Power",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

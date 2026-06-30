@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "55391005-44d9-4d48-b182-61e5268aa7e3")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "14080327-29da-4a43-be58-0fbb03aa2496")
   (paper "A4")
   (title_block
     (title "IO_FEATHER_WING_SOCKET_SHELL")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_01x12_Pin
+          "!fablabs-kicad-library:Conn_01x12_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 15.24 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x12_Pin
+            "Value"
+            "Conn_01x12_Pin"
             (at 0 -17.78 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x12, script generated"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,8 +84,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -94,7 +94,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x12_Pin_1_1
+            "Conn_01x12_Pin_1_1"
             (rectangle
               (start 0.8636 12.827)
               (end 0 12.573)
@@ -305,12 +305,12 @@
               (at 5.08 12.7 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -320,12 +320,12 @@
               (at 5.08 10.16 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -335,12 +335,12 @@
               (at 5.08 7.62 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -350,12 +350,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -365,12 +365,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -380,12 +380,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -395,12 +395,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_7
+                "Pin_7"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -410,12 +410,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_8
+                "Pin_8"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -425,12 +425,12 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_9
+                "Pin_9"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                9
+                "9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -440,12 +440,12 @@
               (at 5.08 -10.16 180)
               (length 3.81)
               (name
-                Pin_10
+                "Pin_10"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                10
+                "10"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -455,12 +455,12 @@
               (at 5.08 -12.7 180)
               (length 3.81)
               (name
-                Pin_11
+                "Pin_11"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                11
+                "11"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -470,18 +470,18 @@
               (at 5.08 -15.24 180)
               (length 3.81)
               (name
-                Pin_12
+                "Pin_12"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                12
+                "12"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x16_Pin
+          "!fablabs-kicad-library:Conn_01x16_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -491,8 +491,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 20.32 0)
             (show_name no)
             (do_not_autoplace no)
@@ -500,8 +500,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x16_Pin
+            "Value"
+            "Conn_01x16_Pin"
             (at 0 -22.86 0)
             (show_name no)
             (do_not_autoplace no)
@@ -509,7 +509,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -519,7 +519,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -529,7 +529,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x16, script generated"
             (at 0 0 0)
             (show_name no)
@@ -539,7 +539,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -548,8 +548,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -558,8 +558,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -568,7 +568,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x16_Pin_1_1
+            "Conn_01x16_Pin_1_1"
             (rectangle
               (start 0.8636 17.907)
               (end 0 17.653)
@@ -847,12 +847,12 @@
               (at 5.08 17.78 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -862,12 +862,12 @@
               (at 5.08 15.24 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -877,12 +877,12 @@
               (at 5.08 12.7 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -892,12 +892,12 @@
               (at 5.08 10.16 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -907,12 +907,12 @@
               (at 5.08 7.62 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -922,12 +922,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -937,12 +937,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_7
+                "Pin_7"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -952,12 +952,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_8
+                "Pin_8"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -967,12 +967,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_9
+                "Pin_9"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                9
+                "9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -982,12 +982,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_10
+                "Pin_10"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                10
+                "10"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -997,12 +997,12 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_11
+                "Pin_11"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                11
+                "11"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1012,12 +1012,12 @@
               (at 5.08 -10.16 180)
               (length 3.81)
               (name
-                Pin_12
+                "Pin_12"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                12
+                "12"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1027,12 +1027,12 @@
               (at 5.08 -12.7 180)
               (length 3.81)
               (name
-                Pin_13
+                "Pin_13"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                13
+                "13"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1042,12 +1042,12 @@
               (at 5.08 -15.24 180)
               (length 3.81)
               (name
-                Pin_14
+                "Pin_14"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                14
+                "14"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1057,12 +1057,12 @@
               (at 5.08 -17.78 180)
               (length 3.81)
               (name
-                Pin_15
+                "Pin_15"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                15
+                "15"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -1072,57 +1072,74 @@
               (at 5.08 -20.32 180)
               (length 3.81)
               (name
-                Pin_16
+                "Pin_16"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                16
+                "16"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x12_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "263956ae-4bd1-4b28-8434-f27cbb14cf0c")
+    (uuid "35fbd4df-9e23-4993-b33b-fd8e163a8f6f")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "FEATHER_LEFT" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinSocket_1x12_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/35fbd4df-9e23-4993-b33b-fd8e163a8f6f"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "FEATHER_L_1" (at 35.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "aea9db4e-c428-482d-a698-cbe5157594cd"))
-  (label "FEATHER_L_2" (at 35.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7f54cf99-4d5c-476d-af49-6a3230966f40"))
-  (label "FEATHER_L_3" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c5bc49ce-b86c-43e4-8d51-b410032a8553"))
-  (label "FEATHER_L_4" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2775310b-20f7-4852-b8a4-be83bd0af48a"))
-  (label "FEATHER_L_5" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "64aee133-16cc-4d2a-be6d-cac3415f5a39"))
-  (label "FEATHER_L_6" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "47055860-6988-4334-84ba-7b9ef1103468"))
-  (label "FEATHER_L_7" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "54e6ef47-3919-445e-8466-aa6e3c135983"))
-  (label "FEATHER_L_8" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1f56fd72-d0ae-40e6-b0c2-f84a67d1a8ec"))
-  (label "FEATHER_L_9" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "90743f33-e3e1-4491-b9b5-dd791d15e512"))
-  (label "FEATHER_L_10" (at 35.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cc77749c-a8f2-452c-98f2-3ba6e38153cf"))
-  (label "FEATHER_L_11" (at 35.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7c4b1f56-7da1-4f96-aef9-7467bd3559db"))
-  (label "FEATHER_L_12" (at 35.08 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "acc41f7c-f8d6-4ad2-a181-bcca60a841ea"))
+  (label "FEATHER_L_1" (at 35.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e66c3a45-32e8-499b-821f-ce71df21a68c"))
+  (label "FEATHER_L_2" (at 35.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4ff8f069-1482-4386-84c9-31a56e74474b"))
+  (label "FEATHER_L_3" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "40ebb6a3-e28f-4c6a-8463-90396e65ce06"))
+  (label "FEATHER_L_4" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d48c82cb-a1aa-4b69-8ef8-af42c6cc8004"))
+  (label "FEATHER_L_5" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eaf78b30-0c64-4378-a666-3cacbb3250dd"))
+  (label "FEATHER_L_6" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "876689d4-a95b-4e32-83bf-6a34bf0e3626"))
+  (label "FEATHER_L_7" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "be2bcb4e-8274-44b8-9bb1-5d28b70a2776"))
+  (label "FEATHER_L_8" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2f0f2104-9ea4-417d-b5ec-641271dd4ebd"))
+  (label "FEATHER_L_9" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f62db739-a53c-4ec3-bba4-abbaf5d01c87"))
+  (label "FEATHER_L_10" (at 35.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a2838c7e-a94d-4f85-bb2f-b83edf1a2ac9"))
+  (label "FEATHER_L_11" (at 35.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5f69eacc-5896-4e96-8c96-defe8418c358"))
+  (label "FEATHER_L_12" (at 35.08 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "88d35a55-e1f5-4e83-97ab-a0962e0484ff"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x16_Pin") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "dac5cb7e-b3f2-4b81-828e-783969039e6d")
+    (uuid "9137d555-9673-40c6-9176-0ccd9d04dd07")
     (property "Reference" "J2" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "FEATHER_RIGHT" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinSocket_1x16_P2.54mm_Vertical" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/9137d555-9673-40c6-9176-0ccd9d04dd07"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "FEATHER_R_1" (at 77.08 52.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5a9139e5-47b8-46fb-9df3-5aa4290cf0e1"))
-  (label "FEATHER_R_2" (at 77.08 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "25594550-643a-49dc-8402-5710621aaa3f"))
-  (label "FEATHER_R_3" (at 77.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "029348dd-2b3b-4fa7-804e-1f0458309ef0"))
-  (label "FEATHER_R_4" (at 77.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ec5cdd6b-70b2-4c33-8cb5-42034dbd08ef"))
-  (label "FEATHER_R_5" (at 77.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dc2c535c-5fdf-485a-a810-5234332a413f"))
-  (label "FEATHER_R_6" (at 77.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "944d7b62-b3b9-484f-878a-4bba3d6df844"))
-  (label "FEATHER_R_7" (at 77.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9baf2e6c-d630-4fb1-977a-7f91d24299b7"))
-  (label "FEATHER_R_8" (at 77.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ea0dc57f-55f3-4862-9b5d-ec8a32a4c239"))
-  (label "FEATHER_R_9" (at 77.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "88f293d0-f991-4349-b3c8-6df07bb9fc11"))
-  (label "FEATHER_R_10" (at 77.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e7dd08ac-7327-4191-9ee1-46bd4b290664"))
-  (label "FEATHER_R_11" (at 77.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "edd8dc0c-87ab-4340-bc25-bd62ffa0cf92"))
-  (label "FEATHER_R_12" (at 77.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ca13fb2a-15ae-4d7b-8ae2-3c21fdbb95a1"))
-  (label "FEATHER_R_13" (at 77.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6dad8625-54c5-4ab7-9f73-1927caa76567"))
-  (label "FEATHER_R_14" (at 77.08 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e2ed2d21-f0a4-41c0-8ea2-ebff271fb385"))
-  (label "FEATHER_R_15" (at 77.08 17.22 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f90d8755-2002-4b83-ab3f-2e7a65736747"))
-  (label "FEATHER_R_16" (at 77.08 14.68 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e09dd04d-db6a-4589-8fed-d620d5b4fd10"))
+  (label "FEATHER_R_1" (at 77.08 17.22 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a70d9073-b4d5-4ce2-aec2-98425868985a"))
+  (label "FEATHER_R_2" (at 77.08 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7816396c-0f54-4178-a522-8582f13fc1cf"))
+  (label "FEATHER_R_3" (at 77.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ccbd905-a35a-4702-a01d-64118209a4ae"))
+  (label "FEATHER_R_4" (at 77.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "38989013-d740-478e-9231-8d74b956980e"))
+  (label "FEATHER_R_5" (at 77.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ff807b6b-1943-4a08-ae53-872e67c1eb5c"))
+  (label "FEATHER_R_6" (at 77.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ed1c449f-2cb6-4f7d-9401-29d74d619483"))
+  (label "FEATHER_R_7" (at 77.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1548a62b-7d9a-4961-9c7e-9b9cb4678bae"))
+  (label "FEATHER_R_8" (at 77.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "59a37ebd-c0c4-46f6-b5cb-d44ac0eced4c"))
+  (label "FEATHER_R_9" (at 77.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "20bd4d1b-6d78-4865-9122-f18257ee9fa9"))
+  (label "FEATHER_R_10" (at 77.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7cb5be58-c13a-4660-9c89-0f236c6fd230"))
+  (label "FEATHER_R_11" (at 77.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b7f904ea-bd9f-4b12-b55f-4165de52dce7"))
+  (label "FEATHER_R_12" (at 77.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eb1ec4a1-e522-4dc6-b418-a459cc3346aa"))
+  (label "FEATHER_R_13" (at 77.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c7225660-c608-40a1-9bde-aea4c3025236"))
+  (label "FEATHER_R_14" (at 77.08 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6334a118-71a8-4f9c-b16a-4c185a903832"))
+  (label "FEATHER_R_15" (at 77.08 52.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7c702be0-2322-426a-b972-7cc35d739c9e"))
+  (label "FEATHER_R_16" (at 77.08 55.32 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "68a5c5ce-d8be-40d5-9084-072674046575"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

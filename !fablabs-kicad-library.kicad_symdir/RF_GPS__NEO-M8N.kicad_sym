@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    NEO-M8N
+    "NEO-M8N"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -13.97 21.59 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      NEO-M8N
+      "Value"
+      "NEO-M8N"
       (at 11.43 21.59 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      RF_GPS:ublox_NEO
+      "Footprint"
+      "RF_GPS:ublox_NEO"
       (at 10.16 -21.59 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf
+      "Datasheet"
+      "https://content.u-blox.com/sites/default/files/NEO-M8-FW3_DataSheet_UBX-15031086.pdf"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "GNSS Module NEO M8, VCC 2.7V to 3.6V"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "ublox GPS GNSS module"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      ublox*NEO*
+      "ki_fp_filters"
+      "ublox*NEO*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      NEO-M8N_0_1
+      "NEO-M8N_0_1"
       (rectangle
         (start -15.24 20.32)
         (end 15.24 -20.32)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      NEO-M8N_1_1
+      "NEO-M8N_1_1"
       (pin
         input
         line
         (at -17.78 -12.7 0)
         (length 2.54)
         (name
-          ~{SAFEBOOT}
+          "~{SAFEBOOT}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at -17.78 -17.78 0)
         (length 2.54)
         (name
-          D_SEL
+          "D_SEL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at 17.78 -7.62 180)
         (length 2.54)
         (name
-          TIMEPULSE
+          "TIMEPULSE"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -139,12 +139,12 @@
         (at -17.78 -7.62 0)
         (length 2.54)
         (name
-          EXTINT
+          "EXTINT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -154,12 +154,12 @@
         (at -17.78 15.24 0)
         (length 2.54)
         (name
-          USB_DM
+          "USB_DM"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -169,12 +169,12 @@
         (at -17.78 12.7 0)
         (length 2.54)
         (name
-          USB_DP
+          "USB_DP"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
         (at 0 22.86 270)
         (length 2.54)
         (name
-          VDD_USB
+          "VDD_USB"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
         (at -17.78 -15.24 0)
         (length 2.54)
         (name
-          ~{RESET}
+          "~{RESET}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -214,12 +214,12 @@
         (at 5.08 22.86 270)
         (length 2.54)
         (name
-          VCC_RF
+          "VCC_RF"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -229,12 +229,12 @@
         (at 0 -22.86 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -244,12 +244,12 @@
         (at 17.78 0 180)
         (length 2.54)
         (name
-          RF_IN
+          "RF_IN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -260,12 +260,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -276,12 +276,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -291,12 +291,12 @@
         (at 17.78 5.08 180)
         (length 2.54)
         (name
-          LNA_EN
+          "LNA_EN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -307,12 +307,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESERVED
+          "RESERVED"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -323,12 +323,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESERVED
+          "RESERVED"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -339,12 +339,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESERVED
+          "RESERVED"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          17
+          "17"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -354,12 +354,12 @@
         (at -17.78 0 0)
         (length 2.54)
         (name
-          SDA/~{SPI_CS}
+          "SDA/~{SPI_CS}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          18
+          "18"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -369,12 +369,12 @@
         (at -17.78 -2.54 0)
         (length 2.54)
         (name
-          SCL/SPI_CLK
+          "SCL/SPI_CLK"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          19
+          "19"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -384,12 +384,12 @@
         (at -17.78 7.62 0)
         (length 2.54)
         (name
-          TXD/SPI_MISO
+          "TXD/SPI_MISO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          20
+          "20"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -399,12 +399,12 @@
         (at -17.78 5.08 0)
         (length 2.54)
         (name
-          RXD/SPI_MOSI
+          "RXD/SPI_MOSI"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          21
+          "21"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -414,12 +414,12 @@
         (at -2.54 22.86 270)
         (length 2.54)
         (name
-          V_BCKP
+          "V_BCKP"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          22
+          "22"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -429,12 +429,12 @@
         (at -5.08 22.86 270)
         (length 2.54)
         (name
-          VCC
+          "VCC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          23
+          "23"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -445,12 +445,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          24
+          "24"
           (effects
             (font
               (size 1.27 1.27))))))

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:TO-263-5_TabPin3"
-    (uuid "2413ca93-b19b-4d6e-bf9c-e7cc9f3ab983")
+    (uuid "ed8e991c-ef08-4113-bfe0-68f0e1682c21")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "TO-263/D2PAK/DDPAK SMD package, http://www.infineon.com/cms/en/product/packages/PG-TO263/PG-TO263-5-1/")
   	(tags "D2PAK DDPAK TO-263 D2PAK-5 TO-263-5 SOT-426")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -6.65 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -367,7 +368,7 @@
   		(roundrect_rratio 0.227273)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/TO-263-5_TabPin3.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TO-263-5_TabPin3.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -384,10 +385,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D1"
-    (at 80 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -659,10 +661,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "http://www.bourns.com/docs/product-datasheets/srn6045ta.pdf")
   	(tags "Semi-shielded Power Inductor")
   	(property "Reference" "L1"
-    (at 110 50 0)
+  		(at 0 -4.6 0)
   		(layer "F.SilkS")
   		(uuid "095d6c52-4f76-4e86-b3af-7f4eb120d55d")
   		(effects
@@ -888,14 +891,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm"
-    (uuid "78dce6cb-a8e7-4a72-b837-b3968672c28c")
+    (uuid "3917d215-d099-4e1c-9660-758b84f6cd09")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
   	(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
   	(property "Reference" "CIN1"
-    (at 140 50 0)
+  		(at 1.25 -4.4 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -2238,14 +2242,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm"
-    (uuid "73e6667b-eb90-4fe6-91ee-e8104fa861ee")
+    (uuid "e1c1967a-ebe8-4822-ab12-7634302d4258")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "CP, Radial series, Radial, pin pitch=2.50mm, diameter=6.3mm, height=7mm, Electrolytic Capacitor")
   	(tags "CP Radial series Radial pin pitch 2.50mm diameter 6.3mm height 7mm Electrolytic Capacitor")
   	(property "Reference" "COUT1"
-    (at 170 50 0)
+  		(at 1.25 -4.4 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -3588,14 +3593,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-    (uuid "58ed883a-23a9-4fa9-8ad3-ab907fa436c2")
+    (uuid "9a09544c-c3d0-4569-b4d2-f7c52da9f1a2")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
   	(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
   	(property "Reference" "J1"
-    (at 50 80 0)
+  		(at 2.54 -6.32 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -3876,7 +3882,7 @@
   		(remove_unused_layers no)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -3889,14 +3895,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal"
-    (uuid "aed760ce-b7e6-4193-aaec-5b9e83c6356e")
+    (uuid "1b8bf51d-1a5b-4afa-912c-0cfa0339805f")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 80 0)
   	(descr "Terminal Block Phoenix MKDS-1,5-2-5.08, 2 pins, pitch 5.08mm, size 10.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
   	(tags "THT Terminal Block Phoenix MKDS-1,5-2-5.08 pitch 5.08mm size 10.2x9.8mm drill 1.3mm pad 2.6mm")
   	(property "Reference" "J2"
-    (at 80 80 0)
+  		(at 2.54 -6.32 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -4177,7 +4184,7 @@
   		(remove_unused_layers no)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal.step"
   		(offset
   			(xyz 0 0 0)
   		)

@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    MPU-6050
+    "MPU-6050"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -11.43 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      MPU-6050
+      "Value"
+      "MPU-6050"
       (at 7.62 -15.24 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm
+      "Footprint"
+      "Sensor_Motion:InvenSense_QFN-24_4x4mm_P0.5mm"
       (at 0 -20.32 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf
+      "Datasheet"
+      "https://invensense.tdk.com/wp-content/uploads/2015/02/MPU-6000-Datasheet1.pdf"
       (at 0 -3.81 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "InvenSense 6-Axis Motion Sensor, Gyroscope, Accelerometer, I2C"
       (at 0 0 0)
       (show_name no)
@@ -57,8 +57,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
-      mems
+      "ki_keywords"
+      "mems"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      *QFN*4x4mm*P0.5mm*
+      "ki_fp_filters"
+      "*QFN*4x4mm*P0.5mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      MPU-6050_0_1
+      "MPU-6050_0_1"
       (rectangle
         (start -12.7 13.97)
         (end 12.7 -13.97)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      MPU-6050_1_1
+      "MPU-6050_1_1"
       (pin
         input
         clock
         (at -17.78 -7.62 0)
         (length 5.08)
         (name
-          CLKIN
+          "CLKIN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -110,12 +110,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -126,12 +126,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -142,12 +142,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -158,12 +158,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -173,12 +173,12 @@
         (at 17.78 2.54 180)
         (length 5.08)
         (name
-          AUX_DA
+          "AUX_DA"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -188,12 +188,12 @@
         (at 17.78 0 180)
         (length 5.08)
         (name
-          AUX_CL
+          "AUX_CL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -203,12 +203,12 @@
         (at -2.54 17.78 270)
         (length 3.81)
         (name
-          VLOGIC
+          "VLOGIC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -218,12 +218,12 @@
         (at -17.78 2.54 0)
         (length 5.08)
         (name
-          AD0
+          "AD0"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -233,12 +233,12 @@
         (at 17.78 -7.62 180)
         (length 5.08)
         (name
-          REGOUT
+          "REGOUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -248,12 +248,12 @@
         (at -17.78 -5.08 0)
         (length 5.08)
         (name
-          FSYNC
+          "FSYNC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -263,12 +263,12 @@
         (at 17.78 7.62 180)
         (length 5.08)
         (name
-          INT
+          "INT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -278,12 +278,12 @@
         (at 2.54 17.78 270)
         (length 3.81)
         (name
-          VDD
+          "VDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -294,12 +294,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -310,12 +310,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -326,12 +326,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -342,12 +342,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          17
+          "17"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -357,12 +357,12 @@
         (at 0 -17.78 90)
         (length 3.81)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          18
+          "18"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -373,12 +373,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESV
+          "RESV"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          19
+          "19"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -388,12 +388,12 @@
         (at 17.78 -5.08 180)
         (length 5.08)
         (name
-          CPOUT
+          "CPOUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          20
+          "20"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -404,12 +404,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESV
+          "RESV"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          21
+          "21"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -420,12 +420,12 @@
         (length 2.54)
         (hide yes)
         (name
-          RESV
+          "RESV"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          22
+          "22"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -435,12 +435,12 @@
         (at -17.78 5.08 0)
         (length 5.08)
         (name
-          SCL
+          "SCL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          23
+          "23"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -450,12 +450,12 @@
         (at -17.78 7.62 0)
         (length 5.08)
         (name
-          SDA
+          "SDA"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          24
+          "24"
           (effects
             (font
               (size 1.27 1.27))))))

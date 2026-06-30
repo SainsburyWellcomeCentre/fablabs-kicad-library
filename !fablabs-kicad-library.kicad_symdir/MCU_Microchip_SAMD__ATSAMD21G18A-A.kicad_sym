@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    ATSAMD21G15A-A
+    "ATSAMD21G15A-A"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at 0 2.54 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      ATSAMD21G15A-A
+      "Value"
+      "ATSAMD21G15A-A"
       (at 0 -2.54 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_QFP:TQFP-48_7x7mm_P0.5mm
+      "Footprint"
+      "Package_QFP:TQFP-48_7x7mm_P0.5mm"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+      "Datasheet"
+      "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
       (at 0 25.4 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 32K Flash, 4K SRAM, TQFP-48"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "32-bit ARM Cortex-M0+ MCU Microcontroller"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      TQFP*7x7mm*P0.5mm*
+      "ki_fp_filters"
+      "TQFP*7x7mm*P0.5mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      ATSAMD21G15A-A_0_1
+      "ATSAMD21G15A-A_0_1"
       (rectangle
         (start -15.24 45.72)
         (end 15.24 -45.72)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      ATSAMD21G15A-A_1_1
+      "ATSAMD21G15A-A_1_1"
       (pin
         bidirectional
         line
         (at -17.78 40.64 0)
         (length 2.54)
         (name
-          PA00
+          "PA00"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at -17.78 38.1 0)
         (length 2.54)
         (name
-          PA01
+          "PA01"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at -17.78 35.56 0)
         (length 2.54)
         (name
-          PA02
+          "PA02"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -139,12 +139,12 @@
         (at -17.78 33.02 0)
         (length 2.54)
         (name
-          PA03
+          "PA03"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -154,12 +154,12 @@
         (at 2.54 -48.26 90)
         (length 2.54)
         (name
-          GNDANA
+          "GNDANA"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -169,12 +169,12 @@
         (at 7.62 48.26 270)
         (length 2.54)
         (name
-          VDDANA
+          "VDDANA"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -184,12 +184,12 @@
         (at 17.78 20.32 180)
         (length 2.54)
         (name
-          PB08
+          "PB08"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -199,12 +199,12 @@
         (at 17.78 17.78 180)
         (length 2.54)
         (name
-          PB09
+          "PB09"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -214,12 +214,12 @@
         (at -17.78 30.48 0)
         (length 2.54)
         (name
-          PA04
+          "PA04"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -229,12 +229,12 @@
         (at -17.78 27.94 0)
         (length 2.54)
         (name
-          PA05
+          "PA05"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -244,12 +244,12 @@
         (at -17.78 25.4 0)
         (length 2.54)
         (name
-          PA06
+          "PA06"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -259,12 +259,12 @@
         (at -17.78 22.86 0)
         (length 2.54)
         (name
-          PA07
+          "PA07"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -274,12 +274,12 @@
         (at -17.78 20.32 0)
         (length 2.54)
         (name
-          PA08
+          "PA08"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -289,12 +289,12 @@
         (at -17.78 17.78 0)
         (length 2.54)
         (name
-          PA09
+          "PA09"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -304,12 +304,12 @@
         (at -17.78 15.24 0)
         (length 2.54)
         (name
-          PA10
+          "PA10"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -319,12 +319,12 @@
         (at -17.78 12.7 0)
         (length 2.54)
         (name
-          PA11
+          "PA11"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -334,12 +334,12 @@
         (at 2.54 48.26 270)
         (length 2.54)
         (name
-          VDDIO
+          "VDDIO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          17
+          "17"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -349,12 +349,12 @@
         (at 0 -48.26 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          18
+          "18"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -364,12 +364,12 @@
         (at 17.78 15.24 180)
         (length 2.54)
         (name
-          PB10
+          "PB10"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          19
+          "19"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -379,12 +379,12 @@
         (at 17.78 12.7 180)
         (length 2.54)
         (name
-          PB11
+          "PB11"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          20
+          "20"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -394,12 +394,12 @@
         (at -17.78 10.16 0)
         (length 2.54)
         (name
-          PA12
+          "PA12"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          21
+          "21"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -409,12 +409,12 @@
         (at -17.78 7.62 0)
         (length 2.54)
         (name
-          PA13
+          "PA13"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          22
+          "22"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -424,12 +424,12 @@
         (at -17.78 5.08 0)
         (length 2.54)
         (name
-          PA14
+          "PA14"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          23
+          "23"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -439,12 +439,12 @@
         (at -17.78 2.54 0)
         (length 2.54)
         (name
-          PA15
+          "PA15"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          24
+          "24"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -454,12 +454,12 @@
         (at -17.78 0 0)
         (length 2.54)
         (name
-          PA16
+          "PA16"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          25
+          "25"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -469,12 +469,12 @@
         (at -17.78 -2.54 0)
         (length 2.54)
         (name
-          PA17
+          "PA17"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          26
+          "26"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -484,12 +484,12 @@
         (at -17.78 -5.08 0)
         (length 2.54)
         (name
-          PA18
+          "PA18"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          27
+          "27"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -499,12 +499,12 @@
         (at -17.78 -7.62 0)
         (length 2.54)
         (name
-          PA19
+          "PA19"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          28
+          "28"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -514,12 +514,12 @@
         (at -17.78 -10.16 0)
         (length 2.54)
         (name
-          PA20
+          "PA20"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          29
+          "29"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -529,12 +529,12 @@
         (at -17.78 -12.7 0)
         (length 2.54)
         (name
-          PA21
+          "PA21"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          30
+          "30"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -544,12 +544,12 @@
         (at -17.78 -15.24 0)
         (length 2.54)
         (name
-          PA22
+          "PA22"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          31
+          "31"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -559,12 +559,12 @@
         (at -17.78 -17.78 0)
         (length 2.54)
         (name
-          PA23
+          "PA23"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          32
+          "32"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -574,12 +574,12 @@
         (at -17.78 -20.32 0)
         (length 2.54)
         (name
-          PA24
+          "PA24"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          33
+          "33"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -589,12 +589,12 @@
         (at -17.78 -22.86 0)
         (length 2.54)
         (name
-          PA25
+          "PA25"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          34
+          "34"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -605,12 +605,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          35
+          "35"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -620,12 +620,12 @@
         (at 0 48.26 270)
         (length 2.54)
         (name
-          VDDIO
+          "VDDIO"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          36
+          "36"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -635,12 +635,12 @@
         (at 17.78 -15.24 180)
         (length 2.54)
         (name
-          PB22
+          "PB22"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          37
+          "37"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -650,12 +650,12 @@
         (at 17.78 -17.78 180)
         (length 2.54)
         (name
-          PB23
+          "PB23"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          38
+          "38"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -665,12 +665,12 @@
         (at -17.78 -27.94 0)
         (length 2.54)
         (name
-          PA27
+          "PA27"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          39
+          "39"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -680,12 +680,12 @@
         (at -17.78 -43.18 0)
         (length 2.54)
         (name
-          ~{RESET}
+          "~{RESET}"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          40
+          "40"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -695,12 +695,12 @@
         (at -17.78 -30.48 0)
         (length 2.54)
         (name
-          PA28
+          "PA28"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          41
+          "41"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -711,12 +711,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          42
+          "42"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -726,12 +726,12 @@
         (at -7.62 48.26 270)
         (length 2.54)
         (name
-          VDDCORE
+          "VDDCORE"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          43
+          "43"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -741,12 +741,12 @@
         (at -2.54 48.26 270)
         (length 2.54)
         (name
-          VDDIN
+          "VDDIN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          44
+          "44"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -756,12 +756,12 @@
         (at -17.78 -35.56 0)
         (length 2.54)
         (name
-          PA30
+          "PA30"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          45
+          "45"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -771,12 +771,12 @@
         (at -17.78 -38.1 0)
         (length 2.54)
         (name
-          PA31
+          "PA31"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          46
+          "46"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -786,12 +786,12 @@
         (at 17.78 35.56 180)
         (length 2.54)
         (name
-          PB02
+          "PB02"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          47
+          "47"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -801,22 +801,22 @@
         (at 17.78 33.02 180)
         (length 2.54)
         (name
-          PB03
+          "PB03"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          48
+          "48"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    ATSAMD21G18A-A
-    (extends ATSAMD21G15A-A)
+    "ATSAMD21G18A-A"
+    (extends "ATSAMD21G15A-A")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -13.97 46.99 0)
       (show_name no)
       (do_not_autoplace no)
@@ -824,8 +824,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      ATSAMD21G18A-A
+      "Value"
+      "ATSAMD21G18A-A"
       (at 16.51 46.99 0)
       (show_name no)
       (do_not_autoplace no)
@@ -833,8 +833,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Package_QFP:TQFP-48_7x7mm_P0.5mm
+      "Footprint"
+      "Package_QFP:TQFP-48_7x7mm_P0.5mm"
       (at 22.86 -46.99 0)
       (show_name no)
       (do_not_autoplace no)
@@ -843,8 +843,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf
+      "Datasheet"
+      "http://ww1.microchip.com/downloads/en/DeviceDoc/SAM_D21_DA1_Family_Data%20Sheet_DS40001882E.pdf"
       (at 0 25.4 0)
       (show_name no)
       (do_not_autoplace no)
@@ -853,7 +853,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "SAM D21 Microchip SMART ARM-based Flash MCU, 48Mhz, 256K Flash, 32K SRAM, TQFP-48"
       (at 0 0 0)
       (show_name no)
@@ -863,7 +863,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "32-bit ARM Cortex-M0+ MCU Microcontroller"
       (at 0 0 0)
       (show_name no)
@@ -873,8 +873,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      TQFP*7x7mm*P0.5mm*
+      "ki_fp_filters"
+      "TQFP*7x7mm*P0.5mm*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)

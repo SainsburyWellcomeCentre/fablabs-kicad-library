@@ -766,7 +766,7 @@
 		)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/RF_Module.3dshapes/ESP32-WROOM-32.step"
+	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/ESP32-WROOM-32.step"
 		(offset
 			(xyz 0 0 0)
 		)

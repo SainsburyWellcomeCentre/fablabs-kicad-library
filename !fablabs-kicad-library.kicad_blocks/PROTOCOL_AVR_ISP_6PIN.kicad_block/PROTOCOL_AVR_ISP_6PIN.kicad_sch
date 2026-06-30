@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "d2e41f2c-45fe-4fcd-b847-23a1410ea279")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "a9fc8375-2c04-4c5c-8f27-a46c9ea02a81")
   (paper "A4")
   (title_block
     (title "PROTOCOL_AVR_ISP_6PIN")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_02x03_Odd_Even
+          "!fablabs-kicad-library:Conn_02x03_Odd_Even"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 1.27 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_02x03_Odd_Even
+            "Value"
+            "Conn_02x03_Odd_Even"
             (at 1.27 -5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
             (at 0 0 0)
             (show_name no)
@@ -65,8 +65,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -75,8 +75,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_2x??_*
+            "ki_fp_filters"
+            "Connector*:*_2x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -85,7 +85,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_02x03_Odd_Even_1_1
+            "Conn_02x03_Odd_Even_1_1"
             (rectangle
               (start -1.27 3.81)
               (end 3.81 -3.81)
@@ -148,12 +148,12 @@
               (at -5.08 2.54 0)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -163,12 +163,12 @@
               (at 7.62 2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -178,12 +178,12 @@
               (at -5.08 0 0)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -193,12 +193,12 @@
               (at 7.62 0 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -208,12 +208,12 @@
               (at -5.08 -2.54 0)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -223,28 +223,38 @@
               (at 7.62 -2.54 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_02x03_Odd_Even") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "6d78e5b8-3fc6-4c3b-9535-4d6b4706ea2b")
+    (uuid "1c91869c-fedc-4886-beb6-9e1af4f305e9")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "AVR_ISP_6" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_2x03_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1c91869c-fedc-4886-beb6-9e1af4f305e9"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "MISO" (at 24.92 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2e28cfa7-eea3-472c-9124-17a7af3524e3"))
-  (label "VCC" (at 37.62 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3d9d232d-3f9c-45bb-bb5e-af1c73e2367f"))
-  (label "SCK" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b8f46799-0656-4967-8e15-b1ea2ecfea45"))
-  (label "MOSI" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f818c961-41bf-4159-95c7-1370193bdd82"))
-  (label "RESET" (at 24.92 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3a3b9d5d-46fb-4a67-a292-9f721e632b2a"))
-  (label "GND" (at 37.62 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8d490501-4b2d-4b2d-bb9d-38489c66e13d"))
+  (label "MISO" (at 24.92 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "15bf1c50-433e-41e3-86d4-8cae645770d2"))
+  (label "VCC" (at 37.62 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b1099f97-389d-4c46-b30a-801196a036a1"))
+  (label "SCK" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4ff769cf-5316-4b3c-8cb5-c75d786452bc"))
+  (label "MOSI" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c0b2ab1f-faa1-44ec-8706-4f54836ae17d"))
+  (label "RESET" (at 24.92 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "639e3c35-2a4a-49c4-863d-54919e3c6e5a"))
+  (label "GND" (at 37.62 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d9cba5b4-6b78-44d8-b4b3-6614bb4c1434"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

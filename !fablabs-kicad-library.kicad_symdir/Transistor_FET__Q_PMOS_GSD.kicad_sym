@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    Q_PMOS_GSD
+    "Q_PMOS_GSD"
     (pin_names
       (offset 0)
       (hide yes))
@@ -12,8 +12,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      Q
+      "Reference"
+      "Q"
       (at 5.08 1.905 0)
       (show_name no)
       (do_not_autoplace no)
@@ -22,8 +22,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      Q_PMOS_GSD
+      "Value"
+      "Q_PMOS_GSD"
       (at 5.08 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -32,7 +32,7 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 5.08 2.54 0)
       (show_name no)
@@ -42,7 +42,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
+      "Datasheet"
       ""
       (at 0 0 0)
       (show_name no)
@@ -52,7 +52,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "P-MOSFET transistor, gate/source/drain"
       (at 0 0 0)
       (show_name no)
@@ -62,7 +62,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "transistor PMOS P-MOS P-MOSFET"
       (at 0 0 0)
       (show_name no)
@@ -72,7 +72,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      Q_PMOS_GSD_0_1
+      "Q_PMOS_GSD_0_1"
       (polyline
         (pts
           (xy 0.254 1.905)
@@ -204,19 +204,19 @@
         (fill
           (type none))))
     (symbol
-      Q_PMOS_GSD_1_1
+      "Q_PMOS_GSD_1_1"
       (pin
         input
         line
         (at -5.08 0 0)
         (length 2.54)
         (name
-          G
+          "G"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -226,12 +226,12 @@
         (at 2.54 -5.08 90)
         (length 2.54)
         (name
-          S
+          "S"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -241,12 +241,12 @@
         (at 2.54 5.08 270)
         (length 2.54)
         (name
-          D
+          "D"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27))))))

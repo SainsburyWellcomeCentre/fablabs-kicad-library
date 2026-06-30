@@ -1,10 +1,9 @@
 {
   "name": "POWER_USB_C_5V_PROTECTED_INPUT",
   "description": "USB-C 5 V input with CC pulldowns, resettable fuse, TVS clamp, ferrite placeholder, and local bulk capacitance.",
-  "keywords": "",
+  "keywords": "power,usb-c,protection,fuse,tvs",
   "fields": {
     "Category": "Power",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

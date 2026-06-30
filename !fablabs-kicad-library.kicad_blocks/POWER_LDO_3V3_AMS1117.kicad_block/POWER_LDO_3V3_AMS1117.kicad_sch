@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "9521fde9-524a-41ff-a5c0-6768e7dc506a")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "e4afc502-978d-4e9f-98b7-8630014676e6")
   (paper "A4")
   (title_block
     (title "POWER_LDO_3V3_AMS1117")
@@ -7,15 +7,15 @@
   )
   (lib_symbols
     (symbol
-          AP1117-15
+          "!fablabs-kicad-library:AP1117-15"
           (exclude_from_sim no)
           (in_bom yes)
           (on_board yes)
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -3.81 3.175 0)
             (show_name no)
             (do_not_autoplace no)
@@ -23,8 +23,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            AP1117-15
+            "Value"
+            "AP1117-15"
             (at 0 3.175 0)
             (show_name no)
             (do_not_autoplace no)
@@ -33,8 +33,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
-            Package_TO_SOT_SMD:SOT-223-3_TabPin2
+            "Footprint"
+            "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -43,8 +43,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            http://www.diodes.com/datasheets/AP1117.pdf
+            "Datasheet"
+            "http://www.diodes.com/datasheets/AP1117.pdf"
             (at 2.54 -6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -53,7 +53,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "1A Low Dropout regulator, positive, 1.5V fixed output, SOT-223"
             (at 0 0 0)
             (show_name no)
@@ -63,7 +63,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "linear regulator ldo fixed positive obsolete"
             (at 0 0 0)
             (show_name no)
@@ -73,8 +73,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            SOT?223*TabPin2*
+            "ki_fp_filters"
+            "SOT?223*TabPin2*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -83,7 +83,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            AP1117-15_0_1
+            "AP1117-15_0_1"
             (rectangle
               (start -5.08 -5.08)
               (end 5.08 1.905)
@@ -93,19 +93,19 @@
               (fill
                 (type background))))
           (symbol
-            AP1117-15_1_1
+            "AP1117-15_1_1"
             (pin
               power_in
               line
               (at 0 -7.62 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -115,12 +115,12 @@
               (at 7.62 0 180)
               (length 2.54)
               (name
-                VO
+                "VO"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -130,22 +130,22 @@
               (at -7.62 0 0)
               (length 2.54)
               (name
-                VI
+                "VI"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          AMS1117-3.3
-          (extends AP1117-15)
+          "!fablabs-kicad-library:AMS1117-3.3"
+          (extends "!fablabs-kicad-library:AP1117-15")
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -3.81 3.175 0)
             (show_name no)
             (do_not_autoplace no)
@@ -153,8 +153,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            AMS1117-3.3
+            "Value"
+            "AMS1117-3.3"
             (at 0 3.175 0)
             (show_name no)
             (do_not_autoplace no)
@@ -163,8 +163,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
-            Package_TO_SOT_SMD:SOT-223-3_TabPin2
+            "Footprint"
+            "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -173,8 +173,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            http://www.advanced-monolithic.com/pdf/ds1117.pdf
+            "Datasheet"
+            "http://www.advanced-monolithic.com/pdf/ds1117.pdf"
             (at 2.54 -6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -183,7 +183,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "1A Low Dropout regulator, positive, 3.3V fixed output, SOT-223"
             (at 0 0 0)
             (show_name no)
@@ -193,7 +193,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "linear regulator ldo fixed positive"
             (at 0 0 0)
             (show_name no)
@@ -203,8 +203,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            SOT?223*TabPin2*
+            "ki_fp_filters"
+            "SOT?223*TabPin2*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -214,7 +214,7 @@
                 (size 1.27 1.27))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -225,8 +225,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -235,8 +235,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -245,7 +245,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -255,7 +255,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -265,7 +265,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -275,7 +275,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -285,8 +285,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -295,7 +295,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -315,7 +315,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -327,7 +327,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -342,13 +342,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x02_Pin
+          "!fablabs-kicad-library:Conn_01x02_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -358,8 +358,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -367,8 +367,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x02_Pin
+            "Value"
+            "Conn_01x02_Pin"
             (at 0 -5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -376,7 +376,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -386,7 +386,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -396,7 +396,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x02, script generated"
             (at 0 0 0)
             (show_name no)
@@ -406,7 +406,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -415,8 +415,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -425,8 +425,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -435,7 +435,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x02_Pin_1_1
+            "Conn_01x02_Pin_1_1"
             (rectangle
               (start 0.8636 0.127)
               (end 0 -0.127)
@@ -476,12 +476,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -491,63 +491,101 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:AMS1117-3.3") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "4338b763-00a7-4e2e-a4fa-d17c2fa80a78")
+    (uuid "a205eaab-a501-461b-8dc8-acd283c12f9a")
     (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "AMS1117-3.3" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SOT-223-3_TabPin2" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "http://www.advanced-monolithic.com/pdf/ds1117.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "AMS1117-3.3" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Advanced Monolithic Systems" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/a205eaab-a501-461b-8dc8-acd283c12f9a"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN" (at 22.38 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1f90825b-8256-42c8-95d7-94789b8f3362"))
-  (label "+3V3" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "246acbee-8a6b-4b6c-bc07-f713d75ea7d3"))
-  (label "GND" (at 30 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "be86e302-2e39-4196-81fa-656095b6ea86"))
+  (label "VIN" (at 22.38 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cd834a68-7880-40bd-8741-d93677b2193d"))
+  (label "+3V3" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "508cce68-3bbb-4005-9582-fc406f71993b"))
+  (label "GND" (at 30 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5309e587-041b-4757-95f2-80a03674023e"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "00370ac4-afe1-4586-a13e-cbb5ce5d8ce8")
+    (uuid "ded6f7c0-4804-4f9b-8bc6-3bf5373c4c69")
     (property "Reference" "C1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/ded6f7c0-4804-4f9b-8bc6-3bf5373c4c69"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d926ad25-b86b-4854-a961-c1b83398c936"))
-  (label "GND" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "440a2c27-118d-4814-bc66-2b0ab6039ee7"))
+  (label "VIN" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4b5bae05-ecb6-4b75-b4e4-da5b3a55849b"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "51fc2dfc-e9b9-4c94-8dfc-b535bc1d6506"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "137c6f55-f0b0-4332-b77e-c6f3fbb59c06")
+    (uuid "759f2b67-58a2-4acf-b603-2c712180c243")
     (property "Reference" "C2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/759f2b67-58a2-4acf-b603-2c712180c243"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
   )
-  (label "+3V3" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "833c1055-6864-4ccf-996e-0028278610b0"))
-  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7e3b4d53-e083-4f5d-9e80-63eab089abca"))
+  (label "+3V3" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ef19856a-e0ef-49e9-a37a-3847b7e34406"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e57219f0-2f70-467f-9d21-4a5dfc4acca6"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "82dc4900-9c8f-4399-bc64-a8104be3fcc2")
+    (uuid "651d9ea6-64ed-45b0-9246-dccb4a1e0ed2")
     (property "Reference" "J1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "VIN" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x02_P2.54mm_Vertical" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/651d9ea6-64ed-45b0-9246-dccb4a1e0ed2"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_1" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "08cdac20-6ffd-4d2c-b446-a5780e650989"))
-  (label "VIN_2" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "660f604b-6a36-42b6-ba1f-8b73934eff47"))
+  (label "VIN_1" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eb2dd1f7-aa8c-4c8b-8ba5-862f16947e8e"))
+  (label "VIN_2" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "977aa943-52d8-46c6-9f29-f90fce242935"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "be6f7e12-018d-4996-a268-68aeb69c00b3")
+    (uuid "f8b8a59e-7e71-4b2c-a12d-253b7955921d")
     (property "Reference" "J2" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "3V3_OUT" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x02_P2.54mm_Vertical" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/f8b8a59e-7e71-4b2c-a12d-253b7955921d"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "3V3_OUT_1" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fd23298b-0da2-4a22-8ffc-895dc34185ff"))
-  (label "3V3_OUT_2" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "173c8713-7fd2-4d25-87a9-f41770bb026b"))
+  (label "3V3_OUT_1" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ed0048e-6294-4899-a111-5f10edb43fd9"))
+  (label "3V3_OUT_2" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "500f9996-9130-4cc7-9848-77bc9f93a4e7"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

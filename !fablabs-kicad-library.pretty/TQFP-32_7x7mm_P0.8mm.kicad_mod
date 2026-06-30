@@ -520,7 +520,7 @@
 		(roundrect_rratio 0.25)
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Package_QFP.3dshapes/TQFP-32_7x7mm_P0.8mm.step"
+	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TQFP-32_7x7mm_P0.8mm.step"
 		(offset
 			(xyz 0 0 0)
 		)

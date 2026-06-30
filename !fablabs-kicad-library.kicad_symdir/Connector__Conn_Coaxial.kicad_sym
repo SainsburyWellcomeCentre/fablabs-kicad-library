@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    Conn_Coaxial
+    "Conn_Coaxial"
     (pin_names
       (offset 1.016)
       (hide yes))
@@ -12,8 +12,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      J
+      "Reference"
+      "J"
       (at 0.254 3.048 0)
       (show_name no)
       (do_not_autoplace no)
@@ -21,8 +21,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      Conn_Coaxial
+      "Value"
+      "Conn_Coaxial"
       (at 2.921 0 90)
       (show_name no)
       (do_not_autoplace no)
@@ -30,7 +30,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 0 0 0)
       (show_name no)
@@ -40,7 +40,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
+      "Datasheet"
       ""
       (at 0 0 0)
       (show_name no)
@@ -50,7 +50,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
       (at 0 0 0)
       (show_name no)
@@ -60,7 +60,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
       (at 0 0 0)
       (show_name no)
@@ -70,7 +70,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
+      "ki_fp_filters"
       "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
       (at 0 0 0)
       (show_name no)
@@ -80,7 +80,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      Conn_Coaxial_0_1
+      "Conn_Coaxial_0_1"
       (polyline
         (pts
           (xy -2.54 0)
@@ -126,19 +126,19 @@
         (fill
           (type none))))
     (symbol
-      Conn_Coaxial_1_1
+      "Conn_Coaxial_1_1"
       (pin
         passive
         line
         (at -5.08 0 0)
         (length 2.54)
         (name
-          In
+          "In"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -148,12 +148,12 @@
         (at 0 -5.08 90)
         (length 2.54)
         (name
-          Ext
+          "Ext"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27))))))

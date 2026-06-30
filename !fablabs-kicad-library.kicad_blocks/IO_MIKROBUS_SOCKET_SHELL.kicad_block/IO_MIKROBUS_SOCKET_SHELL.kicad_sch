@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "f5a405fc-9958-4fba-ae13-69fb22b45a6c")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "bdf69443-aa54-4e10-bae8-9d516e453df5")
   (paper "A4")
   (title_block
     (title "IO_MIKROBUS_SOCKET_SHELL")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_01x08_Pin
+          "!fablabs-kicad-library:Conn_01x08_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 10.16 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x08_Pin
+            "Value"
+            "Conn_01x08_Pin"
             (at 0 -12.7 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x08, script generated"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,8 +84,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -94,7 +94,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x08_Pin_1_1
+            "Conn_01x08_Pin_1_1"
             (rectangle
               (start 0.8636 7.747)
               (end 0 7.493)
@@ -237,12 +237,12 @@
               (at 5.08 7.62 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -252,12 +252,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -267,12 +267,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -282,12 +282,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -297,12 +297,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -312,12 +312,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -327,12 +327,12 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_7
+                "Pin_7"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -342,45 +342,62 @@
               (at 5.08 -10.16 180)
               (length 3.81)
               (name
-                Pin_8
+                "Pin_8"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x08_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "5d0e8482-88cc-4ee0-9224-c5ef079ae9f6")
+    (uuid "51d74b2b-5039-4bd5-8cdf-f1c8f8416177")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "MIKROBUS_LEFT" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinSocket_1x08_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/51d74b2b-5039-4bd5-8cdf-f1c8f8416177"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "AN" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f64aff48-f8c2-47ad-933f-2a5a2b0b045c"))
-  (label "RST" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d42026b2-f68c-4bca-842b-7d11112db505"))
-  (label "CS" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "189cede8-1a25-41c2-913f-93a5a0d8074f"))
-  (label "SCK" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fec8fa45-bbfa-496c-aad9-a55e0ff39347"))
-  (label "MISO" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "09c9aab9-8a11-4a10-a237-2e2126c37800"))
-  (label "MOSI" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3063f441-d124-4f0f-ba7b-71c3649561d2"))
-  (label "+3V3" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6976558f-82a1-4fbd-b381-f3ee0615c0bb"))
-  (label "GND" (at 35.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dd461dc7-5105-4d83-85d4-15359838795b"))
+  (label "AN" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eb2733b0-c527-4085-a17c-b5a9dad8495c"))
+  (label "RST" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "96576464-d4d1-4982-93f9-76ece464c5f8"))
+  (label "CS" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "203a47b4-9ddf-4319-ab75-7a22a0e48866"))
+  (label "SCK" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d6ea6efb-9924-4da5-b37d-c0bdd365e8df"))
+  (label "MISO" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a011c02f-83ed-4920-a709-4a3608ee2c34"))
+  (label "MOSI" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b4acb3e0-b05c-4d4f-84c2-f7bd2f1375d8"))
+  (label "+3V3" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c641dad3-878b-46e1-af25-a8be0c5ef354"))
+  (label "GND" (at 35.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9317c67d-a6c5-49b6-a10f-70fe12100dcf"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x08_Pin") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "f54d901e-3280-4961-94f8-679eab4d394a")
+    (uuid "7229c1f1-7fe0-408c-adc0-38e82767bd0d")
     (property "Reference" "J2" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "MIKROBUS_RIGHT" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinSocket_1x08_P2.54mm_Vertical" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/7229c1f1-7fe0-408c-adc0-38e82767bd0d"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "PWM" (at 77.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "baff31e0-86d5-4352-97c6-11b59c90c483"))
-  (label "INT" (at 77.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d9fb16f0-56a8-4b51-87f5-c900a91592ec"))
-  (label "RX" (at 77.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0ccc4b56-e39d-4462-9691-250dff3b22d4"))
-  (label "TX" (at 77.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cd219c4e-cdfb-427a-90f9-c64dbf3d9b07"))
-  (label "SCL" (at 77.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9c3a004a-c6cc-45a6-a56f-a2d316c37273"))
-  (label "SDA" (at 77.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ea15cdd2-7222-46c1-bca8-4bd69cbf9482"))
-  (label "+5V" (at 77.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "751e5303-dd7f-4919-a828-92429bdfe4af"))
-  (label "GND" (at 77.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4e03a37e-dc2e-4970-8b30-8b8911964799"))
+  (label "PWM" (at 77.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e5ce6172-ce8f-4d83-8a81-2c6767682c9a"))
+  (label "INT" (at 77.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a585ae48-3f53-473c-a8dd-c8424125c652"))
+  (label "RX" (at 77.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d39e7bc8-703e-43d3-a5e2-b3efdaad1659"))
+  (label "TX" (at 77.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7ae7b767-022c-4d38-92e4-b4acc743cd14"))
+  (label "SCL" (at 77.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b85626b1-f6bd-4111-b01e-8aa8a897ee01"))
+  (label "SDA" (at 77.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ef9a33f-3983-4b1d-b808-4ea04389c0b3"))
+  (label "+5V" (at 77.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c28010ec-0902-4e0c-928e-a91bed12c57b"))
+  (label "GND" (at 77.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "47b2f54e-9627-4902-b13c-b66a8e3e650d"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

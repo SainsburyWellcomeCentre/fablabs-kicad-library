@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "268faed9-1270-4141-a9d8-993626fcde56")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "62201f8c-11d3-4fd1-a010-fa609173c5ba")
   (paper "A4")
   (title_block
     (title "POWER_SCREW_TERMINAL_FUSED_INPUT")
@@ -7,7 +7,7 @@
   )
   (lib_symbols
     (symbol
-          Conn_01x02_Pin
+          "!fablabs-kicad-library:Conn_01x02_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -17,8 +17,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -26,8 +26,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x02_Pin
+            "Value"
+            "Conn_01x02_Pin"
             (at 0 -5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -35,7 +35,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -45,7 +45,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x02, script generated"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -74,8 +74,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -84,8 +84,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -94,7 +94,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x02_Pin_1_1
+            "Conn_01x02_Pin_1_1"
             (rectangle
               (start 0.8636 0.127)
               (end 0 -0.127)
@@ -135,12 +135,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -150,18 +150,18 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Polyfuse
+          "!fablabs-kicad-library:Polyfuse"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -172,8 +172,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            F
+            "Reference"
+            "F"
             (at -2.54 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -181,8 +181,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Polyfuse
+            "Value"
+            "Polyfuse"
             (at 2.54 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -190,7 +190,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 1.27 -5.08 0)
             (show_name no)
@@ -201,7 +201,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -211,7 +211,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Resettable fuse, polymeric positive temperature coefficient"
             (at 0 0 0)
             (show_name no)
@@ -221,7 +221,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "resettable fuse PTC PPTC polyfuse polyswitch"
             (at 0 0 0)
             (show_name no)
@@ -231,7 +231,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "*polyfuse* *PTC*"
             (at 0 0 0)
             (show_name no)
@@ -241,7 +241,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Polyfuse_0_1
+            "Polyfuse_0_1"
             (polyline
               (pts
                 (xy -1.524 2.54)
@@ -271,7 +271,7 @@
               (fill
                 (type none))))
           (symbol
-            Polyfuse_1_1
+            "Polyfuse_1_1"
             (pin
               passive
               line
@@ -283,7 +283,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -298,13 +298,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          D_Schottky
+          "!fablabs-kicad-library:D_Schottky"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -316,8 +316,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            D
+            "Reference"
+            "D"
             (at 0 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -325,8 +325,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            D_Schottky
+            "Value"
+            "D_Schottky"
             (at 0 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -334,7 +334,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -344,7 +344,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -354,7 +354,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Schottky diode"
             (at 0 0 0)
             (show_name no)
@@ -364,7 +364,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "diode Schottky"
             (at 0 0 0)
             (show_name no)
@@ -374,7 +374,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "TO-???* *_Diode_* *SingleDiode* D_*"
             (at 0 0 0)
             (show_name no)
@@ -384,7 +384,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            D_Schottky_0_1
+            "D_Schottky_0_1"
             (polyline
               (pts
                 (xy -1.905 0.635)
@@ -419,19 +419,19 @@
               (fill
                 (type none))))
           (symbol
-            D_Schottky_1_1
+            "D_Schottky_1_1"
             (pin
               passive
               line
               (at -3.81 0 0)
               (length 2.54)
               (name
-                K
+                "K"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -441,18 +441,18 @@
               (at 3.81 0 180)
               (length 2.54)
               (name
-                A
+                "A"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          D_TVS
+          "!fablabs-kicad-library:D_TVS"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -464,8 +464,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            D
+            "Reference"
+            "D"
             (at 0 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -473,8 +473,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            D_TVS
+            "Value"
+            "D_TVS"
             (at 0 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -482,7 +482,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -492,7 +492,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -502,7 +502,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Bidirectional transient-voltage-suppression diode"
             (at 0 0 0)
             (show_name no)
@@ -512,7 +512,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "diode TVS thyrector"
             (at 0 0 0)
             (show_name no)
@@ -522,7 +522,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "TO-???* *_Diode_* *SingleDiode* D_*"
             (at 0 0 0)
             (show_name no)
@@ -532,7 +532,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            D_TVS_0_1
+            "D_TVS_0_1"
             (polyline
               (pts
                 (xy -2.54 1.27)
@@ -566,19 +566,19 @@
               (fill
                 (type none))))
           (symbol
-            D_TVS_1_1
+            "D_TVS_1_1"
             (pin
               passive
               line
               (at -3.81 0 0)
               (length 2.54)
               (name
-                A1
+                "A1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -588,18 +588,18 @@
               (at 3.81 0 180)
               (length 2.54)
               (name
-                A2
+                "A2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C_Polarized
+          "!fablabs-kicad-library:C_Polarized"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -610,8 +610,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -620,8 +620,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C_Polarized
+            "Value"
+            "C_Polarized"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -630,7 +630,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -640,7 +640,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -650,7 +650,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Polarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -660,7 +660,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -670,8 +670,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            CP_*
+            "ki_fp_filters"
+            "CP_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -680,7 +680,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_Polarized_0_1
+            "C_Polarized_0_1"
             (rectangle
               (start -2.286 0.508)
               (end 2.286 1.016)
@@ -716,7 +716,7 @@
               (fill
                 (type outline))))
           (symbol
-            C_Polarized_1_1
+            "C_Polarized_1_1"
             (pin
               passive
               line
@@ -728,7 +728,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -743,64 +743,109 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "c4bc6662-407b-4e45-ba91-ce1ddd61d007")
+    (uuid "88f88197-0d9e-410e-8808-a435cae88cba")
     (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "VIN_IN" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/88f88197-0d9e-410e-8808-a435cae88cba"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_IN_1" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a2d48ced-8dba-43b8-b8c8-d480b8657b70"))
-  (label "VIN_IN_2" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2f0276b0-8d54-479e-ada5-5c2bde644144"))
+  (label "VIN_IN_1" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "db089ebb-248d-4e09-bd55-a7f93f37b238"))
+  (label "VIN_IN_2" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "15849e47-7548-493b-811b-cea14a459a58"))
   (symbol (lib_id "!fablabs-kicad-library:Polyfuse") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "e33dbe3a-d60f-41c5-8774-c82d0abb7828")
+    (uuid "464986b1-2d89-40b2-b8d3-ad21ac57c670")
     (property "Reference" "F1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "2A_PTC" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:Fuse_1206_3216Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/464986b1-2d89-40b2-b8d3-ad21ac57c670"
+          (reference "F1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_IN_1" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bcc72ca6-5beb-47f9-9119-8a8b4ab1e266"))
-  (label "VIN_FUSED" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3b377b46-cedb-43fb-8a6e-cc9558b8d804"))
+  (label "VIN_IN_1" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "293af94b-4c85-4bce-a57f-ce815a435012"))
+  (label "VIN_FUSED" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e1b2f0a7-e5da-4ceb-9851-6f64576f9441"))
   (symbol (lib_id "!fablabs-kicad-library:D_Schottky") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "60774b73-80c8-48cc-982a-3553ab13fa90")
+    (uuid "ef21e77e-0d38-406a-b01d-323143443d57")
     (property "Reference" "D1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SS34" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/ef21e77e-0d38-406a-b01d-323143443d57"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_IN_2" (at 110.19 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c3ee9ebc-1358-444d-b39f-8c5521d477d6"))
-  (label "VIN_FUSED" (at 117.81 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a0cca9b9-1de8-45ec-a3e0-20b8a42ff551"))
+  (label "VIN_IN_2" (at 110.19 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c1fce884-16c3-4d95-8bf6-971f1a95e261"))
+  (label "VIN_FUSED" (at 117.81 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c4b9c209-64f3-4d05-8546-1f6562c2fed5"))
   (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "e345d4c0-cee2-49de-acd4-92c61f7d627c")
+    (uuid "342e2bd6-3b1b-44d5-94d2-1a2bad3fb638")
     (property "Reference" "D2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SMBJ24A" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/342e2bd6-3b1b-44d5-94d2-1a2bad3fb638"
+          (reference "D2") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_FUSED" (at 26.19 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dafd4865-a735-4e71-8ce1-23609613da20"))
-  (label "VIN_IN_2" (at 33.81 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "584b919b-987b-4e88-a85b-f50101d2f82e"))
+  (label "VIN_FUSED" (at 26.19 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "db320c93-7729-4000-9170-42a9fe8b219f"))
+  (label "VIN_IN_2" (at 33.81 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5aac4002-4c13-4e6c-84e5-14707b4d068e"))
   (symbol (lib_id "!fablabs-kicad-library:C_Polarized") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "3922db9d-77ae-411b-a00e-837904abcac5")
+    (uuid "20638f59-a835-4baf-868f-dfd0adb65169")
     (property "Reference" "C1" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "220uF" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/20638f59-a835-4baf-868f-dfd0adb65169"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_FUSED" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2d8865ea-1c1e-43ee-a404-48232711952d"))
-  (label "VIN_IN_2" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "83b4f36f-bb36-4486-8a8c-70bf41107468"))
+  (label "VIN_FUSED" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4cc1db6b-7677-4df2-935c-26525e3104e2"))
+  (label "VIN_IN_2" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bb7e5128-24dd-44af-9518-b129a10d29b5"))
   (symbol (lib_id "!fablabs-kicad-library:C_Polarized") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "6f7bd278-f36c-4c52-a5cf-95edef90dd0f")
+    (uuid "42b9db4b-36ef-4018-a805-ed91f7a5eb74")
     (property "Reference" "C2" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/42b9db4b-36ef-4018-a805-ed91f7a5eb74"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_FUSED" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "69db7f95-f931-4b13-b97f-0cd49d597294"))
-  (label "VIN_IN_2" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "547ce41a-dbdb-4da7-b4c2-9d1ab3fa262d"))
+  (label "VIN_FUSED" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "94df1c81-6955-4eed-8238-3cde3572c3d5"))
+  (label "VIN_IN_2" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3979fd65-ca70-464b-8006-a2c0ca662f9d"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

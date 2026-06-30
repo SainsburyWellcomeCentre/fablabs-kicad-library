@@ -1,10 +1,9 @@
 {
   "name": "PROTOCOL_UART_DEBUG_HEADER",
   "description": "Six-pin UART/debug/programming header with power and reset pins.",
-  "keywords": "",
+  "keywords": "uart,debug,header",
   "fields": {
     "Category": "Protocols",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

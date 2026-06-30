@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    VL53L1CXV0FY1
+    "VL53L1CXV0FY1"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -6.35 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -18,8 +18,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      VL53L1CXV0FY1
+      "Value"
+      "VL53L1CXV0FY1"
       (at 12.065 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -27,8 +27,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Sensor_Distance:ST_VL53L1x
+      "Footprint"
+      "Sensor_Distance:ST_VL53L1x"
       (at 17.145 -13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -37,8 +37,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.st.com/resource/en/datasheet/vl53l1x.pdf
+      "Datasheet"
+      "https://www.st.com/resource/en/datasheet/vl53l1x.pdf"
       (at 2.54 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -47,7 +47,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "4m distance ranging ToF sensor, Optical LGA12"
       (at 0 0 0)
       (show_name no)
@@ -57,7 +57,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "VL53L1x ToF"
       (at 0 0 0)
       (show_name no)
@@ -67,8 +67,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      ST*VL53L1x*
+      "ki_fp_filters"
+      "ST*VL53L1x*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -77,7 +77,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      VL53L1CXV0FY1_0_1
+      "VL53L1CXV0FY1_0_1"
       (rectangle
         (start -7.62 12.7)
         (end 7.62 -12.7)
@@ -87,19 +87,19 @@
         (fill
           (type background))))
     (symbol
-      VL53L1CXV0FY1_1_1
+      "VL53L1CXV0FY1_1_1"
       (pin
         power_in
         line
         (at 2.54 15.24 270)
         (length 2.54)
         (name
-          AVDDVCSEL
+          "AVDDVCSEL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -109,12 +109,12 @@
         (at 2.54 -15.24 90)
         (length 2.54)
         (name
-          AVSSVCSEL
+          "AVSSVCSEL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -124,12 +124,12 @@
         (at 0 -15.24 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -140,12 +140,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -155,12 +155,12 @@
         (at -10.16 -7.62 0)
         (length 2.54)
         (name
-          XSHUT
+          "XSHUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -171,12 +171,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -186,12 +186,12 @@
         (at -10.16 5.08 0)
         (length 2.54)
         (name
-          GPIO1
+          "GPIO1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -202,12 +202,12 @@
         (length 2.54)
         (hide yes)
         (name
-          DNC
+          "DNC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -217,12 +217,12 @@
         (at -10.16 0 0)
         (length 2.54)
         (name
-          SDA
+          "SDA"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -232,12 +232,12 @@
         (at -10.16 -2.54 0)
         (length 2.54)
         (name
-          SCL
+          "SCL"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -247,12 +247,12 @@
         (at 0 15.24 270)
         (length 2.54)
         (name
-          AVDD
+          "AVDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -263,22 +263,22 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    VL53L0CXV0DH1
-    (extends VL53L1CXV0FY1)
+    "VL53L0CXV0DH1"
+    (extends "VL53L1CXV0FY1")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -6.35 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -286,8 +286,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      VL53L0CXV0DH1
+      "Value"
+      "VL53L0CXV0DH1"
       (at 12.065 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -295,8 +295,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
-      Sensor_Distance:ST_VL53L1x
+      "Footprint"
+      "Sensor_Distance:ST_VL53L1x"
       (at 17.145 -13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -305,8 +305,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.st.com/resource/en/datasheet/vl53l0x.pdf
+      "Datasheet"
+      "https://www.st.com/resource/en/datasheet/vl53l0x.pdf"
       (at 2.54 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -315,7 +315,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "2m distance ranging ToF sensor, Optical LGA12"
       (at 0 0 0)
       (show_name no)
@@ -325,7 +325,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "VL53L0x ToF"
       (at 0 0 0)
       (show_name no)
@@ -335,8 +335,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      ST*VL53L1x*
+      "ki_fp_filters"
+      "ST*VL53L1x*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)

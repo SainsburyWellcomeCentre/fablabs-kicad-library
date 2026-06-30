@@ -1,10 +1,9 @@
 {
   "name": "CONVERTER_USB_UART_CH340G",
   "description": "USB-UART bridge using CH340G with USB Micro-B connector, crystal, and UART header.",
-  "keywords": "",
+  "keywords": "usb,uart,converter,ch340g",
   "fields": {
     "Category": "Converters",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

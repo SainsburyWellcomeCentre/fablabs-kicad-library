@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    LM2596S-12
+    "LM2596S-12"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -10.16 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -19,8 +19,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      LM2596S-12
+      "Value"
+      "LM2596S-12"
       (at 0 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -29,8 +29,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
-      Package_TO_SOT_SMD:TO-263-5_TabPin3
+      "Footprint"
+      "Package_TO_SOT_SMD:TO-263-5_TabPin3"
       (at 1.27 -6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -41,8 +41,8 @@
           (italic yes))
         (justify left)))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/lm2596.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -51,7 +51,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "12V 3A Step-Down Voltage Regulator, TO-263"
       (at 0 0 0)
       (show_name no)
@@ -61,7 +61,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "Step-Down Voltage Regulator 12V 3A"
       (at 0 0 0)
       (show_name no)
@@ -71,8 +71,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      TO?263*
+      "ki_fp_filters"
+      "TO?263*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -81,7 +81,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      LM2596S-12_0_1
+      "LM2596S-12_0_1"
       (rectangle
         (start -10.16 5.08)
         (end 10.16 -5.08)
@@ -91,19 +91,19 @@
         (fill
           (type background))))
     (symbol
-      LM2596S-12_1_1
+      "LM2596S-12_1_1"
       (pin
         power_in
         line
         (at -12.7 2.54 0)
         (length 2.54)
         (name
-          VIN
+          "VIN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -113,12 +113,12 @@
         (at 12.7 -2.54 180)
         (length 2.54)
         (name
-          OUT
+          "OUT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -128,12 +128,12 @@
         (at 0 -7.62 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -143,12 +143,12 @@
         (at 12.7 2.54 180)
         (length 2.54)
         (name
-          FB
+          "FB"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -158,22 +158,22 @@
         (at -12.7 -2.54 0)
         (length 2.54)
         (name
-          ~{ON}/OFF
+          "~{ON}/OFF"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    LM2596S-5
-    (extends LM2596S-12)
+    "LM2596S-5"
+    (extends "LM2596S-12")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -10.16 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -182,8 +182,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      LM2596S-5
+      "Value"
+      "LM2596S-5"
       (at 0 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -192,8 +192,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
-      Package_TO_SOT_SMD:TO-263-5_TabPin3
+      "Footprint"
+      "Package_TO_SOT_SMD:TO-263-5_TabPin3"
       (at 1.27 -6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -204,8 +204,8 @@
           (italic yes))
         (justify left)))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/lm2596.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -214,7 +214,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "5V 3A Step-Down Voltage Regulator, TO-263"
       (at 0 0 0)
       (show_name no)
@@ -224,7 +224,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "Step-Down Voltage Regulator 5V 3A"
       (at 0 0 0)
       (show_name no)
@@ -234,8 +234,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      TO?263*
+      "ki_fp_filters"
+      "TO?263*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)

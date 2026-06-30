@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:SOIC-8_3.9x4.9mm_P1.27mm"
-    (uuid "1626ee24-c869-42cf-bc25-48b481bf5b55")
+    (uuid "bbf290d3-c142-49cb-a0b9-5f2266794aae")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "SOIC, 8 Pin (JEDEC MS-012AA, https://www.analog.com/media/en/package-pcb-resources/package/pkg_pdf/soic_narrow-r/r_8.pdf)")
   	(tags "SOIC SO")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -3.4 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -309,7 +310,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/SOIC-8_3.9x4.9mm_P1.27mm.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -322,14 +323,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:R_0805_2012Metric"
-    (uuid "50d783e7-cc18-42af-a03a-577a22fdaca5")
+    (uuid "334698dd-d50b-4d4b-aa02-dabf3975dd0e")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "resistor")
   	(property "Reference" "R1"
-    (at 80 50 0)
+  		(at 0 -1.65 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -422,7 +424,7 @@
   		(roundrect_rratio 0.243902)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0805_2012Metric.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/R_0805_2012Metric.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -435,14 +437,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "b6b1a9fe-20f9-4b9f-a9a8-1f004e0249ba")
+    (uuid "f1e507b1-857c-4f12-aba0-49d557287a11")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 110 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -548,14 +551,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal"
-    (uuid "16b24781-f63c-4074-83ab-2f040f3c9cab")
+    (uuid "375f1795-0e1c-4b76-8832-71a53341e836")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Terminal Block Phoenix MKDS-1,5-3-5.08, 3 pins, pitch 5.08mm, size 15.2x9.8mm, drill diameter 1.3mm, pad diameter 2.6mm, http://www.farnell.com/datasheets/100425.pdf")
   	(tags "THT Terminal Block Phoenix MKDS-1,5-3-5.08 pitch 5.08mm size 15.2x9.8mm drill 1.3mm pad 2.6mm")
   	(property "Reference" "J1"
-    (at 140 50 0)
+  		(at 5.08 -6.32 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -871,7 +875,7 @@
   		(remove_unused_layers no)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/TerminalBlock_Phoenix.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TerminalBlock_Phoenix_MKDS-1,5-3-5.08_1x03_P5.08mm_Horizontal.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -884,14 +888,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x05_P2.54mm_Vertical"
-    (uuid "c5cb4b7a-b3f5-4d2b-9234-e431cc61b7ae")
+    (uuid "81b9b40b-fcab-4b1e-9541-c18ca73be2e6")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Through hole straight pin header, 1x05, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x05 2.54mm single row")
   	(property "Reference" "J2"
-    (at 170 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

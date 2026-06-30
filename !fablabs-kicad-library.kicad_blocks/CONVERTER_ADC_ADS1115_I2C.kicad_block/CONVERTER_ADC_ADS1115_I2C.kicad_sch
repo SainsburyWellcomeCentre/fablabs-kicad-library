@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "b4e6fa4d-2b70-4f4a-adb5-0adff3f4cf0c")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "60f2a4b0-5ce4-45d9-b5f4-85c6f33cb2c6")
   (paper "A4")
   (title_block
     (title "CONVERTER_ADC_ADS1115_I2C")
@@ -7,15 +7,15 @@
   )
   (lib_symbols
     (symbol
-          ADS1015IDGS
+          "!fablabs-kicad-library:ADS1015IDGS"
           (exclude_from_sim no)
           (in_bom yes)
           (on_board yes)
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at 2.54 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -23,8 +23,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            ADS1015IDGS
+            "Value"
+            "ADS1015IDGS"
             (at 7.62 11.43 0)
             (show_name no)
             (do_not_autoplace no)
@@ -32,8 +32,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
-            Package_SO:TSSOP-10_3x3mm_P0.5mm
+            "Footprint"
+            "Package_SO:TSSOP-10_3x3mm_P0.5mm"
             (at 0 -12.7 0)
             (show_name no)
             (do_not_autoplace no)
@@ -42,8 +42,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            http://www.ti.com/lit/ds/symlink/ads1015.pdf
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/ads1015.pdf"
             (at -1.27 -22.86 0)
             (show_name no)
             (do_not_autoplace no)
@@ -52,7 +52,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Ultra-Small, Low-Power, I2C-Compatible, 3.3-kSPS, 12-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
             (at 0 0 0)
             (show_name no)
@@ -62,7 +62,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "12 bit 4 channel I2C ADC"
             (at 0 0 0)
             (show_name no)
@@ -72,8 +72,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            TSSOP*3x3mm*P0.5mm*
+            "ki_fp_filters"
+            "TSSOP*3x3mm*P0.5mm*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -82,7 +82,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            ADS1015IDGS_0_1
+            "ADS1015IDGS_0_1"
             (rectangle
               (start -7.62 10.16)
               (end 7.62 -7.62)
@@ -92,19 +92,19 @@
               (fill
                 (type background))))
           (symbol
-            ADS1015IDGS_1_1
+            "ADS1015IDGS_1_1"
             (pin
               input
               line
               (at 10.16 -5.08 180)
               (length 2.54)
               (name
-                ADDR
+                "ADDR"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -114,12 +114,12 @@
               (at 10.16 5.08 180)
               (length 2.54)
               (name
-                ALERT/RDY
+                "ALERT/RDY"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -129,12 +129,12 @@
               (at 0 -10.16 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -144,12 +144,12 @@
               (at -10.16 2.54 0)
               (length 2.54)
               (name
-                AIN0
+                "AIN0"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -159,12 +159,12 @@
               (at -10.16 0 0)
               (length 2.54)
               (name
-                AIN1
+                "AIN1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -174,12 +174,12 @@
               (at -10.16 -2.54 0)
               (length 2.54)
               (name
-                AIN2
+                "AIN2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -189,12 +189,12 @@
               (at -10.16 -5.08 0)
               (length 2.54)
               (name
-                AIN3
+                "AIN3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                7
+                "7"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -204,12 +204,12 @@
               (at 0 12.7 270)
               (length 2.54)
               (name
-                VDD
+                "VDD"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                8
+                "8"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -219,12 +219,12 @@
               (at 10.16 -2.54 180)
               (length 2.54)
               (name
-                SDA
+                "SDA"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                9
+                "9"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -234,22 +234,22 @@
               (at 10.16 0 180)
               (length 2.54)
               (name
-                SCL
+                "SCL"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                10
+                "10"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          ADS1115IDGS
-          (extends ADS1015IDGS)
+          "!fablabs-kicad-library:ADS1115IDGS"
+          (extends "!fablabs-kicad-library:ADS1015IDGS")
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at 2.54 13.97 0)
             (show_name no)
             (do_not_autoplace no)
@@ -257,8 +257,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            ADS1115IDGS
+            "Value"
+            "ADS1115IDGS"
             (at 7.62 11.43 0)
             (show_name no)
             (do_not_autoplace no)
@@ -266,8 +266,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
-            Package_SO:TSSOP-10_3x3mm_P0.5mm
+            "Footprint"
+            "Package_SO:TSSOP-10_3x3mm_P0.5mm"
             (at 0 -12.7 0)
             (show_name no)
             (do_not_autoplace no)
@@ -276,8 +276,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
-            http://www.ti.com/lit/ds/symlink/ads1113.pdf
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/ads1113.pdf"
             (at -1.27 -22.86 0)
             (show_name no)
             (do_not_autoplace no)
@@ -286,7 +286,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Ultra-Small, Low-Power, I2C-Compatible, 860-SPS, 16-Bit ADCs With Internal Reference, Oscillator, and Programmable Comparator, VSSOP-10"
             (at 0 0 0)
             (show_name no)
@@ -296,7 +296,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "16 bit 4 channel I2C ADC"
             (at 0 0 0)
             (show_name no)
@@ -306,8 +306,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            TSSOP*3x3mm*P0.5mm*
+            "ki_fp_filters"
+            "TSSOP*3x3mm*P0.5mm*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -317,7 +317,7 @@
                 (size 1.27 1.27))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -328,8 +328,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -338,8 +338,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -348,7 +348,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -358,7 +358,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -368,7 +368,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -378,7 +378,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -388,8 +388,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -398,7 +398,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -418,7 +418,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -430,7 +430,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -445,13 +445,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x04_Pin
+          "!fablabs-kicad-library:Conn_01x04_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -461,8 +461,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -470,8 +470,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x04_Pin
+            "Value"
+            "Conn_01x04_Pin"
             (at 0 -7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -479,7 +479,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -489,7 +489,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -499,7 +499,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x04, script generated"
             (at 0 0 0)
             (show_name no)
@@ -509,7 +509,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -518,8 +518,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -528,8 +528,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -538,7 +538,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x04_Pin_1_1
+            "Conn_01x04_Pin_1_1"
             (rectangle
               (start 0.8636 2.667)
               (end 0 2.413)
@@ -613,12 +613,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -628,12 +628,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -643,12 +643,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -658,18 +658,18 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x06_Pin
+          "!fablabs-kicad-library:Conn_01x06_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -679,8 +679,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 7.62 0)
             (show_name no)
             (do_not_autoplace no)
@@ -688,8 +688,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x06_Pin
+            "Value"
+            "Conn_01x06_Pin"
             (at 0 -10.16 0)
             (show_name no)
             (do_not_autoplace no)
@@ -697,7 +697,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -707,7 +707,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -717,7 +717,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x06, script generated"
             (at 0 0 0)
             (show_name no)
@@ -727,7 +727,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -736,8 +736,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -746,8 +746,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -756,7 +756,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x06_Pin_1_1
+            "Conn_01x06_Pin_1_1"
             (rectangle
               (start 0.8636 5.207)
               (end 0 4.953)
@@ -865,12 +865,12 @@
               (at 5.08 5.08 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -880,12 +880,12 @@
               (at 5.08 2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -895,12 +895,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_3
+                "Pin_3"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -910,12 +910,12 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_4
+                "Pin_4"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -925,12 +925,12 @@
               (at 5.08 -5.08 180)
               (length 3.81)
               (name
-                Pin_5
+                "Pin_5"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -940,57 +940,88 @@
               (at 5.08 -7.62 180)
               (length 3.81)
               (name
-                Pin_6
+                "Pin_6"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:ADS1115IDGS") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "5d22dc9d-0b1e-42e0-8481-53cdd403bade")
+    (uuid "3d26760c-3806-4a08-9b90-1d16553359ec")
     (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "ADS1115IDGS" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:TSSOP-10_3x3mm_P0.5mm" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "https://www.ti.com/lit/ds/symlink/ads1115.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "ADS1115IDGSR" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Texas Instruments" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/3d26760c-3806-4a08-9b90-1d16553359ec"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
   )
   (symbol (lib_id "!fablabs-kicad-library:C") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "8a2c1108-669e-47f4-88ac-e1dc58bb95b8")
+    (uuid "21c89948-b333-4b22-a563-59430c85c6ec")
     (property "Reference" "C1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/21c89948-b333-4b22-a563-59430c85c6ec"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VDD" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "75f94602-a579-45f7-961c-ebbcb935f0cc"))
-  (label "GND" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4115cbdf-a537-4356-88e9-5e6dab92ded0"))
+  (label "VDD" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f49c9288-eff5-454c-ac49-05cd46e87b2f"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "86c4815a-a1f6-43d4-b3b3-93a11f7ce4b3"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x04_Pin") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "49f11bfc-8d45-40b4-803a-06c6e80d68ce")
+    (uuid "1c7c27c9-cfb1-45d6-97f0-54b309e169c6")
     (property "Reference" "J1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "I2C" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x04_P2.54mm_Vertical" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1c7c27c9-cfb1-45d6-97f0-54b309e169c6"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "I2C_1" (at 119.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e69abe4e-1690-4ccf-89ec-c39f85be7179"))
-  (label "I2C_2" (at 119.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ab615f0d-a6b4-421b-b31f-058a5b42ea21"))
-  (label "I2C_3" (at 119.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fc909dd5-90fb-4a89-9623-7e241725c9eb"))
-  (label "I2C_4" (at 119.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f2e9e935-b38d-4a12-bb46-ae73cb1f19bd"))
+  (label "I2C_1" (at 119.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3b53714d-2d35-49b0-9698-d78364d3e2f9"))
+  (label "I2C_2" (at 119.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f759bcea-01ba-4bf2-b3ef-29475ff2be83"))
+  (label "I2C_3" (at 119.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d23810c7-a4fa-4a8d-99e8-229c774975a2"))
+  (label "I2C_4" (at 119.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "53b45e45-24db-46f9-99c5-e5e73df620b9"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x06_Pin") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "0d94f1ce-d06f-484b-ba47-32fc0dc29785")
+    (uuid "56a394b4-3860-4133-913b-29ec385e3b3e")
     (property "Reference" "J2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "ANALOG_IN" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/56a394b4-3860-4133-913b-29ec385e3b3e"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "AIN_1" (at 35.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e187789c-9961-40b2-8dc9-8cf434594505"))
-  (label "AIN_2" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bd0cd467-88d4-44cb-bbc2-72dc64d97fc1"))
-  (label "AIN_3" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "22227f58-ff95-487e-89b3-dab1b304f104"))
-  (label "AIN_4" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bf010977-fc71-413e-8cce-5b677e3d6d5f"))
-  (label "AIN_5" (at 35.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6fd43ad7-01f5-4090-a5f5-608a0b619911"))
-  (label "AIN_6" (at 35.08 59.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4f93c004-b5d4-4789-adb3-ee8088c48e0f"))
+  (label "AIN_1" (at 35.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d90274a9-e25d-4de9-9a3e-e75de10beda4"))
+  (label "AIN_2" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9b397ff9-df7e-4ce0-99d6-ed2798b2218e"))
+  (label "AIN_3" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "47047bd3-a4bb-4ac4-a27b-ef65af2ae72c"))
+  (label "AIN_4" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6c9a1b7d-eed8-4313-991e-244eabed33e3"))
+  (label "AIN_5" (at 35.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0b7b7a9b-e1ba-48b3-b5a2-4713870d8c3a"))
+  (label "AIN_6" (at 35.08 74.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "aad9f965-d680-42be-b2aa-1f479eeecb98"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

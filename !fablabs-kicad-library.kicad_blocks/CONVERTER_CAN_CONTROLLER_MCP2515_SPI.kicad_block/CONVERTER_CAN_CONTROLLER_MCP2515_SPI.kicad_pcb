@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:TSSOP-20_4.4x6.5mm_P0.65mm"
-    (uuid "ce265a95-9e94-44c1-9edc-229d9923ac46")
+    (uuid "94d15843-19c4-4182-aa7c-1d4de7bb0dcd")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "TSSOP, 20 Pin (JEDEC MO-153 Var AC https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
   	(tags "TSSOP SO")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -4.2 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -345,7 +346,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TSSOP-20_4.4x6.5mm_P0.65mm.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -358,13 +359,14 @@
   	)
   )
   (footprint "!fablabs-kicad-library:Crystal_SMD_3225-4Pin_3.2x2.5mm"
-    (uuid "1b695cb7-b858-4438-b79d-b1da42935ec3")
+    (uuid "f4133526-52aa-4fb9-8460-04b7bbed08e6")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "SMD3225/4, Crystal, 3.2x2.5mm package, SMD, http://www.txccrystal.com/images/pdf/7m-accuracy.pdf")
   	(property "Reference" "Y1"
-    (at 80 50 0)
+  		(at 0 -2.45 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -487,14 +489,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "83f6ff0c-ecf5-4084-b0f8-85305fa02ff8")
+    (uuid "c83d4f27-2a44-49c6-8785-409d7b606dad")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 110 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -600,14 +603,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "113e8c91-32c3-4712-b766-4d219ddc5b4e")
+    (uuid "bbb17db4-4ef9-4208-b10c-17ee3ae58f45")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 140 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -713,14 +717,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "180d6ed7-a961-4a13-92f8-0aa39f8e9352")
+    (uuid "5fd57113-a8dd-4e0b-bbd2-4fcd8df69c83")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C3"
-    (at 170 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -826,14 +831,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical"
-    (uuid "62357acc-6a1f-4dec-a3ec-64e4b97bb2fe")
+    (uuid "41eb8c89-c19f-498e-a467-f81a0efbb18f")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x06 2.54mm single row")
   	(property "Reference" "J1"
-    (at 50 80 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

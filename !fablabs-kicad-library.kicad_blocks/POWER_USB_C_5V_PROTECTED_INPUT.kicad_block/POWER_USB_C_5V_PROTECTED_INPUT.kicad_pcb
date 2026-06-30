@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -25,10 +25,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf")
   	(tags "usb usb-c 2.0 pd")
   	(property "Reference" "J1"
-    (at 50 50 0)
+  		(at 0 -5.645 0)
   		(layer "F.SilkS")
   		(uuid "a144ce76-cc23-44fb-8108-bf18e64a4c3d")
   		(effects
@@ -394,14 +395,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:R_0603_1608Metric"
-    (uuid "71ff9fe7-8ea8-4bfa-8314-de67dc51489e")
+    (uuid "5badf5ad-b1d2-4ec6-a64e-54589d6341c3")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "resistor")
   	(property "Reference" "R1"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -494,7 +496,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/R_0603_1608Metric.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -507,14 +509,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:R_0603_1608Metric"
-    (uuid "cff054c7-34ee-43d1-af4c-8e2f77af45bf")
+    (uuid "e9fd7394-5f22-4e52-8a3a-c68e1a5d1e0c")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "resistor")
   	(property "Reference" "R2"
-    (at 110 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -607,7 +610,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_0603_1608Metric.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/R_0603_1608Metric.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -620,14 +623,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:Fuse_1206_3216Metric"
-    (uuid "643e8fe7-bd6b-4855-bc2a-e082c694f4e0")
+    (uuid "e0dd6f74-57c1-4edd-8377-24923e802c70")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Fuse SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf)")
   	(tags "fuse")
   	(property "Reference" "F1"
-    (at 140 50 0)
+  		(at 0 -1.83 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -737,10 +741,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D1"
-    (at 170 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects
@@ -1008,14 +1013,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:L_0805_2012Metric"
-    (uuid "5ed591ab-8e27-4ebb-a44c-63f3706f6e2f")
+    (uuid "0c0f39b8-1e9f-4509-8198-879277060798")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 80 0)
   	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "inductor")
   	(property "Reference" "FB1"
-    (at 50 80 0)
+  		(at 0 -1.55 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1121,14 +1127,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "2cc5a1ba-cf3e-41fe-81ab-d2fd5b269223")
+    (uuid "f7fa8c88-9ba7-4dd9-99e2-86d7fa5e114b")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 80 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 80 80 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -1234,14 +1241,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "f3d7f97c-9086-43cf-b219-4b20e9f0e266")
+    (uuid "6a12de16-b330-4a24-bb3e-8039d1bf6d86")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 80 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 110 80 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font

@@ -300,7 +300,7 @@
 		(uuid "d2a8110f-8921-4597-b5f8-36dd0eea128c")
 	)
 	(embedded_fonts no)
-	(model "${KICAD10_3DMODEL_DIR}/Sensor_Distance.3dshapes/ST_VL53L1x.step"
+	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/ST_VL53L1x.step"
 		(offset
 			(xyz 0 0 0)
 		)

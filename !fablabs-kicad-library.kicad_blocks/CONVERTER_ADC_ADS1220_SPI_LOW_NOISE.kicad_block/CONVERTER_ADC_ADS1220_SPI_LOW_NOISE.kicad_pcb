@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:TSSOP-16_4.4x5mm_P0.65mm"
-    (uuid "fa1d8f59-6953-4406-9efd-2311d1a540c1")
+    (uuid "0651ddd4-6d48-445f-a4fc-ec7070e6e3ac")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "TSSOP, 16 Pin (https://www.jedec.org/document_search?search_api_views_fulltext=MO-153)")
   	(tags "TSSOP SO JEDEC-MO-153-AB Texas_PW0016A Microchip-ST Toshiba-TSSOP16-P-0044-0.65A NXP-SOT403-1 Infineon-P-TSSOP-16-800")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -3.45 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -321,7 +322,7 @@
   		(roundrect_rratio 0.25)
   	)
   	(embedded_fonts no)
-  	(model "${KICAD10_3DMODEL_DIR}/Package_SO.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step"
+  	(model "${KIPRJMOD}/libs/!fablabs-kicad-library.3dshapes/TSSOP-16_4.4x5mm_P0.65mm.step"
   		(offset
   			(xyz 0 0 0)
   		)
@@ -334,14 +335,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "333f218b-c3a1-486d-bfc8-e4d5c7b18ee9")
+    (uuid "5f669e65-4f73-4f94-80f9-4c76e2b014eb")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -447,14 +449,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "b7f0f235-f09b-4f9f-9868-d927f5c9cefc")
+    (uuid "751802c7-5748-4161-af94-23d0343e7a22")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 110 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -560,14 +563,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x08_P2.54mm_Vertical"
-    (uuid "93a0c079-2b92-4a9e-9c30-d27d70252bf1")
+    (uuid "96548006-bbd2-485d-bcfc-839e1a4c6928")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x08 2.54mm single row")
   	(property "Reference" "J1"
-    (at 140 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -788,14 +792,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x08_P2.54mm_Vertical"
-    (uuid "011d7565-a08c-4b31-bde7-27ad87b921fd")
+    (uuid "cdba9c1d-43dd-4e73-aae7-cb85dc627659")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x08 2.54mm single row")
   	(property "Reference" "J2"
-    (at 170 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font

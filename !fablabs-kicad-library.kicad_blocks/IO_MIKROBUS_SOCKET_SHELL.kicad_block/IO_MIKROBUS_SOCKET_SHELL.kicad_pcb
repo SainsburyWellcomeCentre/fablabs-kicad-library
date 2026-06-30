@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -21,14 +21,15 @@
   )
   (setup (pad_to_mask_clearance 0))
   (footprint "!fablabs-kicad-library:PinSocket_1x08_P2.54mm_Vertical"
-    (uuid "e359b5dd-2d3f-43eb-aadf-a5a1f483957f")
+    (uuid "c3c0b278-e805-48db-b49e-d65acd515e81")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
   	(tags "Through hole socket strip THT 1x08 2.54mm single row")
   	(property "Reference" "J1"
-    (at 50 50 0)
+  		(at 0 -2.77 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -275,14 +276,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinSocket_1x08_P2.54mm_Vertical"
-    (uuid "008a55f6-efe1-4cc4-a484-9fe5afad87a0")
+    (uuid "bb7a0e3a-bd49-4987-9281-833a7612777a")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Through hole straight socket strip, 1x08, 2.54mm pitch, single row (from Kicad 4.0.7), script generated")
   	(tags "Through hole socket strip THT 1x08 2.54mm single row")
   	(property "Reference" "J2"
-    (at 80 50 0)
+  		(at 0 -2.77 0)
   		(layer "F.SilkS")
   		(effects
   			(font

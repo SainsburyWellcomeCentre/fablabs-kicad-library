@@ -1,5 +1,5 @@
-(kicad_sch (version 20250114) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
-  (uuid "d846cb9a-c878-4c0c-a3e2-8ab7b8e1d206")
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "815a318e-df9d-4e2b-ae23-70af84796fdc")
   (paper "A4")
   (title_block
     (title "POWER_BUCK_GENERIC_SMALL_SYNC")
@@ -7,15 +7,15 @@
   )
   (lib_symbols
     (symbol
-          TPS54302
+          "!fablabs-kicad-library:TPS54302"
           (exclude_from_sim no)
           (in_bom yes)
           (on_board yes)
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -7.62 6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -24,8 +24,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            TPS54302
+            "Value"
+            "TPS54302"
             (at 0 6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -34,8 +34,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
-            Package_TO_SOT_SMD:SOT-23-6
+            "Footprint"
+            "Package_TO_SOT_SMD:SOT-23-6"
             (at 1.27 -8.89 0)
             (show_name no)
             (do_not_autoplace no)
@@ -45,8 +45,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Datasheet
-            http://www.ti.com/lit/ds/symlink/tps54302.pdf
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/tps54302.pdf"
             (at -7.62 8.89 0)
             (show_name no)
             (do_not_autoplace no)
@@ -55,7 +55,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
             (at 0 0 0)
             (show_name no)
@@ -65,7 +65,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "switching buck converter power-supply voltage regulator emi spread spectrum"
             (at 0 0 0)
             (show_name no)
@@ -75,8 +75,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            SOT?23*
+            "ki_fp_filters"
+            "SOT?23*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -85,7 +85,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            TPS54302_0_1
+            "TPS54302_0_1"
             (rectangle
               (start -7.62 5.08)
               (end 7.62 -5.08)
@@ -95,19 +95,19 @@
               (fill
                 (type background))))
           (symbol
-            TPS54302_1_1
+            "TPS54302_1_1"
             (pin
               power_in
               line
               (at 0 -7.62 90)
               (length 2.54)
               (name
-                GND
+                "GND"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -117,12 +117,12 @@
               (at 10.16 0 180)
               (length 2.54)
               (name
-                SW
+                "SW"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -132,12 +132,12 @@
               (at -10.16 2.54 0)
               (length 2.54)
               (name
-                VIN
+                "VIN"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                3
+                "3"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -147,12 +147,12 @@
               (at 10.16 -2.54 180)
               (length 2.54)
               (name
-                FB
+                "FB"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                4
+                "4"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -162,12 +162,12 @@
               (at -10.16 -2.54 0)
               (length 2.54)
               (name
-                EN
+                "EN"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                5
+                "5"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -177,22 +177,22 @@
               (at 10.16 2.54 180)
               (length 2.54)
               (name
-                BOOT
+                "BOOT"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                6
+                "6"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          TPS54202DDC
-          (extends TPS54302)
+          "!fablabs-kicad-library:TPS54202DDC"
+          (extends "!fablabs-kicad-library:TPS54302")
           (property
-            Reference
-            U
+            "Reference"
+            "U"
             (at -7.62 6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -201,8 +201,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            TPS54202DDC
+            "Value"
+            "TPS54202DDC"
             (at 0 6.35 0)
             (show_name no)
             (do_not_autoplace no)
@@ -211,8 +211,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
-            Package_TO_SOT_SMD:SOT-23-6
+            "Footprint"
+            "Package_TO_SOT_SMD:SOT-23-6"
             (at 1.27 -8.89 0)
             (show_name no)
             (do_not_autoplace no)
@@ -222,8 +222,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Datasheet
-            http://www.ti.com/lit/ds/symlink/tps54202.pdf
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
             (at -7.62 8.89 0)
             (show_name no)
             (do_not_autoplace no)
@@ -232,7 +232,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
             (at 0 0 0)
             (show_name no)
@@ -242,7 +242,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "switching buck converter power-supply voltage regulator emi spread spectrum"
             (at 0 0 0)
             (show_name no)
@@ -252,8 +252,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            SOT?23*
+            "ki_fp_filters"
+            "SOT?23*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -263,7 +263,7 @@
                 (size 1.27 1.27))))
           (embedded_fonts no))
     (symbol
-          L
+          "!fablabs-kicad-library:L"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -275,8 +275,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            L
+            "Reference"
+            "L"
             (at -1.27 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -284,8 +284,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            L
+            "Value"
+            "L"
             (at 1.905 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -293,7 +293,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -303,7 +303,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -313,8 +313,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
-            Inductor
+            "Description"
+            "Inductor"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -323,7 +323,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "inductor choke coil reactor magnetic"
             (at 0 0 0)
             (show_name no)
@@ -333,7 +333,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
+            "ki_fp_filters"
             "Choke_* *Coil* Inductor_* L_*"
             (at 0 0 0)
             (show_name no)
@@ -343,7 +343,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            L_0_1
+            "L_0_1"
             (arc
               (start 0 2.54)
               (mid 0.6323 1.905)
@@ -381,19 +381,19 @@
               (fill
                 (type none))))
           (symbol
-            L_1_1
+            "L_1_1"
             (pin
               passive
               line
               (at 0 3.81 270)
               (length 1.27)
               (name
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -403,18 +403,18 @@
               (at 0 -3.81 90)
               (length 1.27)
               (name
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C_Polarized
+          "!fablabs-kicad-library:C_Polarized"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -425,8 +425,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -435,8 +435,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C_Polarized
+            "Value"
+            "C_Polarized"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -445,7 +445,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -455,7 +455,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -465,7 +465,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Polarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -475,7 +475,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -485,8 +485,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            CP_*
+            "ki_fp_filters"
+            "CP_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -495,7 +495,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_Polarized_0_1
+            "C_Polarized_0_1"
             (rectangle
               (start -2.286 0.508)
               (end 2.286 1.016)
@@ -531,7 +531,7 @@
               (fill
                 (type outline))))
           (symbol
-            C_Polarized_1_1
+            "C_Polarized_1_1"
             (pin
               passive
               line
@@ -543,7 +543,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -558,13 +558,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          C
+          "!fablabs-kicad-library:C"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -575,8 +575,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            C
+            "Reference"
+            "C"
             (at 0.635 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -585,8 +585,8 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Value
-            C
+            "Value"
+            "C"
             (at 0.635 -2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -595,7 +595,7 @@
                 (size 1.27 1.27))
               (justify left)))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0.9652 -3.81 0)
             (show_name no)
@@ -605,7 +605,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -615,7 +615,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Unpolarized capacitor"
             (at 0 0 0)
             (show_name no)
@@ -625,7 +625,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "cap capacitor"
             (at 0 0 0)
             (show_name no)
@@ -635,8 +635,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            C_*
+            "ki_fp_filters"
+            "C_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -645,7 +645,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            C_0_1
+            "C_0_1"
             (polyline
               (pts
                 (xy -2.032 0.762)
@@ -665,7 +665,7 @@
               (fill
                 (type none))))
           (symbol
-            C_1_1
+            "C_1_1"
             (pin
               passive
               line
@@ -677,7 +677,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -692,13 +692,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          R
+          "!fablabs-kicad-library:R"
           (pin_numbers
             (hide yes))
           (pin_names
@@ -709,8 +709,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            R
+            "Reference"
+            "R"
             (at 2.032 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -718,8 +718,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            R
+            "Value"
+            "R"
             (at 0 0 90)
             (show_name no)
             (do_not_autoplace no)
@@ -727,7 +727,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at -1.778 0 90)
             (show_name no)
@@ -737,7 +737,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -747,8 +747,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
-            Resistor
+            "Description"
+            "Resistor"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -757,7 +757,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
+            "ki_keywords"
             "R res resistor"
             (at 0 0 0)
             (show_name no)
@@ -767,8 +767,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            R_*
+            "ki_fp_filters"
+            "R_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -777,7 +777,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            R_0_1
+            "R_0_1"
             (rectangle
               (start -1.016 -2.54)
               (end 1.016 2.54)
@@ -787,7 +787,7 @@
               (fill
                 (type none))))
           (symbol
-            R_1_1
+            "R_1_1"
             (pin
               passive
               line
@@ -799,7 +799,7 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -814,13 +814,13 @@
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
     (symbol
-          Conn_01x02_Pin
+          "!fablabs-kicad-library:Conn_01x02_Pin"
           (pin_names
             (offset 1.016)
             (hide yes))
@@ -830,8 +830,8 @@
           (in_pos_files yes)
           (duplicate_pin_numbers_are_jumpers no)
           (property
-            Reference
-            J
+            "Reference"
+            "J"
             (at 0 2.54 0)
             (show_name no)
             (do_not_autoplace no)
@@ -839,8 +839,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Value
-            Conn_01x02_Pin
+            "Value"
+            "Conn_01x02_Pin"
             (at 0 -5.08 0)
             (show_name no)
             (do_not_autoplace no)
@@ -848,7 +848,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Footprint
+            "Footprint"
             ""
             (at 0 0 0)
             (show_name no)
@@ -858,7 +858,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Datasheet
+            "Datasheet"
             ""
             (at 0 0 0)
             (show_name no)
@@ -868,7 +868,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            Description
+            "Description"
             "Generic connector, single row, 01x02, script generated"
             (at 0 0 0)
             (show_name no)
@@ -878,7 +878,7 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_locked
+            "ki_locked"
             ""
             (at 0 0 0)
             (show_name no)
@@ -887,8 +887,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_keywords
-            connector
+            "ki_keywords"
+            "connector"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -897,8 +897,8 @@
               (font
                 (size 1.27 1.27))))
           (property
-            ki_fp_filters
-            Connector*:*_1x??_*
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
             (at 0 0 0)
             (show_name no)
             (do_not_autoplace no)
@@ -907,7 +907,7 @@
               (font
                 (size 1.27 1.27))))
           (symbol
-            Conn_01x02_Pin_1_1
+            "Conn_01x02_Pin_1_1"
             (rectangle
               (start 0.8636 0.127)
               (end 0 -0.127)
@@ -948,12 +948,12 @@
               (at 5.08 0 180)
               (length 3.81)
               (name
-                Pin_1
+                "Pin_1"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                1
+                "1"
                 (effects
                   (font
                     (size 1.27 1.27)))))
@@ -963,96 +963,162 @@
               (at 5.08 -2.54 180)
               (length 3.81)
               (name
-                Pin_2
+                "Pin_2"
                 (effects
                   (font
                     (size 1.27 1.27))))
               (number
-                2
+                "2"
                 (effects
                   (font
                     (size 1.27 1.27))))))
           (embedded_fonts no))
   )
   (symbol (lib_id "!fablabs-kicad-library:TPS54202DDC") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "07e2f389-9216-417c-a60a-3e2632aa4fe1")
+    (uuid "a1e776f5-4efd-4af9-b6d7-be4426804863")
     (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "SYNC_BUCK_SOT23_6" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:SOT-23-6" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/tps54202.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
     (property "MPN" "TPS54202" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
     (property "Manufacturer" "Texas Instruments" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/a1e776f5-4efd-4af9-b6d7-be4426804863"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
   )
   (symbol (lib_id "!fablabs-kicad-library:L") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "cede609f-9729-4589-86c3-0f00a500a50f")
+    (uuid "3c33b1f3-5cce-4279-b154-960d5ab83bbe")
     (property "Reference" "L1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "4.7uH" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:L_0805_2012Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/3c33b1f3-5cce-4279-b154-960d5ab83bbe"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
   )
-  (label "SW" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "afb3437b-b727-4f85-aecc-8569918e6c25"))
-  (label "VOUT" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "81307696-4e53-45b4-9a61-21de9fe49997"))
+  (label "SW" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2cdda7df-c386-4281-ae27-e3fcf6f799d9"))
+  (label "VOUT" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9c41905f-d7ef-4af1-912a-57e7b0f36d11"))
   (symbol (lib_id "!fablabs-kicad-library:C_Polarized") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "59882632-cdc9-4fda-8bc4-267087391764")
+    (uuid "753a4007-cbc0-45af-b1ca-6537512eb284")
     (property "Reference" "CIN1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "10uF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/753a4007-cbc0-45af-b1ca-6537512eb284"
+          (reference "CIN1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "842240b1-f344-444a-95e7-7b65a6b357fb"))
-  (label "GND" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0fd5cdfe-007b-499c-90fd-c5dba19032f6"))
+  (label "VIN" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ec7dabac-e0b7-4773-9722-32b690efb120"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e5315bc1-8433-4cd5-b0ec-bc85a8c27882"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "4565bb1b-ceac-46e0-8855-9ccae6bd5d3f")
+    (uuid "496af692-1801-4fbf-82ed-fc7799ef743f")
     (property "Reference" "COUT1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "22uF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/496af692-1801-4fbf-82ed-fc7799ef743f"
+          (reference "COUT1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VOUT" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "10c4080d-8f98-4814-8158-69a8c1f7eaac"))
-  (label "GND" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "44bf0714-d983-4b9f-ab68-b5dd66bd6c92"))
+  (label "VOUT" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7f21f9b8-07ab-402a-9165-bd360517105e"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6cd5f99f-535d-4399-9711-2785ea1cf882"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "54972199-bca0-43ca-88af-b27b6afc0efe")
+    (uuid "45a2d247-b098-4a21-aa9d-a220cb330a3d")
     (property "Reference" "R1" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100k" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/45a2d247-b098-4a21-aa9d-a220cb330a3d"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VOUT" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7d388ff4-6483-4e41-89a2-3c15c6b9d886"))
-  (label "FB" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a7061860-440f-4071-8a79-b5952d798951"))
+  (label "VOUT" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c478e719-3b1e-4790-bb55-b256e4049a72"))
+  (label "FB" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b7a16422-66e9-4956-8ac6-499b4b80b4d2"))
   (symbol (lib_id "!fablabs-kicad-library:R") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "3f6aa5c6-9588-4534-a1b5-01b6376c0778")
+    (uuid "efdedd62-6263-4e61-b415-275acb9e19e9")
     (property "Reference" "R2" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "33k" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/efdedd62-6263-4e61-b415-275acb9e19e9"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
   )
-  (label "FB" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "68028e3f-c7d9-4b54-ac8c-bf68fdf11d78"))
-  (label "GND" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "457b79f3-251d-49cc-8850-476c06d8b3c5"))
+  (label "FB" (at 114 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c371fdcf-aed3-436d-b12f-7c6ec92917e3"))
+  (label "GND" (at 114 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e3f51b45-c5de-440c-9c59-36c9b56462cd"))
   (symbol (lib_id "!fablabs-kicad-library:C") (at 30 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "435c46a4-10ae-4308-9983-d9633bd52c64")
+    (uuid "9c2d20f3-ce2f-465c-820d-0978a82c4244")
     (property "Reference" "CBST" (at 30 91.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "100nF" (at 30 106.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 30 109.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 30 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/9c2d20f3-ce2f-465c-820d-0978a82c4244"
+          (reference "CBST") (unit 1)
+        )
+      )
+    )
   )
-  (label "BST" (at 30 102.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6bae7e8a-dec6-4b54-b3cb-83e04d2b3950"))
-  (label "SW" (at 30 95.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "83a542cc-1f27-4e4c-aae1-07b67cc76203"))
+  (label "BST" (at 30 95.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "19b0795f-8794-4cbe-b629-52e10377e894"))
+  (label "SW" (at 30 102.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f5bf72d7-ebfa-49c3-b659-9e8915b75e19"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 72 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "3ca3fd84-1155-4918-8b52-de8e39bdab15")
+    (uuid "4504f6f8-1358-4b5b-9749-dae74fbdf537")
     (property "Reference" "J1" (at 72 91.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "VIN" (at 72 106.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x02_P2.54mm_Vertical" (at 72 109.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 72 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/4504f6f8-1358-4b5b-9749-dae74fbdf537"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
   )
-  (label "VIN_1" (at 77.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f15018f5-c0fe-4417-9adf-41aa7750153e"))
-  (label "VIN_2" (at 77.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1b2b2573-79db-43a6-b429-a5ed994c378f"))
+  (label "VIN_1" (at 77.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "cc064b58-4808-48bb-9491-1e7036aaeae3"))
+  (label "VIN_2" (at 77.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "17d8bc21-a790-4c7b-88bb-5ea9313dac62"))
   (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 114 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
-    (uuid "70198d9f-6ae2-4005-95f5-fdd3d95f9d11")
+    (uuid "4dc2dd25-1249-46b8-b7d3-b8a8384bc18a")
     (property "Reference" "J2" (at 114 91.38 0) (effects (font (size 1.27 1.27))))
     (property "Value" "VOUT" (at 114 106.62 0) (effects (font (size 1.27 1.27))))
     (property "Footprint" "!fablabs-kicad-library:PinHeader_1x02_P2.54mm_Vertical" (at 114 109.16 0) (effects (font (size 1.27 1.27)) hide))
     (property "Datasheet" "" (at 114 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/4dc2dd25-1249-46b8-b7d3-b8a8384bc18a"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
   )
-  (label "VOUT_1" (at 119.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f2b46c9c-882d-42e0-8096-147f028475cb"))
-  (label "VOUT_2" (at 119.08 96.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b4a4d8ca-cc9a-4ec7-b6b4-0e28ee17b2f4"))
+  (label "VOUT_1" (at 119.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "814a0ce5-0669-43ec-8fc3-2666ec5c8417"))
+  (label "VOUT_2" (at 119.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "3f654154-68e9-4b83-af6d-2630fde26b71"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
 )

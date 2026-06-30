@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    ESP32-WROOM-32
+    "ESP32-WROOM-32"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -12.7 34.29 0)
       (show_name no)
       (do_not_autoplace no)
@@ -19,8 +19,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      ESP32-WROOM-32
+      "Value"
+      "ESP32-WROOM-32"
       (at 1.27 34.29 0)
       (show_name no)
       (do_not_autoplace no)
@@ -29,8 +29,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
-      RF_Module:ESP32-WROOM-32
+      "Footprint"
+      "RF_Module:ESP32-WROOM-32"
       (at 0 -38.1 0)
       (show_name no)
       (do_not_autoplace no)
@@ -39,8 +39,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
-      https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf
+      "Datasheet"
+      "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_datasheet_en.pdf"
       (at -7.62 1.27 0)
       (show_name no)
       (do_not_autoplace no)
@@ -49,7 +49,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "RF Module, ESP32-D0WDQ6 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 2.7-3.6V, onboard antenna, SMD"
       (at 0 0 0)
       (show_name no)
@@ -59,7 +59,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "RF Radio BT ESP ESP32 Espressif onboard PCB antenna"
       (at 0 0 0)
       (show_name no)
@@ -69,8 +69,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      ESP32?WROOM?32*
+      "ki_fp_filters"
+      "ESP32?WROOM?32*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -79,7 +79,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      ESP32-WROOM-32_0_1
+      "ESP32-WROOM-32_0_1"
       (rectangle
         (start -12.7 33.02)
         (end 12.7 -33.02)
@@ -89,19 +89,19 @@
         (fill
           (type background))))
     (symbol
-      ESP32-WROOM-32_1_1
+      "ESP32-WROOM-32_1_1"
       (pin
         power_in
         line
         (at 0 -35.56 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -111,12 +111,12 @@
         (at 0 35.56 270)
         (length 2.54)
         (name
-          VDD
+          "VDD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -126,12 +126,12 @@
         (at -15.24 30.48 0)
         (length 2.54)
         (name
-          EN
+          "EN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -141,12 +141,12 @@
         (at -15.24 25.4 0)
         (length 2.54)
         (name
-          SENSOR_VP
+          "SENSOR_VP"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -156,12 +156,12 @@
         (at -15.24 22.86 0)
         (length 2.54)
         (name
-          SENSOR_VN
+          "SENSOR_VN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -171,12 +171,12 @@
         (at 15.24 -25.4 180)
         (length 2.54)
         (name
-          IO34
+          "IO34"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -186,12 +186,12 @@
         (at 15.24 -27.94 180)
         (length 2.54)
         (name
-          IO35
+          "IO35"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -201,12 +201,12 @@
         (at 15.24 -20.32 180)
         (length 2.54)
         (name
-          IO32
+          "IO32"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -216,12 +216,12 @@
         (at 15.24 -22.86 180)
         (length 2.54)
         (name
-          IO33
+          "IO33"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -231,12 +231,12 @@
         (at 15.24 -12.7 180)
         (length 2.54)
         (name
-          IO25
+          "IO25"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          10
+          "10"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -246,12 +246,12 @@
         (at 15.24 -15.24 180)
         (length 2.54)
         (name
-          IO26
+          "IO26"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          11
+          "11"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -261,12 +261,12 @@
         (at 15.24 -17.78 180)
         (length 2.54)
         (name
-          IO27
+          "IO27"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          12
+          "12"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -276,12 +276,12 @@
         (at 15.24 10.16 180)
         (length 2.54)
         (name
-          IO14
+          "IO14"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          13
+          "13"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -291,12 +291,12 @@
         (at 15.24 15.24 180)
         (length 2.54)
         (name
-          IO12
+          "IO12"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          14
+          "14"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -307,12 +307,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          15
+          "15"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -322,12 +322,12 @@
         (at 15.24 12.7 180)
         (length 2.54)
         (name
-          IO13
+          "IO13"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          16
+          "16"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -337,12 +337,12 @@
         (at -15.24 -5.08 0)
         (length 2.54)
         (name
-          SHD/SD2
+          "SHD/SD2"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          17
+          "17"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -352,12 +352,12 @@
         (at -15.24 -7.62 0)
         (length 2.54)
         (name
-          SWP/SD3
+          "SWP/SD3"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          18
+          "18"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -367,12 +367,12 @@
         (at -15.24 -12.7 0)
         (length 2.54)
         (name
-          SCS/CMD
+          "SCS/CMD"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          19
+          "19"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -382,12 +382,12 @@
         (at -15.24 -10.16 0)
         (length 2.54)
         (name
-          SCK/CLK
+          "SCK/CLK"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          20
+          "20"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -397,12 +397,12 @@
         (at -15.24 0 0)
         (length 2.54)
         (name
-          SDO/SD0
+          "SDO/SD0"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          21
+          "21"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -412,12 +412,12 @@
         (at -15.24 -2.54 0)
         (length 2.54)
         (name
-          SDI/SD1
+          "SDI/SD1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          22
+          "22"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -427,12 +427,12 @@
         (at 15.24 7.62 180)
         (length 2.54)
         (name
-          IO15
+          "IO15"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          23
+          "23"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -442,12 +442,12 @@
         (at 15.24 25.4 180)
         (length 2.54)
         (name
-          IO2
+          "IO2"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          24
+          "24"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -457,12 +457,12 @@
         (at 15.24 30.48 180)
         (length 2.54)
         (name
-          IO0
+          "IO0"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          25
+          "25"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -472,12 +472,12 @@
         (at 15.24 20.32 180)
         (length 2.54)
         (name
-          IO4
+          "IO4"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          26
+          "26"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -487,12 +487,12 @@
         (at 15.24 5.08 180)
         (length 2.54)
         (name
-          IO16
+          "IO16"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          27
+          "27"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -502,12 +502,12 @@
         (at 15.24 2.54 180)
         (length 2.54)
         (name
-          IO17
+          "IO17"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          28
+          "28"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -517,12 +517,12 @@
         (at 15.24 17.78 180)
         (length 2.54)
         (name
-          IO5
+          "IO5"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          29
+          "29"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -532,12 +532,12 @@
         (at 15.24 0 180)
         (length 2.54)
         (name
-          IO18
+          "IO18"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          30
+          "30"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -547,12 +547,12 @@
         (at 15.24 -2.54 180)
         (length 2.54)
         (name
-          IO19
+          "IO19"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          31
+          "31"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -563,12 +563,12 @@
         (length 2.54)
         (hide yes)
         (name
-          NC
+          "NC"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          32
+          "32"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -578,12 +578,12 @@
         (at 15.24 -5.08 180)
         (length 2.54)
         (name
-          IO21
+          "IO21"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          33
+          "33"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -593,12 +593,12 @@
         (at 15.24 22.86 180)
         (length 2.54)
         (name
-          RXD0/IO3
+          "RXD0/IO3"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          34
+          "34"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -608,12 +608,12 @@
         (at 15.24 27.94 180)
         (length 2.54)
         (name
-          TXD0/IO1
+          "TXD0/IO1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          35
+          "35"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -623,12 +623,12 @@
         (at 15.24 -7.62 180)
         (length 2.54)
         (name
-          IO22
+          "IO22"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          36
+          "36"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -638,12 +638,12 @@
         (at 15.24 -10.16 180)
         (length 2.54)
         (name
-          IO23
+          "IO23"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          37
+          "37"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -654,12 +654,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          38
+          "38"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -670,12 +670,12 @@
         (length 2.54)
         (hide yes)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          39
+          "39"
           (effects
             (font
               (size 1.27 1.27))))))

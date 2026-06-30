@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    DE9_Pins
+    "DE9_Pins"
     (pin_names
       (offset 1.016)
       (hide yes))
@@ -12,8 +12,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      J
+      "Reference"
+      "J"
       (at 0 13.97 0)
       (show_name no)
       (do_not_autoplace no)
@@ -21,8 +21,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      Value
-      DE9_Pins
+      "Value"
+      "DE9_Pins"
       (at 0 -14.605 0)
       (show_name no)
       (do_not_autoplace no)
@@ -30,7 +30,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 0 0 0)
       (show_name no)
@@ -40,7 +40,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
+      "Datasheet"
       ""
       (at 0 0 0)
       (show_name no)
@@ -50,7 +50,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "9-pin D-SUB connector, pins (male)"
       (at 0 0 0)
       (show_name no)
@@ -60,7 +60,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "DSUB DB9"
       (at 0 0 0)
       (show_name no)
@@ -70,8 +70,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      DSUB*Pins*
+      "ki_fp_filters"
+      "DSUB*Pins*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -80,7 +80,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      DE9_Pins_0_1
+      "DE9_Pins_0_1"
       (polyline
         (pts
           (xy -3.81 10.16)
@@ -247,19 +247,19 @@
         (fill
           (type outline))))
     (symbol
-      DE9_Pins_1_1
+      "DE9_Pins_1_1"
       (pin
         passive
         line
         (at -7.62 -10.16 0)
         (length 3.81)
         (name
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -269,12 +269,12 @@
         (at -7.62 -5.08 0)
         (length 3.81)
         (name
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -284,12 +284,12 @@
         (at -7.62 0 0)
         (length 3.81)
         (name
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -299,12 +299,12 @@
         (at -7.62 5.08 0)
         (length 3.81)
         (name
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -314,12 +314,12 @@
         (at -7.62 10.16 0)
         (length 3.81)
         (name
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -329,12 +329,12 @@
         (at -7.62 -7.62 0)
         (length 3.81)
         (name
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -344,12 +344,12 @@
         (at -7.62 -2.54 0)
         (length 3.81)
         (name
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          7
+          "7"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -359,12 +359,12 @@
         (at -7.62 2.54 0)
         (length 3.81)
         (name
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          8
+          "8"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -374,12 +374,12 @@
         (at -7.62 7.62 0)
         (length 3.81)
         (name
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          9
+          "9"
           (effects
             (font
               (size 1.27 1.27))))))

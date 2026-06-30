@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -25,10 +25,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "Hirose U.FL Coaxial (https://www.hirose.com/en/product/document?clcode=CL0331-0472-2-01&productname=U.FL-R-SMT-1(01)&series=U.FL&documenttype=2DDrawing&lang=en&documentid=0000940668)")
   	(tags "Hirose U.FL Coaxial")
   	(property "Reference" "J1"
-    (at 50 50 0)
+  		(at 0 -3.2 0)
   		(layer "F.SilkS")
   		(uuid "3e929bbd-559d-43c1-8200-c66b85e59a7a")
   		(effects
@@ -389,14 +390,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "1503b91e-8c9f-4a95-9629-9f05e322bab0")
+    (uuid "452a65d4-d7b4-452f-9055-690e50591316")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -502,14 +504,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:L_0805_2012Metric"
-    (uuid "32941cce-cfc4-4311-a0e0-9644d1c663c3")
+    (uuid "fe12aba9-8bdd-4ac7-a5ce-e789c0f353d9")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Inductor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 80, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "inductor")
   	(property "Reference" "L1"
-    (at 110 50 0)
+  		(at 0 -1.55 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -615,14 +618,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "7a95c35f-2e5d-4f98-a94a-043588b9eff2")
+    (uuid "797db9ea-9b3e-4ee6-af5a-1b1baa9c17cb")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 140 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -732,10 +736,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "SOD-123")
   	(tags "SOD-123")
   	(property "Reference" "D1"
-    (at 170 50 0)
+  		(at 0 -2 0)
   		(layer "F.SilkS")
   		(uuid "5c813cbc-84b5-45a4-a0aa-35d3573110db")
   		(effects

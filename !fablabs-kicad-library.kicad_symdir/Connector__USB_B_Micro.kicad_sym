@@ -1,8 +1,8 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    USB_B_Micro
+    "USB_B_Micro"
     (pin_names
       (offset 1.016))
     (exclude_from_sim no)
@@ -11,8 +11,8 @@
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      J
+      "Reference"
+      "J"
       (at -5.08 11.43 0)
       (show_name no)
       (do_not_autoplace no)
@@ -21,8 +21,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      USB_B_Micro
+      "Value"
+      "USB_B_Micro"
       (at -5.08 8.89 0)
       (show_name no)
       (do_not_autoplace no)
@@ -31,7 +31,7 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
+      "Footprint"
       ""
       (at 3.81 -1.27 0)
       (show_name no)
@@ -41,7 +41,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Datasheet
+      "Datasheet"
       ""
       (at 3.81 -1.27 0)
       (show_name no)
@@ -51,7 +51,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "USB Micro Type B connector"
       (at 0 0 0)
       (show_name no)
@@ -61,7 +61,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "connector USB micro"
       (at 0 0 0)
       (show_name no)
@@ -71,8 +71,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      USB*Micro*B*
+      "ki_fp_filters"
+      "USB*Micro*B*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -81,7 +81,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      USB_B_Micro_0_1
+      "USB_B_Micro_0_1"
       (rectangle
         (start -5.08 -7.62)
         (end 5.08 7.62)
@@ -225,19 +225,19 @@
         (fill
           (type none))))
     (symbol
-      USB_B_Micro_1_1
+      "USB_B_Micro_1_1"
       (pin
         power_out
         line
         (at 7.62 5.08 180)
         (length 2.54)
         (name
-          VBUS
+          "VBUS"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -247,12 +247,12 @@
         (at 7.62 -2.54 180)
         (length 2.54)
         (name
-          D-
+          "D-"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -262,12 +262,12 @@
         (at 7.62 0 180)
         (length 2.54)
         (name
-          D+
+          "D+"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -277,12 +277,12 @@
         (at 7.62 -5.08 180)
         (length 2.54)
         (name
-          ID
+          "ID"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -292,12 +292,12 @@
         (at 0 -10.16 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -307,12 +307,12 @@
         (at -2.54 -10.16 90)
         (length 2.54)
         (name
-          Shield
+          "Shield"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          SH
+          "SH"
           (effects
             (font
               (size 1.27 1.27))))))

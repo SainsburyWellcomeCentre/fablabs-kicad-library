@@ -1,10 +1,9 @@
 {
   "name": "RF_SMA_ANTENNA_PI_MATCH",
   "description": "SMA antenna launch with pi matching network placeholders and ESD clamp position.",
-  "keywords": "",
+  "keywords": "rf,sma,antenna,matching",
   "fields": {
     "Category": "RF",
     "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
-  },
-  "source_manifest": "../../manifest.json"
+  }
 }

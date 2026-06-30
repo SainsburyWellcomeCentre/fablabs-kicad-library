@@ -1,16 +1,16 @@
 (kicad_symbol_lib
-  (version 20240114)
-  (generator fablabs-kicad-library-builder)
+  (version 20260206)
+  (generator eeschema)
   (symbol
-    TPS54302
+    "TPS54302"
     (exclude_from_sim no)
     (in_bom yes)
     (on_board yes)
     (in_pos_files yes)
     (duplicate_pin_numbers_are_jumpers no)
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -7.62 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -19,8 +19,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      TPS54302
+      "Value"
+      "TPS54302"
       (at 0 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -29,8 +29,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
-      Package_TO_SOT_SMD:SOT-23-6
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-6"
       (at 1.27 -8.89 0)
       (show_name no)
       (do_not_autoplace no)
@@ -40,8 +40,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/tps54302.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/tps54302.pdf"
       (at -7.62 8.89 0)
       (show_name no)
       (do_not_autoplace no)
@@ -50,7 +50,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "3A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
       (at 0 0 0)
       (show_name no)
@@ -60,7 +60,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "switching buck converter power-supply voltage regulator emi spread spectrum"
       (at 0 0 0)
       (show_name no)
@@ -70,8 +70,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      SOT?23*
+      "ki_fp_filters"
+      "SOT?23*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)
@@ -80,7 +80,7 @@
         (font
           (size 1.27 1.27))))
     (symbol
-      TPS54302_0_1
+      "TPS54302_0_1"
       (rectangle
         (start -7.62 5.08)
         (end 7.62 -5.08)
@@ -90,19 +90,19 @@
         (fill
           (type background))))
     (symbol
-      TPS54302_1_1
+      "TPS54302_1_1"
       (pin
         power_in
         line
         (at 0 -7.62 90)
         (length 2.54)
         (name
-          GND
+          "GND"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          1
+          "1"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -112,12 +112,12 @@
         (at 10.16 0 180)
         (length 2.54)
         (name
-          SW
+          "SW"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          2
+          "2"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -127,12 +127,12 @@
         (at -10.16 2.54 0)
         (length 2.54)
         (name
-          VIN
+          "VIN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          3
+          "3"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -142,12 +142,12 @@
         (at 10.16 -2.54 180)
         (length 2.54)
         (name
-          FB
+          "FB"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          4
+          "4"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -157,12 +157,12 @@
         (at -10.16 -2.54 0)
         (length 2.54)
         (name
-          EN
+          "EN"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          5
+          "5"
           (effects
             (font
               (size 1.27 1.27)))))
@@ -172,22 +172,22 @@
         (at 10.16 2.54 180)
         (length 2.54)
         (name
-          BOOT
+          "BOOT"
           (effects
             (font
               (size 1.27 1.27))))
         (number
-          6
+          "6"
           (effects
             (font
               (size 1.27 1.27))))))
     (embedded_fonts no))
   (symbol
-    TPS54202DDC
-    (extends TPS54302)
+    "TPS54202DDC"
+    (extends "TPS54302")
     (property
-      Reference
-      U
+      "Reference"
+      "U"
       (at -7.62 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -196,8 +196,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Value
-      TPS54202DDC
+      "Value"
+      "TPS54202DDC"
       (at 0 6.35 0)
       (show_name no)
       (do_not_autoplace no)
@@ -206,8 +206,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Footprint
-      Package_TO_SOT_SMD:SOT-23-6
+      "Footprint"
+      "Package_TO_SOT_SMD:SOT-23-6"
       (at 1.27 -8.89 0)
       (show_name no)
       (do_not_autoplace no)
@@ -217,8 +217,8 @@
           (size 1.27 1.27))
         (justify left)))
     (property
-      Datasheet
-      http://www.ti.com/lit/ds/symlink/tps54202.pdf
+      "Datasheet"
+      "http://www.ti.com/lit/ds/symlink/tps54202.pdf"
       (at -7.62 8.89 0)
       (show_name no)
       (do_not_autoplace no)
@@ -227,7 +227,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      Description
+      "Description"
       "2A, 4.5 to 28V Input, EMI Friendly integrated switch synchronous step-down regulator, pulse-skipping, SOT-23-6"
       (at 0 0 0)
       (show_name no)
@@ -237,7 +237,7 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_keywords
+      "ki_keywords"
       "switching buck converter power-supply voltage regulator emi spread spectrum"
       (at 0 0 0)
       (show_name no)
@@ -247,8 +247,8 @@
         (font
           (size 1.27 1.27))))
     (property
-      ki_fp_filters
-      SOT?23*
+      "ki_fp_filters"
+      "SOT?23*"
       (at 0 0 0)
       (show_name no)
       (do_not_autoplace no)

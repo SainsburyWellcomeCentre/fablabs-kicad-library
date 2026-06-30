@@ -1,4 +1,4 @@
-(kicad_pcb (version 20240108) (generator "fablabs-kicad-library-builder") (generator_version "1.0.0")
+(kicad_pcb (version 20260206) (generator "eeschema") (generator_version "10.0")
   (general (thickness 1.6))
   (paper "A4")
   (layers
@@ -25,10 +25,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 50 50 0)
   	(descr "Low Power Long Range Transceiver Module SMD-16 (https://www.hoperf.com/data/upload/portal/20181127/5bfcbea20e9ef.pdf)")
   	(tags "LoRa Low Power Long Range Transceiver Module")
   	(property "Reference" "U1"
-    (at 50 50 0)
+  		(at 0 -9.2 0)
   		(layer "F.SilkS")
   		(uuid "57e00932-9c9d-4ebe-8577-c3eecba76b05")
   		(effects
@@ -366,14 +367,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0603_1608Metric"
-    (uuid "1118f0d1-2ed7-44cd-a9f7-1a5d6ae3465a")
+    (uuid "60b7f6c0-54aa-4f58-bfa4-0724e1cb426d")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 80 50 0)
   	(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf)")
   	(tags "capacitor")
   	(property "Reference" "C1"
-    (at 80 50 0)
+  		(at 0 -1.43 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -479,14 +481,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:C_0805_2012Metric"
-    (uuid "a53daa44-9bed-46e7-b382-037eea3a6e42")
+    (uuid "1fb069cf-832b-4fee-9c26-639784476c44")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 110 50 0)
   	(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing)")
   	(tags "capacitor")
   	(property "Reference" "C2"
-    (at 110 50 0)
+  		(at 0 -1.68 0)
   		(layer "F.SilkS")
   		(effects
   			(font
@@ -596,10 +599,11 @@
   	(generator "pcbnew")
   	(generator_version "10.0")
   	(layer "F.Cu")
+    (at 140 50 0)
   	(descr "https://www.amphenolrf.com/library/download/link/link_id/593003/parent/132134/")
   	(tags "SMA THT Female Jack Vertical ExtendedLegs")
   	(property "Reference" "J1"
-    (at 140 50 0)
+  		(at 0 -4.75 0)
   		(layer "F.SilkS")
   		(uuid "b7db1c04-69e0-4508-aa91-39824eb6b0c3")
   		(effects
@@ -844,14 +848,15 @@
   	)
   )
   (footprint "!fablabs-kicad-library:PinHeader_1x08_P2.54mm_Vertical"
-    (uuid "32fa673b-fca6-470a-aa05-828d7ef19451")
+    (uuid "7287a09d-b0d5-42a8-a13d-d083f0544155")
   	(version 20260206)
   	(generator "kicad-footprint-generator")
   	(layer "F.Cu")
+    (at 170 50 0)
   	(descr "Through hole straight pin header, 1x08, 2.54mm pitch, single row")
   	(tags "Through hole pin header THT 1x08 2.54mm single row")
   	(property "Reference" "J2"
-    (at 170 50 0)
+  		(at 0 -2.38 0)
   		(layer "F.SilkS")
   		(effects
   			(font
