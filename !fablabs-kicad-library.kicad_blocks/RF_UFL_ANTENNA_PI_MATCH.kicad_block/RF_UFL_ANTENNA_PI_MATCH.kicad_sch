@@ -1,0 +1,680 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "1cf0a782-b7ae-43d6-9c6d-d4bfd66f4a77")
+  (paper "A4")
+  (title_block
+    (title "RF_UFL_ANTENNA_PI_MATCH")
+    (comment 1 "u.FL/IPEX antenna connector with pi matching network and ESD placeholder.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:Conn_Coaxial"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0.254 3.048 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_Coaxial"
+            (at 2.921 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "BNC SMA SMB SMC LEMO coaxial connector CINCH RCA MCX MMCX U.FL UMRF"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "*BNC* *SMA* *SMB* *SMC* *Cinch* *LEMO* *UMRF* *MCX* *U.FL*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_Coaxial_0_1"
+            (polyline
+              (pts
+                (xy -2.54 0)
+                (xy -0.508 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 1.778 0)
+              (mid 0.222 -1.8079)
+              (end -1.778 -0.508)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -1.778 0.508)
+              (mid 0.2221 1.8084)
+              (end 1.778 0)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (circle
+              (center 0 0)
+              (radius 0.508)
+              (stroke
+                (width 0.2032)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 0 -2.54)
+                (xy 0 -1.778))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "Conn_Coaxial_1_1"
+            (pin
+              passive
+              line
+              (at -5.08 0 0)
+              (length 2.54)
+              (name
+                "In"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -5.08 90)
+              (length 2.54)
+              (name
+                "Ext"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "C_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_0_1"
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "C_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:L"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "L"
+            (at -1.27 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "L"
+            (at 1.905 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Inductor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "inductor choke coil reactor magnetic"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Choke_* *Coil* Inductor_* L_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "L_0_1"
+            (arc
+              (start 0 2.54)
+              (mid 0.6323 1.905)
+              (end 0 1.27)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 1.27)
+              (mid 0.6323 0.635)
+              (end 0 0)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 0)
+              (mid 0.6323 -0.635)
+              (end 0 -1.27)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 -1.27)
+              (mid 0.6323 -1.905)
+              (end 0 -2.54)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "L_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:D_TVS"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "D"
+            (at 0 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "D_TVS"
+            (at 0 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Bidirectional transient-voltage-suppression diode"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "diode TVS thyrector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO-???* *_Diode_* *SingleDiode* D_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "D_TVS_0_1"
+            (polyline
+              (pts
+                (xy -2.54 1.27)
+                (xy -2.54 -1.27)
+                (xy 2.54 1.27)
+                (xy 2.54 -1.27)
+                (xy -2.54 1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 0.508 1.27)
+                (xy 0 1.27)
+                (xy 0 -1.27)
+                (xy -0.508 -1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy -1.27 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "D_TVS_1_1"
+            (pin
+              passive
+              line
+              (at -3.81 0 0)
+              (length 2.54)
+              (name
+                "A1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 3.81 0 180)
+              (length 2.54)
+              (name
+                "A2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_Coaxial") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "21b4e934-ba71-4421-9649-78bce6c6a188")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "U.FL" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:U.FL_Hirose_U.FL-R-SMT-1_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/21b4e934-ba71-4421-9649-78bce6c6a188"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "e9445f6c-e40c-4ae9-90ec-192ccc037019")
+    (property "Reference" "C1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DNP" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/e9445f6c-e40c-4ae9-90ec-192ccc037019"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "RF_IN" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5f305878-89d4-4176-9e66-d21a20c4e61a"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6625c4a8-06c8-457d-bb71-3bf56b7cf37b"))
+  (symbol (lib_id "!fablabs-kicad-library:L") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "83a7d66c-52a4-46ed-8eb8-d4c2ad19f38b")
+    (property "Reference" "L1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "0R/DNP" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:L_0805_2012Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/83a7d66c-52a4-46ed-8eb8-d4c2ad19f38b"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "RF_IN" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c8180899-1b91-47bc-a26c-9c8820d659f6"))
+  (label "ANT" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "74728961-cdd1-466d-9398-ae527c6812a3"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "da4533c8-f6d7-455c-b44a-44ecb34283c0")
+    (property "Reference" "C2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DNP" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/da4533c8-f6d7-455c-b44a-44ecb34283c0"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+  (label "ANT" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d9929903-0263-448f-a7c9-bac8bb7cdd1d"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2452cdb5-1009-405c-95ad-49d1c9df71a1"))
+  (symbol (lib_id "!fablabs-kicad-library:D_TVS") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "1c50c8b0-9ece-4f14-9742-09fadcfa5bfb")
+    (property "Reference" "D1" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "RF_ESD" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1c50c8b0-9ece-4f14-9742-09fadcfa5bfb"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "ANT" (at 68.19 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1c0e9279-9243-48b2-bb18-e3bb82edbff5"))
+  (label "GND" (at 75.81 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "12a6a1a9-c5d2-42c2-b1b8-1ace2e5a3ec4"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

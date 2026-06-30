@@ -1,0 +1,976 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "42664105-09b3-462c-a4ee-c8132d4b0dbd")
+  (paper "A4")
+  (title_block
+    (title "POWER_BUCK_5V_LM2596S")
+    (comment 1 "LM2596S buck regulator block with diode, inductor, bulk capacitors, and screw terminals.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:LM2596S-12"
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "U"
+            (at -10.16 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "LM2596S-12"
+            (at 0 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+            (at 1.27 -6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27)
+                (italic yes))
+              (justify left)))
+          (property
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "12V 3A Step-Down Voltage Regulator, TO-263"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "Step-Down Voltage Regulator 12V 3A"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO?263*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "LM2596S-12_0_1"
+            (rectangle
+              (start -10.16 5.08)
+              (end 10.16 -5.08)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background))))
+          (symbol
+            "LM2596S-12_1_1"
+            (pin
+              power_in
+              line
+              (at -12.7 2.54 0)
+              (length 2.54)
+              (name
+                "VIN"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at 12.7 -2.54 180)
+              (length 2.54)
+              (name
+                "OUT"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 0 -7.62 90)
+              (length 2.54)
+              (name
+                "GND"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 12.7 2.54 180)
+              (length 2.54)
+              (name
+                "FB"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -12.7 -2.54 0)
+              (length 2.54)
+              (name
+                "~{ON}/OFF"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:LM2596S-5"
+          (extends "!fablabs-kicad-library:LM2596S-12")
+          (property
+            "Reference"
+            "U"
+            (at -10.16 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "LM2596S-5"
+            (at 0 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            "Package_TO_SOT_SMD:TO-263-5_TabPin3"
+            (at 1.27 -6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27)
+                (italic yes))
+              (justify left)))
+          (property
+            "Datasheet"
+            "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "5V 3A Step-Down Voltage Regulator, TO-263"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "Step-Down Voltage Regulator 5V 3A"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO?263*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:D_Schottky"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "D"
+            (at 0 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "D_Schottky"
+            (at 0 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Schottky diode"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "diode Schottky"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO-???* *_Diode_* *SingleDiode* D_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "D_Schottky_0_1"
+            (polyline
+              (pts
+                (xy -1.905 0.635)
+                (xy -1.905 1.27)
+                (xy -1.27 1.27)
+                (xy -1.27 -1.27)
+                (xy -0.635 -1.27)
+                (xy -0.635 -0.635))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 1.27)
+                (xy 1.27 -1.27)
+                (xy -1.27 0)
+                (xy 1.27 1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy -1.27 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "D_Schottky_1_1"
+            (pin
+              passive
+              line
+              (at -3.81 0 0)
+              (length 2.54)
+              (name
+                "K"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 3.81 0 180)
+              (length 2.54)
+              (name
+                "A"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:L"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "L"
+            (at -1.27 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "L"
+            (at 1.905 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Inductor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "inductor choke coil reactor magnetic"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Choke_* *Coil* Inductor_* L_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "L_0_1"
+            (arc
+              (start 0 2.54)
+              (mid 0.6323 1.905)
+              (end 0 1.27)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 1.27)
+              (mid 0.6323 0.635)
+              (end 0 0)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 0)
+              (mid 0.6323 -0.635)
+              (end 0 -1.27)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start 0 -1.27)
+              (mid 0.6323 -1.905)
+              (end 0 -2.54)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "L_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C_Polarized"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C_Polarized"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Polarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "CP_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_Polarized_0_1"
+            (rectangle
+              (start -2.286 0.508)
+              (end 2.286 1.016)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -1.778 2.286)
+                (xy -0.762 2.286))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -1.27 2.794)
+                (xy -1.27 1.778))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 2.286 -0.508)
+              (end -2.286 -1.016)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type outline))))
+          (symbol
+            "C_Polarized_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:Conn_01x02_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x02_Pin"
+            (at 0 -5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x02, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x02_Pin_1_1"
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:LM2596S-5") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "5197cd51-ebae-47ce-bfbf-a4521d41d232")
+    (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "LM2596S-5" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TO-263-5_TabPin3" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "LM2596S-5/NOPB" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Texas Instruments" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/5197cd51-ebae-47ce-bfbf-a4521d41d232"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VIN" (at 17.3 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6a9c9b38-0526-4fb8-bedb-47923186f693"))
+  (label "SW" (at 42.7 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4dcf3880-695f-42dc-a2c6-34e6a65c7db3"))
+  (label "GND" (at 30 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dd1d09b2-c2a7-4768-bd70-c917c1949d3c"))
+  (label "FB" (at 42.7 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bf18bda1-59b9-4e54-ad06-ef8a86b880ce"))
+  (label "EN" (at 17.3 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "92dda414-7ea2-4767-b222-fd50a240eccc"))
+  (symbol (lib_id "!fablabs-kicad-library:D_Schottky") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "3a1f9169-dc96-4cfd-a848-1946a31e23bc")
+    (property "Reference" "D1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SS34" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:D_SOD-123" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/3a1f9169-dc96-4cfd-a848-1946a31e23bc"
+          (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "GND" (at 68.19 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "08c6fa11-4c49-4f2b-90a3-1fdc7637c0bc"))
+  (label "SW" (at 75.81 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8433f1a4-ccb6-44ab-8c2e-f959ec6c696e"))
+  (symbol (lib_id "!fablabs-kicad-library:L") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "82acd9aa-9ce5-45a5-8a2a-5e41b4e8e646")
+    (property "Reference" "L1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "33uH" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:L_Bourns_SRN6045TA" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/82acd9aa-9ce5-45a5-8a2a-5e41b4e8e646"
+          (reference "L1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "SW" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ddbb76d8-1ffd-473e-9b55-2ee396c35ec6"))
+  (label "+5V" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d3cff978-1b7a-4a2c-b527-6e381b84abce"))
+  (symbol (lib_id "!fablabs-kicad-library:C_Polarized") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "b99b99b8-afe3-433d-8229-97e6b3d0a487")
+    (property "Reference" "CIN1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100uF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/b99b99b8-afe3-433d-8229-97e6b3d0a487"
+          (reference "CIN1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VIN" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1eb3d7ca-ae37-40ba-a628-f1ffb99e1932"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "f1e00b68-c35d-4c1d-909b-65809ea3ac7b"))
+  (symbol (lib_id "!fablabs-kicad-library:C_Polarized") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "f4f347c2-6039-4a38-ba8a-3b62f5aa7ba1")
+    (property "Reference" "COUT1" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "220uF" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:CP_Radial_D6.3mm_P2.50mm" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/f4f347c2-6039-4a38-ba8a-3b62f5aa7ba1"
+          (reference "COUT1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "+5V" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0e5b798a-d979-4b34-9873-82e064fe48a5"))
+  (label "GND" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "61801996-7b94-465d-9a49-e9ff00504439"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "0ffc1615-9aac-459a-a1ce-f9c7f1ed2a31")
+    (property "Reference" "J1" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "VIN" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/0ffc1615-9aac-459a-a1ce-f9c7f1ed2a31"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VIN_1" (at 119.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e89c7732-9439-409c-bd04-d63ec9fddf7e"))
+  (label "VIN_2" (at 119.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e0dbc8a8-c84f-4a04-b647-b93e59ab20a4"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x02_Pin") (at 30 99 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "719f443c-f026-4cc7-8c65-9721d1c6d9dd")
+    (property "Reference" "J2" (at 30 91.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "5V_OUT" (at 30 106.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TerminalBlock_Phoenix_MKDS-1,5-2-5.08_1x02_P5.08mm_Horizontal" (at 30 109.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 111.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/719f443c-f026-4cc7-8c65-9721d1c6d9dd"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+  (label "5V_OUT_1" (at 35.08 99 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "566f24d1-07e1-4e0c-b90e-28bd0b66e358"))
+  (label "5V_OUT_2" (at 35.08 101.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c27755b8-480f-4731-8c1a-2bc4ec73fb61"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

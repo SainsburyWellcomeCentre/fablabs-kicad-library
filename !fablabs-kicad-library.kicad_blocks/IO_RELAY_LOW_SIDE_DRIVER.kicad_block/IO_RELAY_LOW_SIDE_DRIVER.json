@@ -1,0 +1,9 @@
+{
+  "name": "IO_RELAY_LOW_SIDE_DRIVER",
+  "description": "Low-side relay/solenoid driver with N-MOSFET, flyback diode, gate resistor and terminal output.",
+  "keywords": "relay,driver,mosfet,io",
+  "fields": {
+    "Category": "IO",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

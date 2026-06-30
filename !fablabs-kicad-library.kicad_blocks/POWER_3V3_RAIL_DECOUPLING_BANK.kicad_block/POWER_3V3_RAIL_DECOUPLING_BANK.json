@@ -1,0 +1,9 @@
+{
+  "name": "POWER_3V3_RAIL_DECOUPLING_BANK",
+  "description": "Reusable local 3.3 V rail decoupling bank for MCU/sensor clusters.",
+  "keywords": "power,decoupling,3v3,rail",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

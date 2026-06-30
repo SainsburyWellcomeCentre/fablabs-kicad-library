@@ -1,0 +1,260 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "a9fc8375-2c04-4c5c-8f27-a46c9ea02a81")
+  (paper "A4")
+  (title_block
+    (title "PROTOCOL_AVR_ISP_6PIN")
+    (comment 1 "AVR ISP 2x3 programming header with reset, SPI, VCC, and ground.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:Conn_02x03_Odd_Even"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 1.27 5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_02x03_Odd_Even"
+            (at 1.27 -5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_2x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_02x03_Odd_Even_1_1"
+            (rectangle
+              (start -1.27 3.81)
+              (end 3.81 -3.81)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background)))
+            (rectangle
+              (start -1.27 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.27 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 2.667)
+              (end 2.54 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 0.127)
+              (end 2.54 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start 3.81 -2.413)
+              (end 2.54 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at -5.08 2.54 0)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 0 0)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 0 180)
+              (length 3.81)
+              (name
+                "Pin_4"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at -5.08 -2.54 0)
+              (length 3.81)
+              (name
+                "Pin_5"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 7.62 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_02x03_Odd_Even") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "1c91869c-fedc-4886-beb6-9e1af4f305e9")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "AVR_ISP_6" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_2x03_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1c91869c-fedc-4886-beb6-9e1af4f305e9"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "MISO" (at 24.92 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "15bf1c50-433e-41e3-86d4-8cae645770d2"))
+  (label "VCC" (at 37.62 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b1099f97-389d-4c46-b30a-801196a036a1"))
+  (label "SCK" (at 24.92 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4ff769cf-5316-4b3c-8cb5-c75d786452bc"))
+  (label "MOSI" (at 37.62 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c0b2ab1f-faa1-44ec-8706-4f54836ae17d"))
+  (label "RESET" (at 24.92 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "639e3c35-2a4a-49c4-863d-54919e3c6e5a"))
+  (label "GND" (at 37.62 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d9cba5b4-6b78-44d8-b4b3-6614bb4c1434"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

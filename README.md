@@ -4,7 +4,6 @@ Welcome — this repository contains the shared KiCAD symbol, footprint and desi
 
 The guide is written for Windows users (PowerShell), but the Git and KiCAD steps are the same on macOS or Linux except where noted.
 
-
 ## What you will find in this repo
 
 - `!fablabs-kicad-library.kicad_sym` — symbol library file
@@ -14,7 +13,6 @@ The guide is written for Windows users (PowerShell), but the Git and KiCAD steps
 
 If you're new to KiCAD: the symbol library is for schematic symbols, footprints are for PCB land patterns, and design blocks are saved schematic/PCB snippets you can reuse.
 
-
 ## Quick start (summary)
 
 1. Install KiCAD and Git (see full steps below).
@@ -23,16 +21,14 @@ If you're new to KiCAD: the symbol library is for schematic symbols, footprints 
 4. Add symbol, footprint and design-block libraries into KiCAD (Preferences → Manage ... Libraries).
 5. Contribute by using Git to create a branch at the start of your day, make small commits during the day, keep updated with the main branch, then push your branch.
 
-
 ## Step 1 — Install Required Software
 
-1. Download and install KiCAD for Windows: https://www.kicad.org/download/windows/
-2. Download and install GitHub Desktop: https://desktop.github.com/
+1. Download and install KiCAD for Windows: <https://www.kicad.org/download/windows/>
+2. Download and install GitHub Desktop: <https://desktop.github.com/>
    - This gives you a friendly visual interface for Git operations
    - It also installs Git for command-line use if you need it later
 
 When KiCAD opens you should see its main project window (example screenshot in `docs/images/kicad-open.png`).
-
 
 ## Step 2 — Clone this repository
 
@@ -46,12 +42,12 @@ Using GitHub Desktop (recommended for beginners):
 6. Click Clone
 
 Alternative: If you prefer the command line, open PowerShell in your chosen folder and run:
+
 ```powershell
 git clone https://github.com/SainsburyWellcomeCentre/fablabs-kicad-library.git
 ```
 
 **Tip:** Pin the folder to Quick Access in File Explorer for fast navigation (screenshot: `docs/images/library-quick-access.png`).
-
 
 ## Step 3 — Configure KiCAD library path
 
@@ -64,7 +60,6 @@ This allows your KiCAD installation to find the libraries inside your clone rega
 
 Example screenshot: `docs/images/configure-paths.png`.
 
-
 ## Step 4 — Add the symbol, footprint and design-block libraries
 
 Open the following dialogs in KiCAD and add the corresponding files from the repository using the folder button:
@@ -73,18 +68,19 @@ Open the following dialogs in KiCAD and add the corresponding files from the rep
 - Preferences → Manage Footprint Libraries → Add existing library → select the `!fablabs-kicad-library.pretty` folder (`docs/images/footprint-library.png`).
 - Preferences → Manage Design Blocks Libraries → Add existing library → select `!fablabs-kicad-library.kicad_blocks` (`docs/images/design-blocks-library.png`).
 
-
 ## Step 5 — Keep your copy up-to-date
 
 Before starting work each day, get the latest changes:
 
 Using GitHub Desktop (recommended):
+
 1. Click "Current Branch"
 2. Click "Choose a branch to merge into your current branch"
 3. Select "main"
 4. Click "Merge into current branch"
 
 Alternative using command line:
+
 ```powershell
 git fetch origin
 git pull origin main
@@ -120,6 +116,7 @@ Follow these simple steps to contribute to the library:
    - Click "Push origin" (or "Publish branch" for first push)
 
 At the end of your day:
+
 1. Make sure all changes are committed and pushed
 2. Let a maintainer know your branch is ready to be merged
 
@@ -127,19 +124,17 @@ At the end of the day, your branch should be pushed and ready for merge. Only se
 
 ## Git quick reference (beginner-friendly)
 
-- git status — see what's changed
-- git add <file> — stage a file for commit
-- git commit -m "message" — save staged changes
-- git branch — list branches
-- git checkout -b <name> — create and switch to a new branch
-- git fetch — download remote changes (does not change local branches)
-- git pull — fetch + merge (or use `git pull --rebase`)
-- git push — upload your commits
-- git log --oneline --graph --decorate — compact history view
+- `git status` — see what's changed
+- `git add <file>` — stage a file for commit
+- `git commit -m "message"` — save staged changes
+- `git branch` — list branches
+- `git checkout -b <name>` — create and switch to a new branch
+- `git fetch` — download remote changes (does not change local branches)
+- `git pull` — fetch + merge (or use `git pull --rebase`)
+- `git push` — upload your commits
+- `git log --oneline --graph --decorate` — compact history view
 
-PowerShell note: use the same commands as above. If Git isn't in your PATH after installation, restart PowerShell.
-
-## Handling merge conflicts (simple steps)
+## Handling merge conflicts
 
 1. You tried to rebase or merge and Git reports conflicts. Run:
 
@@ -160,15 +155,16 @@ git commit
 
 If you're unsure, ask in the PR comments or ping a maintainer — it's better to ask than to guess.
 
-## How to add a new component (recommended minimal checklist)
+## How to add a new component
 
 1. Create or verify a footprint in `!fablabs-kicad-library.pretty`.
 2. Add a symbol to `!fablabs-kicad-library.kicad_sym` and link it to the footprint.
-3. (Optional) Create a design block showing the symbol + basic connections.
+3. Create a design block showing the symbol + basic connections.
 4. Test in a sample schematic and PCB (place the footprint, check footprints' 3D models if available and DRC rule compatibility).
 5. Commit small changes with clear messages and push your branch. At the end of the day notify a maintainer that your branch is ready to merge.
 
 Merge checklist for maintainers (end-of-day)
+
 - [ ] Branch is up-to-date with `main` (rebase or merge completed).
 - [ ] All new symbols have matching footprints and naming follows conventions.
 - [ ] Basic local tests done (part placed in a sample schematic/PCB and DRC run).
@@ -191,10 +187,12 @@ Only authorized maintainers should perform merges into main.
 ## Troubleshooting
 
 KiCAD issues:
+
 - Can't find library after adding path: confirm `FABLABS_KICAD_LIBRARY` points exactly at the repo root and restart KiCAD.
 - Missing footprint in PCB: ensure symbol's footprint field matches a footprint in the `.pretty` folder.
 
 GitHub Desktop issues:
+
 - "Authentication failed": Click Repository → Repository settings → GitHub.com and sign in again
 - Can't push changes: Click Fetch origin to get latest updates, then try pushing again
 - Branch is behind: Use Current Branch → Choose branch to merge → main to update your branch
@@ -211,10 +209,3 @@ This repository follows the project's main license. If you are contributing, mak
 ## Help and contact
 
 If you get stuck, open an issue on the GitHub repository or ask a maintainer directly. For workflow or merge-related questions, contact one of the authorized maintainers.
-
----
-
-If you'd like, I can also:
-
-- Add a `CONTRIBUTING.md` with merge/branching guidelines and commit message recommendations.
-- Create a lightweight script that checks library consistency (missing footprint link checks).

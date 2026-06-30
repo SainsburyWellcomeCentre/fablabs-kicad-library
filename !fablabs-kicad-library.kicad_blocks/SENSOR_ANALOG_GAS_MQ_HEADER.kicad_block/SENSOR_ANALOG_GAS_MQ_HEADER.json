@@ -1,0 +1,9 @@
+{
+  "name": "SENSOR_ANALOG_GAS_MQ_HEADER",
+  "description": "Generic MQ-series gas sensor module/header input with analog/digital outputs and filtering.",
+  "keywords": "sensor,gas,mq,analog",
+  "fields": {
+    "Category": "Sensors",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

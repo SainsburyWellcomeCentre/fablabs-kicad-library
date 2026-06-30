@@ -1,0 +1,767 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "ae979446-a3e4-4261-bc5c-479c9844ca34")
+  (paper "A4")
+  (title_block
+    (title "SENSOR_NTC_DIVIDER_ADC")
+    (comment 1 "NTC thermistor voltage divider with RC filter and analog output header.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:Thermistor_NTC"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "TH"
+            (at -4.445 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Thermistor_NTC"
+            (at 3.175 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 1.27 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 1.27 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Temperature dependent resistor, negative temperature coefficient"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "thermistor NTC resistor sensor RTD"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "R_* RV_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Thermistor_NTC_0_1"
+            (arc
+              (start -3.175 2.413)
+              (mid -3.0506 2.3165)
+              (end -3.048 2.159)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -3.048 2.794)
+              (mid -2.9736 2.9736)
+              (end -2.794 3.048)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -2.794 3.048)
+              (mid -2.6144 2.9736)
+              (end -2.54 2.794)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -2.794 2.54)
+              (mid -2.9736 2.6144)
+              (end -3.048 2.794)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -2.794 1.905)
+              (mid -2.9736 1.9794)
+              (end -3.048 2.159)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -2.54 2.159)
+              (mid -2.6144 1.9794)
+              (end -2.794 1.905)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -2.159 2.794)
+              (mid -2.434 2.5608)
+              (end -2.794 2.54)
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.54 2.159)
+                (xy -2.54 2.794))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.54 -3.683)
+                (xy -2.54 -1.397)
+                (xy -2.794 -2.159)
+                (xy -2.286 -2.159)
+                (xy -2.54 -1.397)
+                (xy -2.54 -1.651))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy -1.778 2.54)
+                (xy -1.778 1.524)
+                (xy 1.778 -1.524)
+                (xy 1.778 -2.54))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -1.778 -1.397)
+                (xy -1.778 -3.683)
+                (xy -2.032 -2.921)
+                (xy -1.524 -2.921)
+                (xy -1.778 -3.683)
+                (xy -1.778 -3.429))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start -1.016 2.54)
+              (end 1.016 -2.54)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "Thermistor_NTC_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:R"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "R"
+            (at 2.032 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "R"
+            (at 0 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at -1.778 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "R res resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "R_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "R_0_1"
+            (rectangle
+              (start -1.016 -2.54)
+              (end 1.016 2.54)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "R_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "C_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_0_1"
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "C_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:Conn_01x03_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x03_Pin"
+            (at 0 -5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x03, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x03_Pin_1_1"
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Thermistor_NTC") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "8870c75e-164a-4de9-83e5-e8c3401cc48c")
+    (property "Reference" "RT1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NTC_10k" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/8870c75e-164a-4de9-83e5-e8c3401cc48c"
+          (reference "RT1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VREF" (at 30 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "36e60bc4-90eb-4df0-970d-facbe5f87848"))
+  (label "NTC_OUT" (at 30 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9f525376-c8cb-43d2-8563-7a80603c7f6f"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "37098ed4-cb24-46e0-aa9b-3814194044d6")
+    (property "Reference" "R1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "10k" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/37098ed4-cb24-46e0-aa9b-3814194044d6"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "NTC_OUT" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e33804df-9df0-44c7-b934-9998c1c038f9"))
+  (label "GND" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "663503cb-5e1a-4abc-a880-dd25e3428719"))
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "5d131270-5450-4baf-b733-7885aee48f2c")
+    (property "Reference" "R2" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100R" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/5d131270-5450-4baf-b733-7885aee48f2c"
+          (reference "R2") (unit 1)
+        )
+      )
+    )
+  )
+  (label "NTC_OUT" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "20515a40-ae31-472a-8aa8-e9933b344219"))
+  (label "ADC_IN" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4bf08d76-e3e9-4591-86c6-e47bcd44f61b"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "1d576188-995b-49b9-a45e-b025e186569e")
+    (property "Reference" "C1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1d576188-995b-49b9-a45e-b025e186569e"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "ADC_IN" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ea406b03-2421-4748-9dfc-a5a0d0475581"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d420b81c-9887-4983-996b-83e506ddf72c"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x03_Pin") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "4c9d5055-61ce-4663-97e3-6620da8b73a3")
+    (property "Reference" "J1" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "NTC_ADC" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x03_P2.54mm_Vertical" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/4c9d5055-61ce-4663-97e3-6620da8b73a3"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "NTC_ADC_1" (at 77.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e1933a12-00bc-4399-90c1-af8958875bde"))
+  (label "NTC_ADC_2" (at 77.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8e11bfec-1d68-427d-82f1-26dcfbca6baf"))
+  (label "NTC_ADC_3" (at 77.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "50b6c3b9-ab73-405b-b355-b4750eebd297"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,315 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "70e09d7e-5913-47de-a56c-a0e8aca5b5da")
+  (paper "A4")
+  (title_block
+    (title "PROTOCOL_UART_DEBUG_HEADER")
+    (comment 1 "Six-pin UART/debug/programming header with power and reset pins.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:Conn_01x06_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 7.62 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x06_Pin"
+            (at 0 -10.16 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x06, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x06_Pin_1_1"
+            (rectangle
+              (start 0.8636 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -7.493)
+              (end 0 -7.747)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 5.08)
+                (xy 0.8636 5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -5.08)
+                (xy 0.8636 -5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -7.62)
+                (xy 0.8636 -7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 5.08 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_4"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -5.08 180)
+              (length 3.81)
+              (name
+                "Pin_5"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -7.62 180)
+              (length 3.81)
+              (name
+                "Pin_6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x06_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "b667b394-a0e1-4477-8b9d-d710d9d630d6")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "UART_DEBUG" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/b667b394-a0e1-4477-8b9d-d710d9d630d6"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "GND" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "8449de36-0267-431c-ae2f-5e728b44db96"))
+  (label "VCC" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "270490ef-7864-4ccb-a438-b462aa1e29b5"))
+  (label "TXD" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ceff8928-22bf-4c40-8df5-a5dad41ba106"))
+  (label "RXD" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "410bb71e-5800-48b7-a49d-747323a32abd"))
+  (label "RST" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "7b0e246b-5fb9-46dc-9dac-97694991e6c2"))
+  (label "BOOT" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c1cb9d51-8db6-425a-a9b3-e8fc29b1f029"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

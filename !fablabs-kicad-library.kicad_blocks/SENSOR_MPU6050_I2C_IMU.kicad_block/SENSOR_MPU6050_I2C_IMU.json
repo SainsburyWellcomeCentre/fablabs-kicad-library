@@ -1,0 +1,9 @@
+{
+  "name": "SENSOR_MPU6050_I2C_IMU",
+  "description": "MPU-6050 6-axis IMU block with I2C pullups, interrupt pin and decoupling.",
+  "keywords": "sensor,imu,mpu6050,i2c",
+  "fields": {
+    "Category": "Sensors",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

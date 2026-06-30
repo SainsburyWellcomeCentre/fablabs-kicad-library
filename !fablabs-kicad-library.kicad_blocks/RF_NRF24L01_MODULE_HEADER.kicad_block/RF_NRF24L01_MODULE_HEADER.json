@@ -1,0 +1,9 @@
+{
+  "name": "RF_NRF24L01_MODULE_HEADER",
+  "description": "nRF24L01+ module header with SPI signals, IRQ, CE/CSN and decoupling.",
+  "keywords": "rf,2.4ghz,nrf24l01,spi,module",
+  "fields": {
+    "Category": "RF",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

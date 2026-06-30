@@ -1,0 +1,9 @@
+{
+  "name": "PROTOCOL_SWD_10PIN_ARM_HEADER",
+  "description": "Standard 10-pin 1.27 mm ARM Cortex SWD/JTAG style programming header.",
+  "keywords": "swd,arm,debug,programming",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

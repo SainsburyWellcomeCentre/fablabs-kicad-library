@@ -1,0 +1,9 @@
+{
+  "name": "CONVERTER_I2C_LEVEL_SHIFT_BSS138",
+  "description": "Two-channel bidirectional I2C level shifter using BSS138 MOSFETs and pullups.",
+  "keywords": "i2c,level shifter,bss138,protocol",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

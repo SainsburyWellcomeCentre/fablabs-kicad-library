@@ -1,0 +1,813 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "7b9ca359-d6cf-4e8f-a03d-90c8a8a2a87a")
+  (paper "A4")
+  (title_block
+    (title "SENSOR_DS18B20_ONEWIRE_LOCAL")
+    (comment 1 "Local DS18B20 TO-92 temperature sensor with 1-Wire pullup and connector option.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:MAX31820"
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "U"
+            (at -3.81 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "MAX31820"
+            (at 6.35 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            "Package_TO_SOT_THT:TO-92_Inline"
+            (at -25.4 -6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            "http://datasheets.maximintegrated.com/en/ds/MAX31820.pdf"
+            (at -3.81 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "1-Wire Ambient Temperature Sensor TO-92"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "OneWire 1-Wire 1Wire Maxim Dallas"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO*92*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "MAX31820_0_1"
+            (rectangle
+              (start -5.08 5.08)
+              (end 5.08 -5.08)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background)))
+            (polyline
+              (pts
+                (xy -3.937 3.175)
+                (xy -3.937 0))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -3.937 3.175)
+                (xy -3.302 3.175))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -3.937 2.54)
+                (xy -3.302 2.54))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -3.937 1.905)
+                (xy -3.302 1.905))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -3.937 1.27)
+                (xy -3.302 1.27))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -3.937 0.635)
+                (xy -3.302 0.635))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (arc
+              (start -3.937 3.175)
+              (mid -3.302 3.8073)
+              (end -2.667 3.175)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (circle
+              (center -3.302 -2.54)
+              (radius 1.27)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy -2.667 3.175)
+                (xy -2.667 0))
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -2.667 -1.905)
+              (end -3.937 0)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type outline))))
+          (symbol
+            "MAX31820_1_1"
+            (pin
+              power_in
+              line
+              (at 0 -7.62 90)
+              (length 2.54)
+              (name
+                "GND"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              bidirectional
+              line
+              (at 7.62 0 180)
+              (length 2.54)
+              (name
+                "DQ"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 0 7.62 270)
+              (length 2.54)
+              (name
+                "V_{DD}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:DS18B20"
+          (extends "!fablabs-kicad-library:MAX31820")
+          (property
+            "Reference"
+            "U"
+            (at -3.81 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "DS18B20"
+            (at 6.35 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            "Package_TO_SOT_THT:TO-92_Inline"
+            (at -25.4 -6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            "http://datasheets.maximintegrated.com/en/ds/DS18B20.pdf"
+            (at -3.81 6.35 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Programmable Resolution 1-Wire Digital Thermometer TO-92"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "OneWire 1Wire Dallas Maxim"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TO*92*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:R"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "R"
+            (at 2.032 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "R"
+            (at 0 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at -1.778 0 90)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "R res resistor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "R_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "R_0_1"
+            (rectangle
+              (start -1.016 -2.54)
+              (end 1.016 2.54)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "R_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 1.27)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "C_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_0_1"
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "C_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:Conn_01x03_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x03_Pin"
+            (at 0 -5.08 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x03, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x03_Pin_1_1"
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:DS18B20") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "f8f5e014-6697-4cd5-89b1-c34dcfe038ae")
+    (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "DS18B20" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TO-92_Inline" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://www.analog.com/media/en/technical-documentation/data-sheets/ds18b20.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "DS18B20+" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Analog Devices/Maxim" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/f8f5e014-6697-4cd5-89b1-c34dcfe038ae"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:R") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "cb4157bc-54d7-4cbf-88b4-db8e1a6b16a6")
+    (property "Reference" "R1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "4.7k" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:R_0603_1608Metric" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/cb4157bc-54d7-4cbf-88b4-db8e1a6b16a6"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "DQ" (at 72 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a99845ba-1dea-48cf-a912-90cd43c7d932"))
+  (label "VDD" (at 72 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4d6b2070-a9b2-494f-a4bf-38a7add27cff"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "f9406474-d354-4984-82b8-a787d18d5b47")
+    (property "Reference" "C1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/f9406474-d354-4984-82b8-a787d18d5b47"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VDD" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "69e9f775-fd89-4ce7-8f71-c685fb340ac7"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e9796a30-b6b5-44f6-8ce4-5d2029305188"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x03_Pin") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "fa88fc2c-0fcf-4ad3-98b2-cf28c2d1a591")
+    (property "Reference" "J1" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "ONEWIRE_EXT" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x03_P2.54mm_Vertical" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/fa88fc2c-0fcf-4ad3-98b2-cf28c2d1a591"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "OW_EXT_1" (at 35.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "93f2d815-1155-4a43-8377-2a940a62b418"))
+  (label "OW_EXT_2" (at 35.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "06337225-5a99-43f2-b5a5-4818b082e4bd"))
+  (label "OW_EXT_3" (at 35.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "66137ab1-74a5-4c6b-b090-00c01a29a978"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

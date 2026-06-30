@@ -1,0 +1,1075 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "27eea836-3b42-4527-b8d7-671be704255d")
+  (paper "A4")
+  (title_block
+    (title "CONVERTER_CAN_CONTROLLER_MCP2515_SPI")
+    (comment 1 "SPI CAN controller block with crystal and controller-side SPI header.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:MCP2515-xST"
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "U"
+            (at -10.16 19.685 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify right)))
+          (property
+            "Value"
+            "MCP2515-xST"
+            (at 19.05 20.32 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify right top)))
+          (property
+            "Footprint"
+            "Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm"
+            (at 0 -22.86 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27)
+                (italic yes))))
+          (property
+            "Datasheet"
+            "http://ww1.microchip.com/downloads/en/DeviceDoc/21801e.pdf"
+            (at 2.54 -20.32 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Stand-Alone CAN Controller with SPI Interface, TSSOP-20"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "CAN Controller SPI"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "TSSOP*4.4x6.5mm*P0.65mm*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "MCP2515-xST_0_1"
+            (rectangle
+              (start -12.7 17.78)
+              (end 12.7 -17.78)
+              (stroke
+                (width 0.254)
+                (type default))
+              (fill
+                (type background))))
+          (symbol
+            "MCP2515-xST_1_1"
+            (pin
+              output
+              line
+              (at 15.24 12.7 180)
+              (length 2.54)
+              (name
+                "TXCAN"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 15.24 15.24 180)
+              (length 2.54)
+              (name
+                "RXCAN"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at -15.24 -10.16 0)
+              (length 2.54)
+              (name
+                "CLKOUT/SOF"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 15.24 -7.62 180)
+              (length 2.54)
+              (name
+                "~{TX0RTS}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 15.24 -10.16 180)
+              (length 2.54)
+              (name
+                "~{TX1RTS}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 0 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                "NC"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "6"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 15.24 -12.7 180)
+              (length 2.54)
+              (name
+                "~{TX2RTS}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "7"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at -15.24 -5.08 0)
+              (length 2.54)
+              (name
+                "OSC2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "8"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -15.24 -7.62 0)
+              (length 2.54)
+              (name
+                "OSC1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "9"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 0 -20.32 90)
+              (length 2.54)
+              (name
+                "VSS"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "10"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at 15.24 -5.08 180)
+              (length 2.54)
+              (name
+                "~{RX1BF}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "11"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at 15.24 -2.54 180)
+              (length 2.54)
+              (name
+                "~{RX0BF}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "12"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at 15.24 0 180)
+              (length 2.54)
+              (name
+                "~{INT}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "13"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -15.24 7.62 0)
+              (length 2.54)
+              (name
+                "SCK"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "14"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              no_connect
+              line
+              (at -12.7 -2.54 0)
+              (length 2.54)
+              (hide yes)
+              (name
+                "NC"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "15"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -15.24 15.24 0)
+              (length 2.54)
+              (name
+                "SI"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "16"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              output
+              line
+              (at -15.24 12.7 0)
+              (length 2.54)
+              (name
+                "SO"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "17"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at -15.24 10.16 0)
+              (length 2.54)
+              (name
+                "~{CS}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "18"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              input
+              line
+              (at 15.24 -15.24 180)
+              (length 2.54)
+              (name
+                "~{RESET}"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "19"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              power_in
+              line
+              (at 0 20.32 270)
+              (length 2.54)
+              (name
+                "VDD"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "20"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:Crystal"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "Y"
+            (at 0 3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Crystal"
+            (at 0 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Two pin crystal"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "quartz ceramic resonator oscillator"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Crystal*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Crystal_0_1"
+            (polyline
+              (pts
+                (xy -2.54 0)
+                (xy -1.905 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -1.905 -1.27)
+                (xy -1.905 1.27))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (rectangle
+              (start -1.143 2.54)
+              (end 1.143 -2.54)
+              (stroke
+                (width 0.3048)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.905 -1.27)
+                (xy 1.905 1.27))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 2.54 0)
+                (xy 1.905 0))
+              (stroke
+                (width 0)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "Crystal_1_1"
+            (pin
+              passive
+              line
+              (at -3.81 0 0)
+              (length 1.27)
+              (name
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 3.81 0 180)
+              (length 1.27)
+              (name
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "C_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_0_1"
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "C_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:Conn_01x06_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 7.62 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x06_Pin"
+            (at 0 -10.16 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x06, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x06_Pin_1_1"
+            (rectangle
+              (start 0.8636 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -7.493)
+              (end 0 -7.747)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 5.08)
+                (xy 0.8636 5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -5.08)
+                (xy 0.8636 -5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -7.62)
+                (xy 0.8636 -7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 5.08 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_4"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -5.08 180)
+              (length 3.81)
+              (name
+                "Pin_5"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -7.62 180)
+              (length 3.81)
+              (name
+                "Pin_6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:MCP2515-xST") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "79c836a7-43d9-4db5-bc7d-7bc9565c6a61")
+    (property "Reference" "U1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MCP2515-xST" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:TSSOP-20_4.4x6.5mm_P0.65mm" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/APID/ProductDocuments/DataSheets/MCP2515-Family-Data-Sheet-DS20001801K.pdf" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (property "MPN" "MCP2515T-I/ST" (at 30 50.24 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Manufacturer" "Microchip" (at 30 52.78 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/79c836a7-43d9-4db5-bc7d-7bc9565c6a61"
+          (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Crystal") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "740941b5-c8b1-4935-8dbf-60112d141cef")
+    (property "Reference" "Y1" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "16MHz" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:Crystal_SMD_3225-4Pin_3.2x2.5mm" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/740941b5-c8b1-4935-8dbf-60112d141cef"
+          (reference "Y1") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "628f160a-aac5-4de8-bd63-a168ac8c4bcd")
+    (property "Reference" "C1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "22pF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/628f160a-aac5-4de8-bd63-a168ac8c4bcd"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "e1876907-f26b-4b6a-8492-4792a35af905")
+    (property "Reference" "C2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "22pF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/e1876907-f26b-4b6a-8492-4792a35af905"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 72 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "a0abc66e-00ae-4fe3-900a-7f975d540fb0")
+    (property "Reference" "C3" (at 72 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 72 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 72 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/a0abc66e-00ae-4fe3-900a-7f975d540fb0"
+          (reference "C3") (unit 1)
+        )
+      )
+    )
+  )
+  (label "+3V3" (at 72 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6f01329d-5713-4fbc-bcd1-a2fda0f02d5e"))
+  (label "GND" (at 72 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "c0b938f0-1e8c-4993-8028-afb18ff2fb7d"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x06_Pin") (at 114 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "05a9a5d5-172d-4250-94a7-331a06854f1c")
+    (property "Reference" "J1" (at 114 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "SPI_CAN" (at 114 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x06_P2.54mm_Vertical" (at 114 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/05a9a5d5-172d-4250-94a7-331a06854f1c"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "SPI_CAN_1" (at 119.08 61.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "30980e3d-34de-4c60-8520-7c5ebe0075e1"))
+  (label "SPI_CAN_2" (at 119.08 64.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "85b9bd9d-6d0e-4dbe-b907-bd55f38781fc"))
+  (label "SPI_CAN_3" (at 119.08 67 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d7b2f970-e6f6-4440-8b96-3c74a22341a6"))
+  (label "SPI_CAN_4" (at 119.08 69.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "35ab6f20-37e2-44d9-b5a1-2b589f3baad8"))
+  (label "SPI_CAN_5" (at 119.08 72.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "125130b4-77ee-46c9-a401-86ede9b9efe4"))
+  (label "SPI_CAN_6" (at 119.08 74.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "44567b84-4dca-4f2d-b8d4-3761f6162856"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

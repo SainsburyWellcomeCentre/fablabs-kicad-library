@@ -1,0 +1,9 @@
+{
+  "name": "POWER_SCREW_TERMINAL_FUSED_INPUT",
+  "description": "Two-pin screw terminal supply input with fuse, reverse polarity Schottky, TVS and bulk cap.",
+  "keywords": "power,terminal,input,fuse",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "MCU_ATMEGA328P_AU_MINIMUM",
+  "description": "ATmega328P-AU minimum system with crystal, reset pullup, decoupling and AVR ISP header.",
+  "keywords": "mcu,avr,atmega328p,arduino",
+  "fields": {
+    "Category": "MCU",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

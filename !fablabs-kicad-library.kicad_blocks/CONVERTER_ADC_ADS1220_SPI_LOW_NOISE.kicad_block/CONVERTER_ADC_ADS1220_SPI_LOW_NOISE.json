@@ -1,0 +1,9 @@
+{
+  "name": "CONVERTER_ADC_ADS1220_SPI_LOW_NOISE",
+  "description": "24-bit SPI ADC block for bridge/RTD/sensor measurements using ADS1220-class TSSOP-16 ADC.",
+  "keywords": "adc,spi,24bit,ads1220,sensor",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

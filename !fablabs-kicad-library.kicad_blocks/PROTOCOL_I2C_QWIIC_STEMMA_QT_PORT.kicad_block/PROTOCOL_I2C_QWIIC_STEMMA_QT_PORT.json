@@ -1,0 +1,9 @@
+{
+  "name": "PROTOCOL_I2C_QWIIC_STEMMA_QT_PORT",
+  "description": "Four-pin JST-SH I2C/Qwiic/STEMMA QT style port with pullups and local decoupling.",
+  "keywords": "i2c,qwiic,stemma qt,jst-sh",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

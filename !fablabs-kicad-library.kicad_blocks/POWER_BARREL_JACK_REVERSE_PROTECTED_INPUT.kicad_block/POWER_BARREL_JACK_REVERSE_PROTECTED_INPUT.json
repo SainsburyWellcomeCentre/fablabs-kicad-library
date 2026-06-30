@@ -1,0 +1,9 @@
+{
+  "name": "POWER_BARREL_JACK_REVERSE_PROTECTED_INPUT",
+  "description": "DC barrel input with series protection diode, TVS, fuse, and terminal output.",
+  "keywords": "power,barrel,reverse protection,input",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

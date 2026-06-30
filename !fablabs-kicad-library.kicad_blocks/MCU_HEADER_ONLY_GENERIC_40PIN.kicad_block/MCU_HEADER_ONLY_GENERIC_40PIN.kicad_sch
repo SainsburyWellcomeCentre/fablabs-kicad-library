@@ -1,0 +1,977 @@
+(kicad_sch (version 20260306) (generator "eeschema") (generator_version "10.0")
+  (uuid "882c3c8a-a1ad-4656-993f-826bcd6be381")
+  (paper "A4")
+  (title_block
+    (title "MCU_HEADER_ONLY_GENERIC_40PIN")
+    (comment 1 "Generic 40-pin MCU/module breakout block for modules whose vendor CAD is supplied through cad_zip_urls.")
+  )
+  (lib_symbols
+    (symbol
+          "!fablabs-kicad-library:Conn_01x20_Pin"
+          (pin_names
+            (offset 1.016)
+            (hide yes))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "J"
+            (at 0 25.4 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Value"
+            "Conn_01x20_Pin"
+            (at 0 -27.94 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Footprint"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Generic connector, single row, 01x20, script generated"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_locked"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "connector"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "Connector*:*_1x??_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "Conn_01x20_Pin_1_1"
+            (rectangle
+              (start 0.8636 22.987)
+              (end 0 22.733)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 20.447)
+              (end 0 20.193)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 17.907)
+              (end 0 17.653)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 15.367)
+              (end 0 15.113)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 12.827)
+              (end 0 12.573)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 10.287)
+              (end 0 10.033)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 7.747)
+              (end 0 7.493)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 5.207)
+              (end 0 4.953)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 2.667)
+              (end 0 2.413)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 0.127)
+              (end 0 -0.127)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -2.413)
+              (end 0 -2.667)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -4.953)
+              (end 0 -5.207)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -7.493)
+              (end 0 -7.747)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -10.033)
+              (end 0 -10.287)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -12.573)
+              (end 0 -12.827)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -15.113)
+              (end 0 -15.367)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -17.653)
+              (end 0 -17.907)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -20.193)
+              (end 0 -20.447)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -22.733)
+              (end 0 -22.987)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (rectangle
+              (start 0.8636 -25.273)
+              (end 0 -25.527)
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type outline)))
+            (polyline
+              (pts
+                (xy 1.27 22.86)
+                (xy 0.8636 22.86))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 20.32)
+                (xy 0.8636 20.32))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 17.78)
+                (xy 0.8636 17.78))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 15.24)
+                (xy 0.8636 15.24))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 12.7)
+                (xy 0.8636 12.7))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 10.16)
+                (xy 0.8636 10.16))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 7.62)
+                (xy 0.8636 7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 5.08)
+                (xy 0.8636 5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 2.54)
+                (xy 0.8636 2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 0)
+                (xy 0.8636 0))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -2.54)
+                (xy 0.8636 -2.54))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -5.08)
+                (xy 0.8636 -5.08))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -7.62)
+                (xy 0.8636 -7.62))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -10.16)
+                (xy 0.8636 -10.16))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -12.7)
+                (xy 0.8636 -12.7))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -15.24)
+                (xy 0.8636 -15.24))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -17.78)
+                (xy 0.8636 -17.78))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -20.32)
+                (xy 0.8636 -20.32))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -22.86)
+                (xy 0.8636 -22.86))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy 1.27 -25.4)
+                (xy 0.8636 -25.4))
+              (stroke
+                (width 0.1524)
+                (type default))
+              (fill
+                (type none)))
+            (pin
+              passive
+              line
+              (at 5.08 22.86 180)
+              (length 3.81)
+              (name
+                "Pin_1"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 20.32 180)
+              (length 3.81)
+              (name
+                "Pin_2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 17.78 180)
+              (length 3.81)
+              (name
+                "Pin_3"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "3"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 15.24 180)
+              (length 3.81)
+              (name
+                "Pin_4"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "4"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 12.7 180)
+              (length 3.81)
+              (name
+                "Pin_5"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "5"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 10.16 180)
+              (length 3.81)
+              (name
+                "Pin_6"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "6"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 7.62 180)
+              (length 3.81)
+              (name
+                "Pin_7"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "7"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 5.08 180)
+              (length 3.81)
+              (name
+                "Pin_8"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "8"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 2.54 180)
+              (length 3.81)
+              (name
+                "Pin_9"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "9"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 0 180)
+              (length 3.81)
+              (name
+                "Pin_10"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "10"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -2.54 180)
+              (length 3.81)
+              (name
+                "Pin_11"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "11"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -5.08 180)
+              (length 3.81)
+              (name
+                "Pin_12"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "12"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -7.62 180)
+              (length 3.81)
+              (name
+                "Pin_13"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "13"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -10.16 180)
+              (length 3.81)
+              (name
+                "Pin_14"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "14"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -12.7 180)
+              (length 3.81)
+              (name
+                "Pin_15"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "15"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -15.24 180)
+              (length 3.81)
+              (name
+                "Pin_16"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "16"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -17.78 180)
+              (length 3.81)
+              (name
+                "Pin_17"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "17"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -20.32 180)
+              (length 3.81)
+              (name
+                "Pin_18"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "18"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -22.86 180)
+              (length 3.81)
+              (name
+                "Pin_19"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "19"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 5.08 -25.4 180)
+              (length 3.81)
+              (name
+                "Pin_20"
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "20"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+    (symbol
+          "!fablabs-kicad-library:C"
+          (pin_numbers
+            (hide yes))
+          (pin_names
+            (offset 0.254))
+          (exclude_from_sim no)
+          (in_bom yes)
+          (on_board yes)
+          (in_pos_files yes)
+          (duplicate_pin_numbers_are_jumpers no)
+          (property
+            "Reference"
+            "C"
+            (at 0.635 2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Value"
+            "C"
+            (at 0.635 -2.54 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (effects
+              (font
+                (size 1.27 1.27))
+              (justify left)))
+          (property
+            "Footprint"
+            ""
+            (at 0.9652 -3.81 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Datasheet"
+            ""
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "Description"
+            "Unpolarized capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_keywords"
+            "cap capacitor"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (property
+            "ki_fp_filters"
+            "C_*"
+            (at 0 0 0)
+            (show_name no)
+            (do_not_autoplace no)
+            (hide yes)
+            (effects
+              (font
+                (size 1.27 1.27))))
+          (symbol
+            "C_0_1"
+            (polyline
+              (pts
+                (xy -2.032 0.762)
+                (xy 2.032 0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none)))
+            (polyline
+              (pts
+                (xy -2.032 -0.762)
+                (xy 2.032 -0.762))
+              (stroke
+                (width 0.508)
+                (type default))
+              (fill
+                (type none))))
+          (symbol
+            "C_1_1"
+            (pin
+              passive
+              line
+              (at 0 3.81 270)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "1"
+                (effects
+                  (font
+                    (size 1.27 1.27)))))
+            (pin
+              passive
+              line
+              (at 0 -3.81 90)
+              (length 2.794)
+              (name
+                ""
+                (effects
+                  (font
+                    (size 1.27 1.27))))
+              (number
+                "2"
+                (effects
+                  (font
+                    (size 1.27 1.27))))))
+          (embedded_fonts no))
+  )
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x20_Pin") (at 30 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "f45f9a78-4d76-46d2-afa4-c505d42e323f")
+    (property "Reference" "J1" (at 30 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MCU_MODULE_A" (at 30 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x20_P2.54mm_Vertical" (at 30 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/f45f9a78-4d76-46d2-afa4-c505d42e323f"
+          (reference "J1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "MCU_A_1" (at 35.08 12.14 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e7d549f0-f227-48f0-b21c-08db30ef1b58"))
+  (label "MCU_A_2" (at 35.08 14.68 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e79dddea-55b4-4ed4-aa6d-3777ce5d072a"))
+  (label "MCU_A_3" (at 35.08 17.22 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "2ed07332-baf3-48b7-9299-b5a40f0c2866"))
+  (label "MCU_A_4" (at 35.08 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "957da974-94c9-4631-91a3-55c43c771adc"))
+  (label "MCU_A_5" (at 35.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9d833f75-228c-4cee-a9bb-8469354596b5"))
+  (label "MCU_A_6" (at 35.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ac549c19-876b-41a6-ab00-c318bf51b758"))
+  (label "MCU_A_7" (at 35.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "36028f5a-b8d8-49de-b621-4f5553a51619"))
+  (label "MCU_A_8" (at 35.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "91d5842c-b506-4713-bd1c-aa82bf919c18"))
+  (label "MCU_A_9" (at 35.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bf7e4ff4-0238-4c21-8fa5-c987ca32a06c"))
+  (label "MCU_A_10" (at 35.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "76c67c1a-34e3-40e4-8f56-4dbb7b483d8a"))
+  (label "MCU_A_11" (at 35.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "eab2bbd7-be5e-42c3-84a5-cb322bffaa16"))
+  (label "MCU_A_12" (at 35.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e3dba1fd-4588-402f-8302-71200ed7815f"))
+  (label "MCU_A_13" (at 35.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "0c71d22f-30be-4714-b9fd-c6388167332a"))
+  (label "MCU_A_14" (at 35.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d8ea37ee-ad66-4a9d-996e-e3193acc0c39"))
+  (label "MCU_A_15" (at 35.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e8b00cd0-1889-439b-9076-a22de0eef978"))
+  (label "MCU_A_16" (at 35.08 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d16e0026-9ab2-4561-9e0e-299de010cab8"))
+  (label "MCU_A_17" (at 35.08 52.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "44ec3f6c-0ea1-4f5c-8507-6be9bbf8549f"))
+  (label "MCU_A_18" (at 35.08 55.32 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "129c258e-37dd-4049-9fc5-65b9dd986330"))
+  (label "MCU_A_19" (at 35.08 57.86 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "74b43ba4-99f3-4758-9a0a-ba40ade3bda6"))
+  (label "MCU_A_20" (at 35.08 60.4 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "dd711261-2cdc-42bb-973f-26cbe3e7bd4a"))
+  (symbol (lib_id "!fablabs-kicad-library:Conn_01x20_Pin") (at 72 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "168e232b-ebf4-40b7-a910-9d6ad271dc9b")
+    (property "Reference" "J2" (at 72 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "MCU_MODULE_B" (at 72 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:PinHeader_1x20_P2.54mm_Vertical" (at 72 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 72 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/168e232b-ebf4-40b7-a910-9d6ad271dc9b"
+          (reference "J2") (unit 1)
+        )
+      )
+    )
+  )
+  (label "MCU_B_1" (at 77.08 12.14 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4d8f0eb7-2cd9-4000-aae0-39af2b2f97da"))
+  (label "MCU_B_2" (at 77.08 14.68 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "9f562502-1a7f-45c2-85b4-3099682619c4"))
+  (label "MCU_B_3" (at 77.08 17.22 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5451189e-b149-44ac-bab0-73fb30b62d94"))
+  (label "MCU_B_4" (at 77.08 19.76 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e322f025-cd92-43fd-a83a-65cd01b28c18"))
+  (label "MCU_B_5" (at 77.08 22.3 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "1e263323-5224-4b72-a615-72a1cc735a97"))
+  (label "MCU_B_6" (at 77.08 24.84 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "ba425796-2d50-4433-97c1-14526719ddc9"))
+  (label "MCU_B_7" (at 77.08 27.38 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "aefefdaf-f2cd-4883-8825-d95a364df3ee"))
+  (label "MCU_B_8" (at 77.08 29.92 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "21143c33-7052-41e6-b856-78b605918844"))
+  (label "MCU_B_9" (at 77.08 32.46 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e609fea4-e959-4893-aa00-b3438d9f0ed2"))
+  (label "MCU_B_10" (at 77.08 35 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "b5c7ca4c-c0b5-429b-a786-850de09ecc6a"))
+  (label "MCU_B_11" (at 77.08 37.54 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a03d054f-0549-4386-9904-9c2b47635d13"))
+  (label "MCU_B_12" (at 77.08 40.08 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "5ab0d8a8-4729-4590-aa27-cdaa706208b4"))
+  (label "MCU_B_13" (at 77.08 42.62 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "6115ef5d-14f4-4d68-8b08-bba6908e2dc7"))
+  (label "MCU_B_14" (at 77.08 45.16 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "a30421f2-f705-4ee0-b60b-98b0782b196c"))
+  (label "MCU_B_15" (at 77.08 47.7 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "510b1a77-60b0-4a87-90bb-a4cb711e06c4"))
+  (label "MCU_B_16" (at 77.08 50.24 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "16c8a7c0-2bcf-4bf5-938d-a84360aaf12f"))
+  (label "MCU_B_17" (at 77.08 52.78 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "16580dd3-6521-4f8d-b11c-a272f8ed0b55"))
+  (label "MCU_B_18" (at 77.08 55.32 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "4e782dbc-b1c8-40eb-adc6-bb000a82a9de"))
+  (label "MCU_B_19" (at 77.08 57.86 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "bb02d463-26c5-48ca-985b-2ad93a6988aa"))
+  (label "MCU_B_20" (at 77.08 60.4 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "fc743aa4-a439-46f2-b20b-b94c5eabb1c4"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 114 35 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "971a22f2-f3b1-426b-97a9-1807599f74ae")
+    (property "Reference" "C1" (at 114 27.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "100nF" (at 114 42.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0603_1608Metric" (at 114 45.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 114 47.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/971a22f2-f3b1-426b-97a9-1807599f74ae"
+          (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VCC" (at 114 31.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "71ae3f12-b365-4e96-b142-61a23fd77bff"))
+  (label "GND" (at 114 38.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "d9ada091-c064-4ce5-806a-2afe96d38699"))
+  (symbol (lib_id "!fablabs-kicad-library:C") (at 30 67 0) (unit 1) (exclude_from_sim no) (in_bom yes) (on_board yes) (dnp no)
+    (uuid "1c323a46-d9f0-46fd-90c7-24021f5f7eec")
+    (property "Reference" "C2" (at 30 59.38 0) (effects (font (size 1.27 1.27))))
+    (property "Value" "10uF" (at 30 74.62 0) (effects (font (size 1.27 1.27))))
+    (property "Footprint" "!fablabs-kicad-library:C_0805_2012Metric" (at 30 77.16 0) (effects (font (size 1.27 1.27)) hide))
+    (property "Datasheet" "" (at 30 79.7 0) (effects (font (size 1.27 1.27)) hide))
+    (instances
+      (project "fablabs"
+        (path "/1c323a46-d9f0-46fd-90c7-24021f5f7eec"
+          (reference "C2") (unit 1)
+        )
+      )
+    )
+  )
+  (label "VCC" (at 30 63.19 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "11f64fb2-785c-4ab2-8fb3-25911defc7c4"))
+  (label "GND" (at 30 70.81 0) (fields_autoplaced) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "e42b78e7-2d9d-4379-8a75-e577048546e1"))
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)

@@ -1,0 +1,9 @@
+{
+  "name": "IO_FEATHER_WING_SOCKET_SHELL",
+  "description": "Adafruit FeatherWing-compatible dual header shell for rapid module/interposer designs.",
+  "keywords": "feather,socket,io,expansion",
+  "fields": {
+    "Category": "IO",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

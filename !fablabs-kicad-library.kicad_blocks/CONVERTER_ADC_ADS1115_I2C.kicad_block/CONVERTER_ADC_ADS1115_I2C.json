@@ -1,0 +1,9 @@
+{
+  "name": "CONVERTER_ADC_ADS1115_I2C",
+  "description": "16-bit I2C ADC block using ADS1115 with analog input header and address-select pads.",
+  "keywords": "adc,i2c,ads1115,analog",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

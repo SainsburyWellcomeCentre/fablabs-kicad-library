@@ -1,0 +1,9 @@
+{
+  "name": "POWER_USB_C_5V_POWER_ONLY_CC_PULLDOWNS",
+  "description": "USB-C receptacle configured as 5 V sink with CC pulldowns and bulk decoupling.",
+  "keywords": "power,usb-c,5v,input",
+  "fields": {
+    "Category": "Power",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "PROTOCOL_USB2_ESD_PROTECTED_DATA_PORT",
+  "description": "USB 2.0 data port protection shell with D+/D- series resistors and TVS placeholder.",
+  "keywords": "usb,esd,data,protection",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "CONVERTER_LEVEL_TRANSLATOR_TXS0108E",
+  "description": "Eight-bit bidirectional logic level translator with two supply rails and decoupling.",
+  "keywords": "level shifter,txs0108e,gpio",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

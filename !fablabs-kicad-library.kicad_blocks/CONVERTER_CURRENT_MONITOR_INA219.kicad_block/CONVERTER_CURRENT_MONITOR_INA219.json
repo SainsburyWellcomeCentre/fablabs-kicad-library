@@ -1,0 +1,9 @@
+{
+  "name": "CONVERTER_CURRENT_MONITOR_INA219",
+  "description": "High-side current/power monitor using INA219 with shunt resistor and I2C header.",
+  "keywords": "current monitor,ina219,i2c,power",
+  "fields": {
+    "Category": "Converters",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}

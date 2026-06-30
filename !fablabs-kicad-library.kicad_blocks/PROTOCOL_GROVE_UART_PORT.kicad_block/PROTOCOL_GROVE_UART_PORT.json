@@ -1,0 +1,9 @@
+{
+  "name": "PROTOCOL_GROVE_UART_PORT",
+  "description": "Grove-compatible UART port with TX/RX/VCC/GND pinout labels.",
+  "keywords": "uart,grove,connector",
+  "fields": {
+    "Category": "Protocols",
+    "LibraryPolicy": "Strict: import exact KiCad symbol/footprint IDs; no runtime pinout inference"
+  }
+}
